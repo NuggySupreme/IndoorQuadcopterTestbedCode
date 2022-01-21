@@ -7,7 +7,7 @@ byte powerSupplyAddresses[] = {
   B1010011
 };
 
-// OFF and ON constents for power supply. 
+// OFF and ON constants for power supply. 
 // 8 bits, first bit for off(1) or on(0), last bit
 // must be 1 to 
 byte OFF = B10000001;
