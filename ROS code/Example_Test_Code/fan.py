@@ -15,7 +15,7 @@ class Fan: #object for fan regulator IC
         #write 0x2A to configuration register (register 2) for MAX6651
         #write 0x2A to GPIO definition register (register 4)
 
-        self.bus.write_byte_data(address, CONFIG_REG, 0x2A)
+        self.bus.write_byte_data(address, CONFIG_REG, 0x2A) #write 0x2A to configuration register
         self.bus.write_byte_data(address, GPIO_REG, 0x2A)
         self.bus.write_byte_data(address, SPEED_REG, 0xFF)
         
@@ -32,7 +32,7 @@ class Fan: #object for fan regulator IC
         power_state = self.bus.read_byte_data(address, CONFIG_REG)
         if power_state != 0x2A :
             self.bus.write_byte_data(address, CONFIG_REG, 0x2A)
-        t_tach = 1 / (2 * self.target_rpm)#period of tachometer on chip
+        t_tach = 1 / (2 * self.target_rpm) #period of tachometer on chip
         k_tach = int(t_tach * self.K_SCALE * 254000 / 128 - 1) #calculate speed register value
         print(k_tach) #send k_tach to IC chip
         
@@ -43,7 +43,7 @@ class Fan: #object for fan regulator IC
         self.bus.write_byte_data(address, CONFIG_REG, 0x1A) #software shutdown so fan speed is 0
         
     def get_speed(self):
-        return self.current_rpm #should probably be reading the current speed of the fan\
+        return self.current_rpm #should probably be reading the current speed of the fan
 
     def read_speed(self):
         self.current_rpm = self.bus.read_byte_data(address, TACH_REG_0) #update every 1s for accurate count
