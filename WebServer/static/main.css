@@ -1,0 +1,58 @@
+:root{
+    --black: #000000;
+    --orange: #d95900;
+    --dark-gray: #797978;
+    --light-grey: #90979b;
+    --white: #edece6;
+}
+
+* {
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+
+.light-theme {
+    --bg: var(--orange);
+    --fontColor: var(--black);
+    --btnFontColor:var(--orange);
+    --btnBg: var(--dark-gray);
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--orange);
+    --btnFontColor:var(--orange);
+    --btnBg: var(--dark-gray);
+}
+
+body {
+    background: var(--bg);
+}
+
+ul {
+    font-family: helvetica;
+}
+
+li{
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.btn:focus{
+    outline-style: none;
+}
