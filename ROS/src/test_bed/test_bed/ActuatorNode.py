@@ -2,6 +2,10 @@ import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
 
+
+### ABSALUTE EXTEND ON ACTUATORS IS ABOUT 10.5 IN ###
+## TESTING TO START AT 5 IN ##
+
 class ActuatorNode(Node):
 
     def __init__(self):

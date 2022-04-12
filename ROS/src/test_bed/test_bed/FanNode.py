@@ -10,7 +10,7 @@ class FanNode(Node):
             String,
             'fans',
             self.listener_callback,
-            10)
+            20)
         self.subscription  # prevent unused variable warning
 
     def listener_callback(self, msg):

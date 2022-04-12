@@ -1,16 +1,17 @@
-<p>Fan 1<input type="text" name = "fan1" value = "" placeholder="Enter desierd speed"></p>
-<p>Fan 2<input type="text" name = "fan2" value = "" placeholder="Enter desierd speed"></p>
-<p>Fan 3<input type="text" name = "fan3" value = "" placeholder="Enter desierd speed"></p>
-<p>Fan 4<input type="text" name = "fan4" value = "" placeholder="Enter desierd speed"></p>
-<p>Fan 5<input type="text" name = "fan5" value = "" placeholder="Enter desierd speed"></p>
-<p>Fan 6<input type="text" name = "fan6" value = "" placeholder="Enter desierd speed"></p>
-<p>Fan 7<input type="text" name = "fan7" value = "" placeholder="Enter desierd speed"></p>
-<p>Fan 8<input type="text" name = "fan8" value = "" placeholder="Enter desierd speed"></p>
-<p>Fan 9<input type="text" name = "fan9" value = "" placeholder="Enter desierd speed"></p>
-<p>Fan 10<input type="text" name = "fan10" value = "" placeholder="Enter desierd speed"></p>
-<p>Fan 11<input type="text" name = "fan11" value = "" placeholder="Enter desierd speed"></p>
-<p>Fan 12<input type="text" name = "fan12" value = "" placeholder="Enter desierd speed"></p>
-<p>Fan 13<input type="text" name = "fan13" value = "" placeholder="Enter desierd speed"></p>
-<p>Fan 14<input type="text" name = "fan14" value = "" placeholder="Enter desierd speed"></p>
-<p>Fan 15<input type="text" name = "fan15" value = "" placeholder="Enter desierd speed"></p>
-<p>Fan 16<input type="text" name = "fan16" value = "" placeholder="Enter desierd speed"></p>
+fan1,0:0x36,0
+fan2,0:0x3E,0
+fan3,0:0x90,0
+fan4,0:0x96,0
+fan5,1:0x36,3
+fan6,1:0x3E,3
+fan7,1:0x90,3
+fan8,1:0x96,3
+fan9,2:0x36,6
+fan10,2:0x3E,6
+fan11,2:0x90,6
+fan12,2:0x96,6
+fan13,3:0x36,9
+fan14,3:0x3E,9
+fan15,3:0x90,9
+fan16,3:0x96,9
+f,0

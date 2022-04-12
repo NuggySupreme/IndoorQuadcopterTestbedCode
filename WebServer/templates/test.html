@@ -10,7 +10,7 @@
         <h1>UPDRAFT TEST GUI</h1>
 
         <form method="post" action="/">
-            <p>Fan 1<input type="text" name = "fan1" value = "0" placeholder="Enter desierd speed"></p>
+            <p>Fan 1 <input type="text" name = "fan1" value = "" placeholder="Enter desierd speed"></p>
             <p>Fan 2<input type="text" name = "fan2" value = "" placeholder="Enter desierd speed"></p>
             <p>Fan 3<input type="text" name = "fan3" value = "" placeholder="Enter desierd speed"></p>
             <p>Fan 4<input type="text" name = "fan4" value = "" placeholder="Enter desierd speed"></p>
@@ -35,19 +35,25 @@
         </form>
 
         <form method="post" action="/">
-            <p>Test<input type="text" name = "DIRECTION" value = "" placeholder="Enter desierd speed"></p>
-            <p>Test<input type="text" name = "ANGLE" value = "" placeholder="Enter desierd speed"></p>
+            <p>Actuator Control</p>
+            <p>Direction<input type="text" name = "DIRECTION" value = "" placeholder="Enter desierd speed"></p>
+            <p>Angle<input type="text" name = "ANGLE" value = "" placeholder="Enter desierd speed"></p>
             <p><input type = "submit" value="RUN ANGLE" name="updateactuator"/></p>
         </form>
 
         <form method="post" action="/">
-            <p>Fan 1<input type="text" name = "ALLFANS" value = "" placeholder="Enter desierd speed"></p>
+            <p>Fan 1<input type="text" name = "filename" value = "" placeholder="Enter desierd speed"></p>
             <p><input type = "submit" value="SAVE CONFIG" name="savefile"/></p>
         </form>
 
         <form method="post" action="/">
-            <p>Test<input type="text" name = "ALLFANS" value = "" placeholder="Enter desierd speed"></p>
+            <p>Test<input type="text" name = "filename" value = "" placeholder="Enter desierd speed"></p>
             <p><input type = "submit" value="LOAD CONFIG" name="loadfile"/></p>
+        </form>
+
+        <form method="post" action="/">
+            <p>UPDATE<input type="text" name = "TOROS" value = "" placeholder="Enter desierd speed"></p>
+            <p><input type = "submit" value="UPDATE " name="toros"/></p>
         </form>
     </body>
 </html>

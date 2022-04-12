@@ -1,7 +1,8 @@
 import time
-from defer import return_value
 from flask import Flask, render_template, request
 import roslibpy
+import os.path
+import os
 
 HTMLFILE = 'test.html'
 
@@ -9,41 +10,65 @@ app = Flask(__name__)
 
 client = roslibpy.Ros(host='localhost', port=9090)
 
-def toROS(topic, msg):
-	talker = roslibpy.Topic(client, topic, 'std_msgs/String')
-	talker.publish(roslibpy.Message({'data':msg}))
+fanDict = {}
+
+def toROS():
+	print(fanDict)
+	talker = roslibpy.Topic(client, 'fans', 'std_msgs/String')
+	for key in fanDict:
+		value = fanDict[key]
+		print("%s:%s" % (value[0],value[1]))
+		talker.publish(roslibpy.Message({'data':"%s:%s" % (value[0],value[1])}))
 	talker.unadvertise
+
 
 def RunFans(form):
 	# Takes in a fan id (i.e. fan1) and a fan speed (0-100)
 	# Looks up id in config file for i2c addr, and sends i2c addr and speed
-	# Sends as an string 'i2c:speed'
-	print(form)
+	# updates dict with the new speed values
 
 	if 'ALLFANS' in form:
 		speed = form.get('ALLFANS')
 		form.pop('ALLFANS')
-		for i in range(1,17):
-			toROS('fans', "fan%d:%s" % (i,speed))
+		for key in fanDict:
+			fanDict[key][1] = speed
+	else:
+		for key in form:
+			fanDict[key][1] = form[key]
 
-	for key in form:
-		i2c = key	# TODO look up i2c addr in file
-		toROS('fans', ("%s:%s" % (i2c, form.get(key))))
 
 def RunActuators(form):
 
-	toROS('actuators', form.get('DIRECTION'))
-	toROS('actuators', form.get('ANGLE'))
+	print(form)
+	
 	
 
-def loadFile(form):
-	print("loadFile")
-	print(form)
+def loadFile(fileName):
+
+	if os.path.exists(fileName):
+		with open(fileName) as file:
+			for line in file:
+				print(line)
+				line = line.split(",")
+				print(line)
+
+				fanDict[line[0]] = [line[1],line[2]]
+	else:
+		#TODO send error to GUI, 
+		print("FILE NO EXIST")
+			
 
 
-def saveFile(form):
-	print("saveFile")
-	print(form)
+def saveFile(fileName):
+	if os.path.exists(fileName):
+		# TODO send error to GUI, file exist....
+		print("FILE EXIST")
+	else:
+		with open(fileName, 'w') as file:
+			for key in fanDict:
+				value = fanDict[key]
+				file.write("%s,%s,%s\n" % (key, value[0], value[1]))
+			file.close()
 
 @app.route("/", methods=['GET','POST'])
 def index():
@@ -57,17 +82,20 @@ def index():
 			RunActuators(form)
 		if request.form.get('savefile') == 'SAVE CONFIG':
 			form.pop('savefile')
-			saveFile(request.form)
+			saveFile(request.form['filename'])
 		if request.form.get('loadfile') == 'LOAD CONFIG':
 			form.pop('loadfile')
-			loadFile(request.form)
+			loadFile(request.form['filename'])
+		if request.form.get('toros'):
+			toROS()
 	elif request.method == 'GET':
-		return render_template(HTMLFILE, form=request.form)
+		return render_template(HTMLFILE)
 	return render_template(HTMLFILE)
  
 
 def main():
-	
+	print(os.path)
+	loadFile("zerofan.txt")
 	client.run()
 	app.run(host='0.0.0.0', port=8080)
 	
