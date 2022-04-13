@@ -1,0 +1,54 @@
+[0.093s] Invoking command in '/home/ubuntu/dev_ws/build/bed_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/dev_ws/install/power_supply:/home/ubuntu/dev_ws/install/linear_actuator:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/dev_ws/build/bed_messages -- -j4 -l4
+[0.247s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.378s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.379s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.405s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.421s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.444s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.680s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.926s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.865s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[3.866s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[3.866s]   bed_messages --arguments-file
+[3.867s]   /home/ubuntu/dev_ws/build/bed_messages/rosidl_adapter__arguments__bed_messages.json
+[3.867s]   --output-dir
+[3.867s]   /home/ubuntu/dev_ws/build/bed_messages/rosidl_adapter/bed_messages
+[3.868s]   --output-file
+[3.868s]   /home/ubuntu/dev_ws/build/bed_messages/rosidl_adapter/bed_messages.idls)
+[3.868s]   returned error code 1:
+[3.869s] 
+[3.869s]   Error processing 'int32 turnOff' of 'bed_messages/PSControl': ''turnOff' is
+[3.869s]   an invalid field name.  It should have the pattern
+[3.870s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[3.870s] 
+[3.870s]   Traceback (most recent call last):
+[3.871s] 
+[3.871s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[3.871s]       return _run_code(code, main_globals, None,
+[3.872s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[3.872s]       exec(code, run_globals)
+[3.872s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[3.873s]       sys.exit(main())
+[3.873s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[3.873s]       abs_idl_file = convert_to_idl(
+[3.874s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[3.874s]       return convert_msg_to_idl(
+[3.874s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[3.875s]       msg = parse_message_string(package_name, input_file.stem, content)
+[3.876s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 515, in parse_message_string
+[3.876s]       fields.append(Field(
+[3.876s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 353, in __init__
+[3.877s]       raise NameError(
+[3.877s] 
+[3.878s]   NameError: 'turnOff' is an invalid field name.  It should have the pattern
+[3.878s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[3.879s] 
+[3.880s] Call Stack (most recent call first):
+[3.880s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[3.881s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[3.881s] 
+[3.882s] 
+[3.882s] -- Configuring incomplete, errors occurred!
+[3.884s] See also "/home/ubuntu/dev_ws/build/bed_messages/CMakeFiles/CMakeOutput.log".
+[3.896s] make: *** [Makefile:748: cmake_check_build_system] Error 1
+[3.902s] Invoked command in '/home/ubuntu/dev_ws/build/bed_messages' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/dev_ws/install/power_supply:/home/ubuntu/dev_ws/install/linear_actuator:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/dev_ws/build/bed_messages -- -j4 -l4

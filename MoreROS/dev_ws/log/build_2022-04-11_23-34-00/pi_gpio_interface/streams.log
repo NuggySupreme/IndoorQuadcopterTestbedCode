@@ -1,0 +1,35 @@
+[0.083s] Invoking command in '/home/ubuntu/dev_ws/build/pi_gpio_interface': /usr/bin/cmake /home/ubuntu/dev_ws/src/ros2_pi_gpio/pi_gpio_interface -DCMAKE_INSTALL_PREFIX=/home/ubuntu/dev_ws/install/pi_gpio_interface
+[0.433s] -- The C compiler identification is GNU 9.4.0
+[1.267s] -- The CXX compiler identification is GNU 9.4.0
+[1.307s] -- Check for working C compiler: /usr/bin/cc
+[1.628s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.634s] -- Detecting C compiler ABI info
+[1.963s] -- Detecting C compiler ABI info - done
+[2.013s] -- Detecting C compile features
+[2.014s] -- Detecting C compile features - done
+[2.032s] -- Check for working CXX compiler: /usr/bin/c++
+[2.382s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.385s] -- Detecting CXX compiler ABI info
+[2.793s] -- Detecting CXX compiler ABI info - done
+[2.843s] -- Detecting CXX compile features
+[2.846s] -- Detecting CXX compile features - done
+[3.011s] CMake Error at CMakeLists.txt:13 (find_package):
+[3.012s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[3.012s]   has asked CMake to find a package configuration file provided by
+[3.013s]   "ament_cmake", but CMake did not find one.
+[3.013s] 
+[3.015s]   Could not find a package configuration file provided by "ament_cmake" with
+[3.015s]   any of the following names:
+[3.017s] 
+[3.018s]     ament_cmakeConfig.cmake
+[3.021s]     ament_cmake-config.cmake
+[3.022s] 
+[3.023s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[3.024s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[3.025s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[3.026s]   has been installed.
+[3.027s] 
+[3.027s] 
+[3.028s] -- Configuring incomplete, errors occurred!
+[3.028s] See also "/home/ubuntu/dev_ws/build/pi_gpio_interface/CMakeFiles/CMakeOutput.log".
+[3.614s] Invoked command in '/home/ubuntu/dev_ws/build/pi_gpio_interface' returned '1': /usr/bin/cmake /home/ubuntu/dev_ws/src/ros2_pi_gpio/pi_gpio_interface -DCMAKE_INSTALL_PREFIX=/home/ubuntu/dev_ws/install/pi_gpio_interface

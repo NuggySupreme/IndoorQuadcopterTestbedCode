@@ -1,0 +1,211 @@
+[0.000000] (-) TimerEvent: {}
+[0.001165] (bed_messages) JobQueued: {'identifier': 'bed_messages', 'dependencies': OrderedDict()}
+[0.001510] (power_supply) JobQueued: {'identifier': 'power_supply', 'dependencies': OrderedDict([('bed_messages', '/home/ubuntu/dev_ws/install/bed_messages')])}
+[0.002341] (bed_messages) JobStarted: {'identifier': 'bed_messages'}
+[0.054031] (bed_messages) JobProgress: {'identifier': 'bed_messages', 'progress': 'cmake'}
+[0.057387] (bed_messages) JobProgress: {'identifier': 'bed_messages', 'progress': 'build'}
+[0.060638] (bed_messages) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/dev_ws/build/bed_messages', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/dev_ws/build/bed_messages', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '10.42.0.94 53629 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/dev_ws/install/bed_messages/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('ROS1', '/opt/ros/noetic/setup.bash'), ('OLDPWD', '/home/ubuntu/dev_ws/src/power_supply/power_supply'), ('ROS2', '/opt/ros/foxy/setup.bash'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/dev_ws/install/power_supply:/home/ubuntu/dev_ws/install/bed_messages:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/dev_ws/build/bed_messages'), ('SSH_CONNECTION', '10.42.0.94 53629 10.42.0.1 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/dev_ws/install/bed_messages:/home/ubuntu/dev_ws/install/power_supply:/opt/ros/foxy')]), 'shell': False}
+[0.099140] (-) TimerEvent: {}
+[0.200087] (-) TimerEvent: {}
+[0.298906] (bed_messages) StdoutLine: {'line': b'[  3%] Built target bed_messages__cpp\n'}
+[0.300110] (-) TimerEvent: {}
+[0.307438] (bed_messages) StdoutLine: {'line': b'[ 12%] Built target bed_messages__rosidl_generator_c\n'}
+[0.400401] (-) TimerEvent: {}
+[0.407321] (bed_messages) StdoutLine: {'line': b'[ 22%] Built target bed_messages__rosidl_typesupport_cpp\n'}
+[0.411302] (bed_messages) StdoutLine: {'line': b'[ 32%] Built target bed_messages__rosidl_typesupport_introspection_cpp\n'}
+[0.419492] (bed_messages) StdoutLine: {'line': b'[ 41%] Built target bed_messages__rosidl_typesupport_c\n'}
+[0.447569] (bed_messages) StdoutLine: {'line': b'[ 51%] Built target bed_messages__rosidl_typesupport_fastrtps_cpp\n'}
+[0.500669] (-) TimerEvent: {}
+[0.509915] (bed_messages) StdoutLine: {'line': b'[ 61%] Built target bed_messages__rosidl_typesupport_introspection_c\n'}
+[0.584001] (bed_messages) StdoutLine: {'line': b'[ 70%] Built target bed_messages__rosidl_typesupport_fastrtps_c\n'}
+[0.600778] (-) TimerEvent: {}
+[0.674881] (bed_messages) StdoutLine: {'line': b'[ 70%] Built target bed_messages\n'}
+[0.700962] (-) TimerEvent: {}
+[0.767937] (bed_messages) StdoutLine: {'line': b'[ 74%] Built target bed_messages__py\n'}
+[0.801134] (-) TimerEvent: {}
+[0.901987] (-) TimerEvent: {}
+[0.908686] (bed_messages) StdoutLine: {'line': b'[ 80%] Built target bed_messages__python\n'}
+[1.002173] (-) TimerEvent: {}
+[1.053174] (bed_messages) StdoutLine: {'line': b'[ 93%] Built target bed_messages__rosidl_typesupport_c__pyext\n'}
+[1.055234] (bed_messages) StdoutLine: {'line': b'[ 93%] Built target bed_messages__rosidl_typesupport_introspection_c__pyext\n'}
+[1.058580] (bed_messages) StdoutLine: {'line': b'[100%] Built target bed_messages__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.102403] (-) TimerEvent: {}
+[1.104575] (bed_messages) CommandEnded: {'returncode': 0}
+[1.202875] (-) TimerEvent: {}
+[1.303741] (-) TimerEvent: {}
+[1.404522] (-) TimerEvent: {}
+[1.410225] (bed_messages) JobProgress: {'identifier': 'bed_messages', 'progress': 'install'}
+[1.453886] (bed_messages) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/dev_ws/build/bed_messages'], 'cwd': '/home/ubuntu/dev_ws/build/bed_messages', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '10.42.0.94 53629 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/dev_ws/install/bed_messages/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('ROS1', '/opt/ros/noetic/setup.bash'), ('OLDPWD', '/home/ubuntu/dev_ws/src/power_supply/power_supply'), ('ROS2', '/opt/ros/foxy/setup.bash'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/dev_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/dev_ws/install/power_supply:/home/ubuntu/dev_ws/install/bed_messages:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/dev_ws/build/bed_messages'), ('SSH_CONNECTION', '10.42.0.94 53629 10.42.0.1 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/dev_ws/install/bed_messages:/home/ubuntu/dev_ws/install/power_supply:/opt/ros/foxy')]), 'shell': False}
+[1.495678] (bed_messages) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.496392] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/ament_index/resource_index/rosidl_interfaces/bed_messages\n'}
+[1.496967] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages\n'}
+[1.497704] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg\n'}
+[1.498248] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.498835] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail\n'}
+[1.499248] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__type_support.h\n'}
+[1.499663] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__functions.c\n'}
+[1.500034] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__functions.h\n'}
+[1.500378] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__struct.h\n'}
+[1.500775] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/ps_control.h\n'}
+[1.501220] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/environment/library_path.sh\n'}
+[1.501563] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/environment/library_path.dsv\n'}
+[1.501877] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__rosidl_generator_c.so\n'}
+[1.502383] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages\n'}
+[1.502876] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg\n'}
+[1.503298] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail\n'}
+[1.503763] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__rosidl_typesupport_fastrtps_c.h\n'}
+[1.504167] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.504613] (-) TimerEvent: {}
+[1.505165] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__rosidl_typesupport_fastrtps_c.so\n'}
+[1.506435] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages\n'}
+[1.506930] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg\n'}
+[1.507397] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail\n'}
+[1.507795] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/dds_fastrtps\n'}
+[1.508247] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.508642] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.509399] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.510733] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages\n'}
+[1.511197] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg\n'}
+[1.511646] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.512036] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail\n'}
+[1.512436] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__type_support.c\n'}
+[1.512843] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__rosidl_typesupport_introspection_c.h\n'}
+[1.513617] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__rosidl_typesupport_introspection_c.so\n'}
+[1.515670] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__rosidl_typesupport_c.so\n'}
+[1.516884] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages\n'}
+[1.517372] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg\n'}
+[1.517778] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail\n'}
+[1.518213] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__traits.hpp\n'}
+[1.518647] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__builder.hpp\n'}
+[1.519053] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__struct.hpp\n'}
+[1.519486] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/ps_control.hpp\n'}
+[1.519874] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages\n'}
+[1.520318] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg\n'}
+[1.520706] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail\n'}
+[1.521042] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__type_support.cpp\n'}
+[1.521367] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.521801] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__rosidl_typesupport_introspection_cpp.so\n'}
+[1.523512] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__rosidl_typesupport_cpp.so\n'}
+[1.524810] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/environment/pythonpath.sh\n'}
+[1.525316] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/environment/pythonpath.dsv\n'}
+[1.525756] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages/bed_messages/__init__.py\n'}
+[1.604772] (-) TimerEvent: {}
+[1.673691] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages/bed_messages/msg\n'}
+[1.674348] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages/bed_messages/msg/_ps_control_s.c\n'}
+[1.674795] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages/bed_messages/msg/__init__.py\n'}
+[1.675117] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages/bed_messages/msg/_ps_control.py\n'}
+[1.676201] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages/bed_messages/bed_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.679252] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages/bed_messages/bed_messages_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.682611] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages/bed_messages/bed_messages_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.685594] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__python.so\n'}
+[1.687064] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/msg/PSControl.idl\n'}
+[1.687627] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/msg/PSControl.msg\n'}
+[1.688129] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/ament_index/resource_index/package_run_dependencies/bed_messages\n'}
+[1.688756] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/ament_index/resource_index/parent_prefix_path/bed_messages\n'}
+[1.689333] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/environment/ament_prefix_path.sh\n'}
+[1.689855] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/environment/ament_prefix_path.dsv\n'}
+[1.690339] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/environment/path.sh\n'}
+[1.690786] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/environment/path.dsv\n'}
+[1.691247] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/local_setup.bash\n'}
+[1.691707] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/local_setup.sh\n'}
+[1.692120] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/local_setup.zsh\n'}
+[1.692521] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/local_setup.dsv\n'}
+[1.692969] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/package.dsv\n'}
+[1.693689] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/ament_index/resource_index/packages/bed_messages\n'}
+[1.694625] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_generator_cExport.cmake\n'}
+[1.695088] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.696027] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.696526] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.697528] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_cExport.cmake\n'}
+[1.697992] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.698874] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_generator_cppExport.cmake\n'}
+[1.699842] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.700354] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.701363] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_cppExport.cmake\n'}
+[1.701830] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.702266] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/rosidl_cmake-extras.cmake\n'}
+[1.702689] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.703104] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.703519] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.703969] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.704382] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.704856] (-) TimerEvent: {}
+[1.705293] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.705944] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messagesConfig.cmake\n'}
+[1.706346] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messagesConfig-version.cmake\n'}
+[1.706703] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/package.xml\n'}
+[1.712223] (bed_messages) CommandEnded: {'returncode': 0}
+[1.805166] (-) TimerEvent: {}
+[1.906325] (-) TimerEvent: {}
+[2.007094] (-) TimerEvent: {}
+[2.108207] (-) TimerEvent: {}
+[2.138826] (bed_messages) JobEnded: {'identifier': 'bed_messages', 'rc': 0}
+[2.144501] (power_supply) JobStarted: {'identifier': 'power_supply'}
+[2.208713] (-) TimerEvent: {}
+[2.309833] (-) TimerEvent: {}
+[2.410514] (-) TimerEvent: {}
+[2.511154] (-) TimerEvent: {}
+[2.611770] (-) TimerEvent: {}
+[2.712398] (-) TimerEvent: {}
+[2.813059] (-) TimerEvent: {}
+[2.913695] (-) TimerEvent: {}
+[3.014337] (-) TimerEvent: {}
+[3.115289] (-) TimerEvent: {}
+[3.216550] (-) TimerEvent: {}
+[3.317739] (-) TimerEvent: {}
+[3.418596] (-) TimerEvent: {}
+[3.519280] (-) TimerEvent: {}
+[3.619945] (-) TimerEvent: {}
+[3.720604] (-) TimerEvent: {}
+[3.821209] (-) TimerEvent: {}
+[3.921833] (-) TimerEvent: {}
+[4.022455] (-) TimerEvent: {}
+[4.123096] (-) TimerEvent: {}
+[4.223739] (-) TimerEvent: {}
+[4.324365] (-) TimerEvent: {}
+[4.425138] (-) TimerEvent: {}
+[4.525816] (-) TimerEvent: {}
+[4.626615] (-) TimerEvent: {}
+[4.727361] (-) TimerEvent: {}
+[4.828106] (-) TimerEvent: {}
+[4.929520] (-) TimerEvent: {}
+[4.964461] (power_supply) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/power_supply', 'build', '--build-base', '/home/ubuntu/dev_ws/build/power_supply/build', 'install', '--prefix', '/home/ubuntu/dev_ws/install/power_supply', '--record', '/home/ubuntu/dev_ws/build/power_supply/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/dev_ws/src/power_supply', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.42.0.94 53629 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/dev_ws/install/bed_messages/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'ROS1': '/opt/ros/noetic/setup.bash', 'OLDPWD': '/home/ubuntu/dev_ws/src/power_supply/power_supply', 'ROS2': '/opt/ros/foxy/setup.bash', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/dev_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ubuntu/dev_ws/install/power_supply:/home/ubuntu/dev_ws/install/bed_messages:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/dev_ws/build/power_supply', 'SSH_CONNECTION': '10.42.0.94 53629 10.42.0.1 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/dev_ws/install/bed_messages'}, 'shell': False}
+[5.029703] (-) TimerEvent: {}
+[5.130510] (-) TimerEvent: {}
+[5.231510] (-) TimerEvent: {}
+[5.332136] (-) TimerEvent: {}
+[5.432785] (-) TimerEvent: {}
+[5.533411] (-) TimerEvent: {}
+[5.634003] (-) TimerEvent: {}
+[5.734618] (-) TimerEvent: {}
+[5.835234] (-) TimerEvent: {}
+[5.900876] (power_supply) StdoutLine: {'line': b'running egg_info\n'}
+[5.903291] (power_supply) StdoutLine: {'line': b'writing ../../build/power_supply/power_supply.egg-info/PKG-INFO\n'}
+[5.904348] (power_supply) StdoutLine: {'line': b'writing dependency_links to ../../build/power_supply/power_supply.egg-info/dependency_links.txt\n'}
+[5.906031] (power_supply) StdoutLine: {'line': b'writing entry points to ../../build/power_supply/power_supply.egg-info/entry_points.txt\n'}
+[5.906786] (power_supply) StdoutLine: {'line': b'writing requirements to ../../build/power_supply/power_supply.egg-info/requires.txt\n'}
+[5.907387] (power_supply) StdoutLine: {'line': b'writing top-level names to ../../build/power_supply/power_supply.egg-info/top_level.txt\n'}
+[5.935382] (-) TimerEvent: {}
+[6.036046] (-) TimerEvent: {}
+[6.050376] (power_supply) StdoutLine: {'line': b"reading manifest file '../../build/power_supply/power_supply.egg-info/SOURCES.txt'\n"}
+[6.054205] (power_supply) StdoutLine: {'line': b"writing manifest file '../../build/power_supply/power_supply.egg-info/SOURCES.txt'\n"}
+[6.054830] (power_supply) StdoutLine: {'line': b'running build\n'}
+[6.055296] (power_supply) StdoutLine: {'line': b'running build_py\n'}
+[6.056247] (power_supply) StdoutLine: {'line': b'copying power_supply/power_supply_controller.py -> /home/ubuntu/dev_ws/build/power_supply/build/lib/power_supply\n'}
+[6.057409] (power_supply) StdoutLine: {'line': b'running install\n'}
+[6.060363] (power_supply) StdoutLine: {'line': b'running install_lib\n'}
+[6.064924] (power_supply) StdoutLine: {'line': b'copying /home/ubuntu/dev_ws/build/power_supply/build/lib/power_supply/power_supply_controller.py -> /home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply\n'}
+[6.067971] (power_supply) StdoutLine: {'line': b'byte-compiling /home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply/power_supply_controller.py to power_supply_controller.cpython-38.pyc\n'}
+[6.077723] (power_supply) StdoutLine: {'line': b'running install_data\n'}
+[6.079935] (power_supply) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.085623] (power_supply) StdoutLine: {'line': b"removing '/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[6.087156] (power_supply) StdoutLine: {'line': b'Copying ../../build/power_supply/power_supply.egg-info to /home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply-0.0.0-py3.8.egg-info\n'}
+[6.091883] (power_supply) StdoutLine: {'line': b'running install_scripts\n'}
+[6.136218] (-) TimerEvent: {}
+[6.157453] (power_supply) StdoutLine: {'line': b'Installing controller script to /home/ubuntu/dev_ws/install/power_supply/lib/power_supply\n'}
+[6.158291] (power_supply) StdoutLine: {'line': b'Installing tester script to /home/ubuntu/dev_ws/install/power_supply/lib/power_supply\n'}
+[6.160034] (power_supply) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/dev_ws/build/power_supply/install.log'\n"}
+[6.236487] (-) TimerEvent: {}
+[6.257208] (power_supply) CommandEnded: {'returncode': 0}
+[6.290201] (power_supply) JobEnded: {'identifier': 'power_supply', 'rc': 0}
+[6.293153] (-) EventReactorShutdown: {}

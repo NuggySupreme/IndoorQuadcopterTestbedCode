@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.003895] (power_supply) JobQueued: {'identifier': 'power_supply', 'dependencies': OrderedDict()}
+[0.005358] (power_supply) JobStarted: {'identifier': 'power_supply'}
+[0.099052] (-) TimerEvent: {}
+[0.200265] (-) TimerEvent: {}
+[0.301181] (-) TimerEvent: {}
+[0.402037] (-) TimerEvent: {}
+[0.502849] (-) TimerEvent: {}
+[0.603555] (-) TimerEvent: {}
+[0.704326] (-) TimerEvent: {}
+[0.805053] (-) TimerEvent: {}
+[0.905766] (-) TimerEvent: {}
+[1.006482] (-) TimerEvent: {}
+[1.107437] (-) TimerEvent: {}
+[1.211735] (-) TimerEvent: {}
+[1.312822] (-) TimerEvent: {}
+[1.413600] (-) TimerEvent: {}
+[1.514323] (-) TimerEvent: {}
+[1.615042] (-) TimerEvent: {}
+[1.715922] (-) TimerEvent: {}
+[1.816655] (-) TimerEvent: {}
+[1.917461] (-) TimerEvent: {}
+[2.018249] (-) TimerEvent: {}
+[2.119086] (-) TimerEvent: {}
+[2.219848] (-) TimerEvent: {}
+[2.320741] (-) TimerEvent: {}
+[2.421533] (-) TimerEvent: {}
+[2.522471] (-) TimerEvent: {}
+[2.623308] (-) TimerEvent: {}
+[2.724102] (-) TimerEvent: {}
+[2.825147] (-) TimerEvent: {}
+[2.925937] (-) TimerEvent: {}
+[3.026950] (-) TimerEvent: {}
+[3.127922] (-) TimerEvent: {}
+[3.229086] (-) TimerEvent: {}
+[3.330346] (-) TimerEvent: {}
+[3.359043] (power_supply) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/power_supply', 'build', '--build-base', '/home/ubuntu/dev_ws/src/power_supply/build/power_supply/build', 'install', '--prefix', '/home/ubuntu/dev_ws/src/power_supply/install/power_supply', '--record', '/home/ubuntu/dev_ws/src/power_supply/build/power_supply/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/dev_ws/src/power_supply', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.42.0.243 61700 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/bin/ccbaa2d27e38e5afa3e5c21c1c7bef4657064247/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/dev_ws/install/bed_messages/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/bin/ccbaa2d27e38e5afa3e5c21c1c7bef4657064247/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'ROS1': '/opt/ros/noetic/setup.bash', 'OLDPWD': '/home/ubuntu/dev_ws', 'TERM_PROGRAM_VERSION': '1.62.3', 'ROS2': '/opt/ros/foxy/setup.bash', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-6ddf4734-5053-4f27-8fe1-d15501034202.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/bin/ccbaa2d27e38e5afa3e5c21c1c7bef4657064247/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/bin/ccbaa2d27e38e5afa3e5c21c1c7bef4657064247/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/dev_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/home/ubuntu/.vscode-server/bin/ccbaa2d27e38e5afa3e5c21c1c7bef4657064247/bin:/home/ubuntu/.local/bin:/home/ubuntu/.vscode-server/bin/ccbaa2d27e38e5afa3e5c21c1c7bef4657064247/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6bb67a0122.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/ubuntu/dev_ws/install/power_supply:/home/ubuntu/dev_ws/install/bed_messages:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/dev_ws/src/power_supply/build/power_supply', 'SSH_CONNECTION': '10.42.0.243 61700 10.42.0.1 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/dev_ws/src/power_supply/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/dev_ws/install/bed_messages'}, 'shell': False}
+[3.430567] (-) TimerEvent: {}
+[3.531543] (-) TimerEvent: {}
+[3.632346] (-) TimerEvent: {}
+[3.733124] (-) TimerEvent: {}
+[3.834158] (-) TimerEvent: {}
+[3.934904] (-) TimerEvent: {}
+[4.035653] (-) TimerEvent: {}
+[4.136371] (-) TimerEvent: {}
+[4.237154] (-) TimerEvent: {}
+[4.336295] (power_supply) StdoutLine: {'line': b'running egg_info\n'}
+[4.337394] (-) TimerEvent: {}
+[4.339062] (power_supply) StdoutLine: {'line': b'creating build/power_supply/power_supply.egg-info\n'}
+[4.339915] (power_supply) StdoutLine: {'line': b'writing build/power_supply/power_supply.egg-info/PKG-INFO\n'}
+[4.341461] (power_supply) StdoutLine: {'line': b'writing dependency_links to build/power_supply/power_supply.egg-info/dependency_links.txt\n'}
+[4.343388] (power_supply) StdoutLine: {'line': b'writing entry points to build/power_supply/power_supply.egg-info/entry_points.txt\n'}
+[4.344581] (power_supply) StdoutLine: {'line': b'writing requirements to build/power_supply/power_supply.egg-info/requires.txt\n'}
+[4.345295] (power_supply) StdoutLine: {'line': b'writing top-level names to build/power_supply/power_supply.egg-info/top_level.txt\n'}
+[4.357140] (power_supply) StdoutLine: {'line': b"writing manifest file 'build/power_supply/power_supply.egg-info/SOURCES.txt'\n"}
+[4.437692] (-) TimerEvent: {}
+[4.503801] (power_supply) StdoutLine: {'line': b"reading manifest file 'build/power_supply/power_supply.egg-info/SOURCES.txt'\n"}
+[4.507681] (power_supply) StdoutLine: {'line': b"writing manifest file 'build/power_supply/power_supply.egg-info/SOURCES.txt'\n"}
+[4.508843] (power_supply) StdoutLine: {'line': b'running build\n'}
+[4.509895] (power_supply) StdoutLine: {'line': b'running build_py\n'}
+[4.510988] (power_supply) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/src/power_supply/build/power_supply/build\n'}
+[4.511803] (power_supply) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/src/power_supply/build/power_supply/build/lib\n'}
+[4.512590] (power_supply) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/src/power_supply/build/power_supply/build/lib/power_supply\n'}
+[4.513382] (power_supply) StdoutLine: {'line': b'copying power_supply/__init__.py -> /home/ubuntu/dev_ws/src/power_supply/build/power_supply/build/lib/power_supply\n'}
+[4.513966] (power_supply) StdoutLine: {'line': b'copying power_supply/power_supply_listener.py -> /home/ubuntu/dev_ws/src/power_supply/build/power_supply/build/lib/power_supply\n'}
+[4.514925] (power_supply) StdoutLine: {'line': b'copying power_supply/power_supply_controller.py -> /home/ubuntu/dev_ws/src/power_supply/build/power_supply/build/lib/power_supply\n'}
+[4.515534] (power_supply) StdoutLine: {'line': b'copying power_supply/power_supply_publisher.py -> /home/ubuntu/dev_ws/src/power_supply/build/power_supply/build/lib/power_supply\n'}
+[4.516226] (power_supply) StdoutLine: {'line': b'running install\n'}
+[4.519331] (power_supply) StdoutLine: {'line': b'running install_lib\n'}
+[4.524087] (power_supply) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/src/power_supply/install/power_supply/lib/python3.8/site-packages/power_supply\n'}
+[4.524962] (power_supply) StdoutLine: {'line': b'copying /home/ubuntu/dev_ws/src/power_supply/build/power_supply/build/lib/power_supply/__init__.py -> /home/ubuntu/dev_ws/src/power_supply/install/power_supply/lib/python3.8/site-packages/power_supply\n'}
+[4.525638] (power_supply) StdoutLine: {'line': b'copying /home/ubuntu/dev_ws/src/power_supply/build/power_supply/build/lib/power_supply/power_supply_listener.py -> /home/ubuntu/dev_ws/src/power_supply/install/power_supply/lib/python3.8/site-packages/power_supply\n'}
+[4.526306] (power_supply) StdoutLine: {'line': b'copying /home/ubuntu/dev_ws/src/power_supply/build/power_supply/build/lib/power_supply/power_supply_controller.py -> /home/ubuntu/dev_ws/src/power_supply/install/power_supply/lib/python3.8/site-packages/power_supply\n'}
+[4.527254] (power_supply) StdoutLine: {'line': b'copying /home/ubuntu/dev_ws/src/power_supply/build/power_supply/build/lib/power_supply/power_supply_publisher.py -> /home/ubuntu/dev_ws/src/power_supply/install/power_supply/lib/python3.8/site-packages/power_supply\n'}
+[4.530042] (power_supply) StdoutLine: {'line': b'byte-compiling /home/ubuntu/dev_ws/src/power_supply/install/power_supply/lib/python3.8/site-packages/power_supply/__init__.py to __init__.cpython-38.pyc\n'}
+[4.535960] (power_supply) StdoutLine: {'line': b'byte-compiling /home/ubuntu/dev_ws/src/power_supply/install/power_supply/lib/python3.8/site-packages/power_supply/power_supply_listener.py to power_supply_listener.cpython-38.pyc\n'}
+[4.537842] (-) TimerEvent: {}
+[4.541135] (power_supply) StdoutLine: {'line': b'byte-compiling /home/ubuntu/dev_ws/src/power_supply/install/power_supply/lib/python3.8/site-packages/power_supply/power_supply_controller.py to power_supply_controller.cpython-38.pyc\n'}
+[4.557070] (power_supply) StdoutLine: {'line': b'byte-compiling /home/ubuntu/dev_ws/src/power_supply/install/power_supply/lib/python3.8/site-packages/power_supply/power_supply_publisher.py to power_supply_publisher.cpython-38.pyc\n'}
+[4.558514] (power_supply) StdoutLine: {'line': b'running install_data\n'}
+[4.559359] (power_supply) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/src/power_supply/install/power_supply/share/ament_index\n'}
+[4.560573] (power_supply) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/src/power_supply/install/power_supply/share/ament_index/resource_index\n'}
+[4.568641] (power_supply) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/src/power_supply/install/power_supply/share/ament_index/resource_index/packages\n'}
+[4.569716] (power_supply) StdoutLine: {'line': b'copying resource/power_supply -> /home/ubuntu/dev_ws/src/power_supply/install/power_supply/share/ament_index/resource_index/packages\n'}
+[4.570332] (power_supply) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/dev_ws/src/power_supply/install/power_supply/share/power_supply\n'}
+[4.571080] (power_supply) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.572167] (power_supply) StdoutLine: {'line': b'Copying build/power_supply/power_supply.egg-info to /home/ubuntu/dev_ws/src/power_supply/install/power_supply/lib/python3.8/site-packages/power_supply-0.0.0-py3.8.egg-info\n'}
+[4.573569] (power_supply) StdoutLine: {'line': b'running install_scripts\n'}
+[4.638025] (-) TimerEvent: {}
+[4.652265] (power_supply) StdoutLine: {'line': b'Installing controller script to /home/ubuntu/dev_ws/src/power_supply/install/power_supply/lib/power_supply\n'}
+[4.653264] (power_supply) StdoutLine: {'line': b'Installing listener script to /home/ubuntu/dev_ws/src/power_supply/install/power_supply/lib/power_supply\n'}
+[4.654276] (power_supply) StdoutLine: {'line': b'Installing publisher script to /home/ubuntu/dev_ws/src/power_supply/install/power_supply/lib/power_supply\n'}
+[4.655756] (power_supply) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/dev_ws/src/power_supply/build/power_supply/install.log'\n"}
+[4.738302] (-) TimerEvent: {}
+[4.761512] (power_supply) CommandEnded: {'returncode': 0}
+[4.839153] (-) TimerEvent: {}
+[4.842457] (power_supply) JobEnded: {'identifier': 'power_supply', 'rc': 0}
+[4.848064] (-) EventReactorShutdown: {}

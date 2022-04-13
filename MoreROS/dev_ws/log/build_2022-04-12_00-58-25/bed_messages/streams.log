@@ -1,0 +1,113 @@
+[0.065s] Invoking command in '/home/ubuntu/dev_ws/build/bed_messages': /usr/bin/cmake --build /home/ubuntu/dev_ws/build/bed_messages -- -j4 -l4
+[0.271s] [  3%] Built target bed_messages__cpp
+[0.280s] [ 12%] Built target bed_messages__rosidl_generator_c
+[0.372s] [ 22%] Built target bed_messages__rosidl_typesupport_cpp
+[0.410s] [ 32%] Built target bed_messages__rosidl_typesupport_introspection_cpp
+[0.416s] [ 41%] Built target bed_messages__rosidl_typesupport_c
+[0.446s] [ 51%] Built target bed_messages__rosidl_typesupport_fastrtps_cpp
+[0.492s] [ 61%] Built target bed_messages__rosidl_typesupport_introspection_c
+[0.569s] [ 70%] Built target bed_messages__rosidl_typesupport_fastrtps_c
+[0.641s] [ 70%] Built target bed_messages
+[0.717s] [ 74%] Built target bed_messages__py
+[0.837s] [ 80%] Built target bed_messages__python
+[0.972s] [ 87%] Built target bed_messages__rosidl_typesupport_c__pyext
+[0.975s] [ 93%] Built target bed_messages__rosidl_typesupport_introspection_c__pyext
+[0.981s] [100%] Built target bed_messages__rosidl_typesupport_fastrtps_c__pyext
+[1.157s] Invoked command in '/home/ubuntu/dev_ws/build/bed_messages' returned '0': /usr/bin/cmake --build /home/ubuntu/dev_ws/build/bed_messages -- -j4 -l4
+[1.400s] Invoking command in '/home/ubuntu/dev_ws/build/bed_messages': /usr/bin/cmake --install /home/ubuntu/dev_ws/build/bed_messages
+[1.432s] -- Install configuration: ""
+[1.432s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/ament_index/resource_index/rosidl_interfaces/bed_messages
+[1.433s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages
+[1.434s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg
+[1.434s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/rosidl_generator_c__visibility_control.h
+[1.435s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail
+[1.436s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__type_support.h
+[1.436s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__functions.c
+[1.436s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__functions.h
+[1.437s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__struct.h
+[1.438s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/ps_control.h
+[1.438s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/environment/library_path.sh
+[1.439s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/environment/library_path.dsv
+[1.439s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__rosidl_generator_c.so
+[1.440s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages
+[1.441s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg
+[1.441s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail
+[1.442s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__rosidl_typesupport_fastrtps_c.h
+[1.442s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.442s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__rosidl_typesupport_fastrtps_c.so
+[1.443s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages
+[1.444s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg
+[1.445s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail
+[1.445s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/dds_fastrtps
+[1.446s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__rosidl_typesupport_fastrtps_cpp.hpp
+[1.446s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.447s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__rosidl_typesupport_fastrtps_cpp.so
+[1.448s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages
+[1.449s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg
+[1.450s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.450s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail
+[1.451s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__type_support.c
+[1.451s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__rosidl_typesupport_introspection_c.h
+[1.452s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__rosidl_typesupport_introspection_c.so
+[1.454s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__rosidl_typesupport_c.so
+[1.456s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages
+[1.456s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg
+[1.457s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail
+[1.457s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__traits.hpp
+[1.458s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__builder.hpp
+[1.459s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__struct.hpp
+[1.459s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/ps_control.hpp
+[1.460s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages
+[1.460s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg
+[1.460s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail
+[1.461s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__type_support.cpp
+[1.461s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__rosidl_typesupport_introspection_cpp.hpp
+[1.462s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__rosidl_typesupport_introspection_cpp.so
+[1.463s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__rosidl_typesupport_cpp.so
+[1.465s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/environment/pythonpath.sh
+[1.467s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/environment/pythonpath.dsv
+[1.467s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages/bed_messages/__init__.py
+[1.615s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages/bed_messages/msg
+[1.616s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages/bed_messages/msg/_ps_control_s.c
+[1.616s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages/bed_messages/msg/__init__.py
+[1.616s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages/bed_messages/msg/_ps_control.py
+[1.618s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages/bed_messages/bed_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[1.621s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages/bed_messages/bed_messages_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[1.624s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages/bed_messages/bed_messages_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[1.627s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__python.so
+[1.628s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/msg/PSControl.idl
+[1.629s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/msg/PSControl.msg
+[1.630s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/ament_index/resource_index/package_run_dependencies/bed_messages
+[1.630s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/ament_index/resource_index/parent_prefix_path/bed_messages
+[1.631s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/environment/ament_prefix_path.sh
+[1.632s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/environment/ament_prefix_path.dsv
+[1.632s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/environment/path.sh
+[1.633s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/environment/path.dsv
+[1.633s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/local_setup.bash
+[1.634s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/local_setup.sh
+[1.634s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/local_setup.zsh
+[1.635s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/local_setup.dsv
+[1.635s] -- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/package.dsv
+[1.636s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/ament_index/resource_index/packages/bed_messages
+[1.637s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_generator_cExport.cmake
+[1.637s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_generator_cExport-noconfig.cmake
+[1.638s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_introspection_cExport.cmake
+[1.639s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.640s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_cExport.cmake
+[1.640s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_cExport-noconfig.cmake
+[1.642s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_generator_cppExport.cmake
+[1.643s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_introspection_cppExport.cmake
+[1.643s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.644s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_cppExport.cmake
+[1.645s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_cppExport-noconfig.cmake
+[1.646s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/rosidl_cmake-extras.cmake
+[1.646s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.647s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/ament_cmake_export_libraries-extras.cmake
+[1.647s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/ament_cmake_export_targets-extras.cmake
+[1.648s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.648s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.649s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.650s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messagesConfig.cmake
+[1.650s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messagesConfig-version.cmake
+[1.651s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/package.xml
+[1.658s] Invoked command in '/home/ubuntu/dev_ws/build/bed_messages' returned '0': /usr/bin/cmake --install /home/ubuntu/dev_ws/build/bed_messages

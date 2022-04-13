@@ -1,0 +1,5 @@
+  File "/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply/power_supply_tester.py", line 20
+    def main(args=None)
+                      ^
+SyntaxError: invalid syntax
+

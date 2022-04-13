@@ -1,0 +1,4 @@
+Invoking command in '/home/ubuntu/dev_ws/build/bed_messages': /usr/bin/cmake --build /home/ubuntu/dev_ws/build/bed_messages -- -j4 -l4
+Invoked command in '/home/ubuntu/dev_ws/build/bed_messages' returned '0': /usr/bin/cmake --build /home/ubuntu/dev_ws/build/bed_messages -- -j4 -l4
+Invoking command in '/home/ubuntu/dev_ws/build/bed_messages': /usr/bin/cmake --install /home/ubuntu/dev_ws/build/bed_messages
+Invoked command in '/home/ubuntu/dev_ws/build/bed_messages' returned '1': /usr/bin/cmake --install /home/ubuntu/dev_ws/build/bed_messages

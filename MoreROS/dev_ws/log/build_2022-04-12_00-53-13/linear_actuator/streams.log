@@ -1,0 +1,27 @@
+[3.986s] Invoking command in '/home/ubuntu/dev_ws/src/linear_actuator': PYTHONPATH=/home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/linear_actuator build --build-base /home/ubuntu/dev_ws/build/linear_actuator/build install --prefix /home/ubuntu/dev_ws/install/linear_actuator --record /home/ubuntu/dev_ws/build/linear_actuator/install.log --single-version-externally-managed
+[5.048s] running egg_info
+[5.051s] writing ../../build/linear_actuator/linear_actuator.egg-info/PKG-INFO
+[5.054s] writing dependency_links to ../../build/linear_actuator/linear_actuator.egg-info/dependency_links.txt
+[5.056s] writing entry points to ../../build/linear_actuator/linear_actuator.egg-info/entry_points.txt
+[5.056s] writing requirements to ../../build/linear_actuator/linear_actuator.egg-info/requires.txt
+[5.057s] writing top-level names to ../../build/linear_actuator/linear_actuator.egg-info/top_level.txt
+[5.224s] reading manifest file '../../build/linear_actuator/linear_actuator.egg-info/SOURCES.txt'
+[5.229s] writing manifest file '../../build/linear_actuator/linear_actuator.egg-info/SOURCES.txt'
+[5.230s] running build
+[5.230s] running build_py
+[5.234s] running install
+[5.237s] running install_lib
+[5.246s] running install_data
+[5.249s] running install_egg_info
+[5.256s] removing '/home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info' (and everything under it)
+[5.257s] error removing /home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info: [Errno 13] Permission denied: '/home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info/top_level.txt'
+[5.258s] error removing /home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info: [Errno 13] Permission denied: '/home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info/requires.txt'
+[5.259s] error removing /home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info: [Errno 13] Permission denied: '/home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info/dependency_links.txt'
+[5.259s] error removing /home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info: [Errno 13] Permission denied: '/home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info/SOURCES.txt'
+[5.260s] error removing /home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info: [Errno 13] Permission denied: '/home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info/PKG-INFO'
+[5.261s] error removing /home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info: [Errno 13] Permission denied: '/home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info/entry_points.txt'
+[5.262s] error removing /home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info: [Errno 13] Permission denied: '/home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info/zip-safe'
+[5.263s] error removing /home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info: [Errno 39] Directory not empty: '/home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info'
+[5.264s] Copying ../../build/linear_actuator/linear_actuator.egg-info to /home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info
+[5.265s] error: [Errno 13] Permission denied: '/home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info/top_level.txt'
+[5.350s] Invoked command in '/home/ubuntu/dev_ws/src/linear_actuator' returned '1': PYTHONPATH=/home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/linear_actuator build --build-base /home/ubuntu/dev_ws/build/linear_actuator/build install --prefix /home/ubuntu/dev_ws/install/linear_actuator --record /home/ubuntu/dev_ws/build/linear_actuator/install.log --single-version-externally-managed

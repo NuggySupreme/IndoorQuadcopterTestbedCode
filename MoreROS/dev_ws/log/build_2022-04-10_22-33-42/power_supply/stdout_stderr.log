@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/power_supply/power_supply.egg-info/PKG-INFO
+writing dependency_links to ../../build/power_supply/power_supply.egg-info/dependency_links.txt
+writing entry points to ../../build/power_supply/power_supply.egg-info/entry_points.txt
+writing requirements to ../../build/power_supply/power_supply.egg-info/requires.txt
+writing top-level names to ../../build/power_supply/power_supply.egg-info/top_level.txt
+reading manifest file '../../build/power_supply/power_supply.egg-info/SOURCES.txt'
+writing manifest file '../../build/power_supply/power_supply.egg-info/SOURCES.txt'
+running build
+running build_py
+copying power_supply/power_supply_controller.py -> /home/ubuntu/dev_ws/build/power_supply/build/lib/power_supply
+running install
+running install_lib
+copying /home/ubuntu/dev_ws/build/power_supply/build/lib/power_supply/power_supply_controller.py -> /home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply
+byte-compiling /home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply/power_supply_controller.py to power_supply_controller.cpython-38.pyc
+  File "/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply/power_supply_controller.py", line 66
+    else if msg.voltage == 0:
+         ^
+SyntaxError: invalid syntax
+
+running install_data
+running install_egg_info
+removing '/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/power_supply/power_supply.egg-info to /home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply-0.0.0-py3.8.egg-info
+running install_scripts
+Installing controller script to /home/ubuntu/dev_ws/install/power_supply/lib/power_supply
+Installing tester script to /home/ubuntu/dev_ws/install/power_supply/lib/power_supply
+writing list of installed files to '/home/ubuntu/dev_ws/build/power_supply/install.log'

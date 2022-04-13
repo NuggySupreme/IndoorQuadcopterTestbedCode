@@ -1,0 +1,26 @@
+[3.308s] Invoking command in '/home/ubuntu/dev_ws/src/power_supply': PYTHONPATH=/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/power_supply build --build-base /home/ubuntu/dev_ws/build/power_supply/build install --prefix /home/ubuntu/dev_ws/install/power_supply --record /home/ubuntu/dev_ws/build/power_supply/install.log --single-version-externally-managed
+[4.249s] running egg_info
+[4.251s] writing ../../build/power_supply/power_supply.egg-info/PKG-INFO
+[4.252s] writing dependency_links to ../../build/power_supply/power_supply.egg-info/dependency_links.txt
+[4.254s] writing entry points to ../../build/power_supply/power_supply.egg-info/entry_points.txt
+[4.255s] writing requirements to ../../build/power_supply/power_supply.egg-info/requires.txt
+[4.255s] writing top-level names to ../../build/power_supply/power_supply.egg-info/top_level.txt
+[4.399s] reading manifest file '../../build/power_supply/power_supply.egg-info/SOURCES.txt'
+[4.403s] writing manifest file '../../build/power_supply/power_supply.egg-info/SOURCES.txt'
+[4.404s] running build
+[4.404s] running build_py
+[4.405s] copying power_supply/power_supply_controller.py -> /home/ubuntu/dev_ws/build/power_supply/build/lib/power_supply
+[4.407s] running install
+[4.410s] running install_lib
+[4.414s] copying /home/ubuntu/dev_ws/build/power_supply/build/lib/power_supply/power_supply_controller.py -> /home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply
+[4.417s] byte-compiling /home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply/power_supply_controller.py to power_supply_controller.cpython-38.pyc
+[4.425s] running install_data
+[4.427s] running install_egg_info
+[4.433s] removing '/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply-0.0.0-py3.8.egg-info' (and everything under it)
+[4.435s] Copying ../../build/power_supply/power_supply.egg-info to /home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply-0.0.0-py3.8.egg-info
+[4.440s] running install_scripts
+[4.506s] Installing controller script to /home/ubuntu/dev_ws/install/power_supply/lib/power_supply
+[4.507s] Installing listener script to /home/ubuntu/dev_ws/install/power_supply/lib/power_supply
+[4.508s] Installing publisher script to /home/ubuntu/dev_ws/install/power_supply/lib/power_supply
+[4.510s] writing list of installed files to '/home/ubuntu/dev_ws/build/power_supply/install.log'
+[4.609s] Invoked command in '/home/ubuntu/dev_ws/src/power_supply' returned '0': PYTHONPATH=/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/power_supply build --build-base /home/ubuntu/dev_ws/build/power_supply/build install --prefix /home/ubuntu/dev_ws/install/power_supply --record /home/ubuntu/dev_ws/build/power_supply/install.log --single-version-externally-managed

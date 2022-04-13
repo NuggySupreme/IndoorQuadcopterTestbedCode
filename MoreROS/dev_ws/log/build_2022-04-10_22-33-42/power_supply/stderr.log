@@ -1,0 +1,5 @@
+  File "/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply/power_supply_controller.py", line 66
+    else if msg.voltage == 0:
+         ^
+SyntaxError: invalid syntax
+

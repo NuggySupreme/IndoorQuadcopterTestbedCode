@@ -1,0 +1,21 @@
+[  3%] Built target bed_messages__cpp
+[ 12%] Built target bed_messages__rosidl_generator_c
+[ 22%] Built target bed_messages__rosidl_typesupport_introspection_cpp
+[ 32%] Built target bed_messages__rosidl_typesupport_cpp
+[ 41%] Built target bed_messages__rosidl_typesupport_c
+[ 51%] Built target bed_messages__rosidl_typesupport_fastrtps_cpp
+[ 61%] Built target bed_messages__rosidl_typesupport_introspection_c
+[ 70%] Built target bed_messages__rosidl_typesupport_fastrtps_c
+[ 70%] Built target bed_messages
+[ 74%] Built target bed_messages__py
+[ 80%] Built target bed_messages__python
+[ 87%] Built target bed_messages__rosidl_typesupport_c__pyext
+[ 93%] Built target bed_messages__rosidl_typesupport_introspection_c__pyext
+[100%] Built target bed_messages__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/ament_index/resource_index/rosidl_interfaces/bed_messages
+-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages
+-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg
+-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail
+-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__type_support.h

@@ -1,0 +1,2 @@
+Invoking command in '/home/ubuntu/dev_ws/build/pi_gpio_interface': /usr/bin/cmake /home/ubuntu/dev_ws/src/ros2_pi_gpio/pi_gpio_interface -DCMAKE_INSTALL_PREFIX=/home/ubuntu/dev_ws/install/pi_gpio_interface
+Invoked command in '/home/ubuntu/dev_ws/build/pi_gpio_interface' returned '1': /usr/bin/cmake /home/ubuntu/dev_ws/src/ros2_pi_gpio/pi_gpio_interface -DCMAKE_INSTALL_PREFIX=/home/ubuntu/dev_ws/install/pi_gpio_interface
