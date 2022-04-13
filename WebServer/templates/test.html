@@ -9,50 +9,55 @@
     <body class="light-theme">
         <h1>UPDRAFT TEST GUI</h1>
 
-        <form method="post" action="/">
-            <p>Fan 1 <input type="text" name = "fan1" value = "" placeholder="Enter desierd speed"></p>
-            <p>Fan 2<input type="text" name = "fan2" value = "" placeholder="Enter desierd speed"></p>
-            <p>Fan 3<input type="text" name = "fan3" value = "" placeholder="Enter desierd speed"></p>
-            <p>Fan 4<input type="text" name = "fan4" value = "" placeholder="Enter desierd speed"></p>
-            <p>Fan 5<input type="text" name = "fan5" value = "" placeholder="Enter desierd speed"></p>
-            <p>Fan 6<input type="text" name = "fan6" value = "" placeholder="Enter desierd speed"></p>
-            <p>Fan 7<input type="text" name = "fan7" value = "" placeholder="Enter desierd speed"></p>
-            <p>Fan 8<input type="text" name = "fan8" value = "" placeholder="Enter desierd speed"></p>
-            <p>Fan 9<input type="text" name = "fan9" value = "" placeholder="Enter desierd speed"></p>
-            <p>Fan 10<input type="text" name = "fan10" value = "" placeholder="Enter desierd speed"></p>
-            <p>Fan 11<input type="text" name = "fan11" value = "" placeholder="Enter desierd speed"></p>
-            <p>Fan 12<input type="text" name = "fan12" value = "" placeholder="Enter desierd speed"></p>
-            <p>Fan 13<input type="text" name = "fan13" value = "" placeholder="Enter desierd speed"></p>
-            <p>Fan 14<input type="text" name = "fan14" value = "" placeholder="Enter desierd speed"></p>
-            <p>Fan 15<input type="text" name = "fan15" value = "" placeholder="Enter desierd speed"></p>
-            <p>Fan 16<input type="text" name = "fan16" value = "" placeholder="Enter desierd speed"></p>
-            <p><input type = "submit" value="RUN FANS" name="updatefan"/></p>
-        </form>
+        <P class="fangrid">
+            <form method="post" action="/">
+                <p>Fan 1 <input type="text" name = "fan1" value = "" placeholder="Enter desierd speed"></p><p>{{data['fan1'][1]}}</p>
+                <p>Fan 2 <input type="text" name = "fan2" value = "" placeholder="Enter desierd speed"></p><p>{{data['fan2'][1]}}</p>
+                <p>Fan 3 <input type="text" name = "fan3" value = "" placeholder="Enter desierd speed"></p><p>{{data['fan3'][1]}}</p>
+                <p>Fan 4 <input type="text" name = "fan4" value = "" placeholder="Enter desierd speed"></p><p>{{data['fan4'][1]}}</p>
+                <p>Fan 5 <input type="text" name = "fan5" value = "" placeholder="Enter desierd speed"></p><p>{{data['fan5'][1]}}</p>
+                <p>Fan 6 <input type="text" name = "fan6" value = "" placeholder="Enter desierd speed"></p><p>{{data['fan6'][1]}}</p>
+                <p>Fan 7 <input type="text" name = "fan7" value = "" placeholder="Enter desierd speed"></p><p>{{data['fan7'][1]}}</p>
+                <p>Fan 8 <input type="text" name = "fan8" value = "" placeholder="Enter desierd speed"></p><p>{{data['fan8'][1]}}</p>
+                <p>Fan 9 <input type="text" name = "fan9" value = "" placeholder="Enter desierd speed"></p><p>{{data['fan9'][1]}}</p>
+                <p>Fan 10 <input type="text" name = "fan10" value = "" placeholder="Enter desierd speed"></p><p>{{data['fan10'][1]}}</p>
+                <p>Fan 11 <input type="text" name = "fan11" value = "" placeholder="Enter desierd speed"></p><p>{{data['fan11'][1]}}</p>
+                <p>Fan 12 <input type="text" name = "fan12" value = "" placeholder="Enter desierd speed"></p><p>{{data['fan12'][1]}}</p>
+                <p>Fan 13 <input type="text" name = "fan13" value = "" placeholder="Enter desierd speed"></p><p>{{data['fan13'][1]}}</p>
+                <p>Fan 14 <input type="text" name = "fan14" value = "" placeholder="Enter desierd speed"></p><p>{{data['fan14'][1]}}</p>
+                <p>Fan 15 <input type="text" name = "fan15" value = "" placeholder="Enter desierd speed"></p><p>{{data['fan15'][1]}}</p>
+                <p>Fan 16 <input type="text" name = "fan16" value = "" placeholder="Enter desierd speed"></p><p>{{data['fan16'][1]}}</p>
+                
+                <p><input type = "submit" value="RUN FANS" name="updatefan"/></p>
+            </form>
+        </P>
 
         <form method="post" action="/">
-            <p>All Fans<input type="text" name = "ALLFANS" value = "" placeholder="Enter desierd speed"></p>
+            <p>All Fans <input type="text" name = "ALLFANS" value = "" placeholder="Enter desierd speed"></p>
             <p><input type = "submit" value="RUN FANS" name="updatefan"/></p>
         </form>
 
         <form method="post" action="/">
             <p>Actuator Control</p>
-            <p>Direction<input type="text" name = "DIRECTION" value = "" placeholder="Enter desierd speed"></p>
-            <p>Angle<input type="text" name = "ANGLE" value = "" placeholder="Enter desierd speed"></p>
+            <p>Direction <input type="text" name = "DIRECTION" value = "" placeholder="Enter desierd speed"></p>
+            <p>Angle <input type="text" name = "ANGLE" value = "" placeholder="Enter desierd speed"></p>
             <p><input type = "submit" value="RUN ANGLE" name="updateactuator"/></p>
         </form>
 
         <form method="post" action="/">
-            <p>Fan 1<input type="text" name = "filename" value = "" placeholder="Enter desierd speed"></p>
+            <p>Save Setting to File</p>
+            <p>Save <input type="text" name = "filename" value = "" placeholder="Enter desierd speed"></p>
             <p><input type = "submit" value="SAVE CONFIG" name="savefile"/></p>
         </form>
 
         <form method="post" action="/">
-            <p>Test<input type="text" name = "filename" value = "" placeholder="Enter desierd speed"></p>
+            <p>Load Setting form File</p>
+            <p>Load <input type="text" name = "filename" value = "" placeholder="Enter desierd speed"></p>
             <p><input type = "submit" value="LOAD CONFIG" name="loadfile"/></p>
         </form>
 
         <form method="post" action="/">
-            <p>UPDATE<input type="text" name = "TOROS" value = "" placeholder="Enter desierd speed"></p>
+            <p>UPDATE</p>
             <p><input type = "submit" value="UPDATE " name="toros"/></p>
         </form>
     </body>

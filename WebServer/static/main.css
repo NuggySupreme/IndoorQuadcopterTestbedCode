@@ -56,3 +56,7 @@ li{
 .btn:focus{
     outline-style: none;
 }
+
+.fangrid{
+    font-size:xx-small;
+}

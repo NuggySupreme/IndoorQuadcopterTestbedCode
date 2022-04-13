@@ -67,7 +67,7 @@ def saveFile(fileName):
 		with open(fileName, 'w') as file:
 			for key in fanDict:
 				value = fanDict[key]
-				file.write("%s,%s,%s\n" % (key, value[0], value[1]))
+				file.writelines("%s,%s,%s" % (key, value[0], value[1]))
 			file.close()
 
 @app.route("/", methods=['GET','POST'])
@@ -89,8 +89,8 @@ def index():
 		if request.form.get('toros'):
 			toROS()
 	elif request.method == 'GET':
-		return render_template(HTMLFILE)
-	return render_template(HTMLFILE)
+		return render_template(HTMLFILE,data=fanDict)
+	return render_template(HTMLFILE,data=fanDict)
  
 
 def main():
