@@ -55,8 +55,9 @@ li{
 
 .btn:focus{
     outline-style: none;
+    background-color: #90979b;
 }
 
 .fangrid{
-    font-size:xx-small;
+    font-size:xx-large;
 }

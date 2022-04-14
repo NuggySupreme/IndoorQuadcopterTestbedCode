@@ -29,16 +29,18 @@ def RunFans(form):
 
 	if 'ALLFANS' in form:
 		speed = form.get('ALLFANS')
+		if (speed == ''):
+			speed = 0
 		form.pop('ALLFANS')
 		for key in fanDict:
 			fanDict[key][1] = speed
 	else:
 		for key in form:
-			fanDict[key][1] = form[key]
+			if form[key] != '':
+				fanDict[key][1] = form[key]
 
 
 def RunActuators(form):
-
 	print(form)
 	
 	
@@ -98,7 +100,6 @@ def main():
 	loadFile("zerofan.txt")
 	client.run()
 	app.run(host='0.0.0.0', port=8080)
-	
 
 if __name__ == "__main__":
 	main()
