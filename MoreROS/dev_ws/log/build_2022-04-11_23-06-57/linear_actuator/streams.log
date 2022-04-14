@@ -1,0 +1,37 @@
+[3.526s] Invoking command in '/home/ubuntu/dev_ws/src/linear_actuator': PYTHONPATH=/home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/linear_actuator build --build-base /home/ubuntu/dev_ws/build/linear_actuator/build install --prefix /home/ubuntu/dev_ws/install/linear_actuator --record /home/ubuntu/dev_ws/build/linear_actuator/install.log --single-version-externally-managed
+[4.443s] running egg_info
+[4.446s] creating ../../build/linear_actuator/linear_actuator.egg-info
+[4.446s] writing ../../build/linear_actuator/linear_actuator.egg-info/PKG-INFO
+[4.448s] writing dependency_links to ../../build/linear_actuator/linear_actuator.egg-info/dependency_links.txt
+[4.450s] writing entry points to ../../build/linear_actuator/linear_actuator.egg-info/entry_points.txt
+[4.451s] writing requirements to ../../build/linear_actuator/linear_actuator.egg-info/requires.txt
+[4.452s] writing top-level names to ../../build/linear_actuator/linear_actuator.egg-info/top_level.txt
+[4.467s] writing manifest file '../../build/linear_actuator/linear_actuator.egg-info/SOURCES.txt'
+[4.627s] reading manifest file '../../build/linear_actuator/linear_actuator.egg-info/SOURCES.txt'
+[4.631s] writing manifest file '../../build/linear_actuator/linear_actuator.egg-info/SOURCES.txt'
+[4.631s] running build
+[4.632s] running build_py
+[4.633s] creating /home/ubuntu/dev_ws/build/linear_actuator/build
+[4.634s] creating /home/ubuntu/dev_ws/build/linear_actuator/build/lib
+[4.634s] creating /home/ubuntu/dev_ws/build/linear_actuator/build/lib/linear_actuator
+[4.635s] copying linear_actuator/linear_actuator_controller.py -> /home/ubuntu/dev_ws/build/linear_actuator/build/lib/linear_actuator
+[4.635s] copying linear_actuator/__init__.py -> /home/ubuntu/dev_ws/build/linear_actuator/build/lib/linear_actuator
+[4.636s] running install
+[4.638s] running install_lib
+[4.643s] creating /home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator
+[4.644s] copying /home/ubuntu/dev_ws/build/linear_actuator/build/lib/linear_actuator/linear_actuator_controller.py -> /home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator
+[4.644s] copying /home/ubuntu/dev_ws/build/linear_actuator/build/lib/linear_actuator/__init__.py -> /home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator
+[4.647s] byte-compiling /home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator/linear_actuator_controller.py to linear_actuator_controller.cpython-38.pyc
+[4.654s] byte-compiling /home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator/__init__.py to __init__.cpython-38.pyc
+[4.655s] running install_data
+[4.657s] creating /home/ubuntu/dev_ws/install/linear_actuator/share/ament_index
+[4.658s] creating /home/ubuntu/dev_ws/install/linear_actuator/share/ament_index/resource_index
+[4.658s] creating /home/ubuntu/dev_ws/install/linear_actuator/share/ament_index/resource_index/packages
+[4.659s] copying resource/linear_actuator -> /home/ubuntu/dev_ws/install/linear_actuator/share/ament_index/resource_index/packages
+[4.660s] copying package.xml -> /home/ubuntu/dev_ws/install/linear_actuator/share/linear_actuator
+[4.660s] running install_egg_info
+[4.666s] Copying ../../build/linear_actuator/linear_actuator.egg-info to /home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info
+[4.672s] running install_scripts
+[4.742s] Installing controller script to /home/ubuntu/dev_ws/install/linear_actuator/lib/linear_actuator
+[4.743s] writing list of installed files to '/home/ubuntu/dev_ws/build/linear_actuator/install.log'
+[4.850s] Invoked command in '/home/ubuntu/dev_ws/src/linear_actuator' returned '0': PYTHONPATH=/home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/linear_actuator build --build-base /home/ubuntu/dev_ws/build/linear_actuator/build install --prefix /home/ubuntu/dev_ws/install/linear_actuator --record /home/ubuntu/dev_ws/build/linear_actuator/install.log --single-version-externally-managed

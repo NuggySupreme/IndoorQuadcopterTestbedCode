@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.000927] (-) JobUnselected: {'identifier': 'bed_messages'}
+[0.001230] (-) JobUnselected: {'identifier': 'linear_actuator'}
+[0.001613] (-) JobUnselected: {'identifier': 'power_supply'}
+[0.002505] (-) EventReactorShutdown: {}

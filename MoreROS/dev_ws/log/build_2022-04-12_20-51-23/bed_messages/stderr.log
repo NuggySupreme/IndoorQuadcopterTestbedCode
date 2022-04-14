@@ -1,0 +1,6 @@
+CMake Error at cmake_install.cmake:45 (file):
+  file INSTALL cannot set permissions on
+  "/home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__type_support.h":
+  Operation not permitted.
+
+

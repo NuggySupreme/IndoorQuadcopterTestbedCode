@@ -1,0 +1,31 @@
+[0.090s] Invoking command in '/home/ubuntu/dev_ws/build/bed_messages': /usr/bin/cmake --build /home/ubuntu/dev_ws/build/bed_messages -- -j4 -l4
+[0.667s] [  3%] Built target bed_messages__cpp
+[0.680s] [ 12%] Built target bed_messages__rosidl_generator_c
+[0.805s] [ 22%] Built target bed_messages__rosidl_typesupport_introspection_cpp
+[0.813s] [ 32%] Built target bed_messages__rosidl_typesupport_cpp
+[0.839s] [ 41%] Built target bed_messages__rosidl_typesupport_c
+[0.859s] [ 51%] Built target bed_messages__rosidl_typesupport_fastrtps_cpp
+[0.925s] [ 61%] Built target bed_messages__rosidl_typesupport_introspection_c
+[0.995s] [ 70%] Built target bed_messages__rosidl_typesupport_fastrtps_c
+[1.074s] [ 70%] Built target bed_messages
+[1.168s] [ 74%] Built target bed_messages__py
+[1.318s] [ 80%] Built target bed_messages__python
+[1.469s] [ 87%] Built target bed_messages__rosidl_typesupport_c__pyext
+[1.470s] [ 93%] Built target bed_messages__rosidl_typesupport_introspection_c__pyext
+[1.481s] [100%] Built target bed_messages__rosidl_typesupport_fastrtps_c__pyext
+[1.522s] Invoked command in '/home/ubuntu/dev_ws/build/bed_messages' returned '0': /usr/bin/cmake --build /home/ubuntu/dev_ws/build/bed_messages -- -j4 -l4
+[1.769s] Invoking command in '/home/ubuntu/dev_ws/build/bed_messages': /usr/bin/cmake --install /home/ubuntu/dev_ws/build/bed_messages
+[1.803s] -- Install configuration: ""
+[1.806s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/share/ament_index/resource_index/rosidl_interfaces/bed_messages
+[1.806s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages
+[1.807s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg
+[1.808s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/rosidl_generator_c__visibility_control.h
+[1.809s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail
+[1.810s] -- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__type_support.h
+[1.812s] CMake Error at cmake_install.cmake:45 (file):
+[1.812s]   file INSTALL cannot set permissions on
+[1.813s]   "/home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__type_support.h":
+[1.814s]   Operation not permitted.
+[1.816s] 
+[1.817s] 
+[1.818s] Invoked command in '/home/ubuntu/dev_ws/build/bed_messages' returned '1': /usr/bin/cmake --install /home/ubuntu/dev_ws/build/bed_messages

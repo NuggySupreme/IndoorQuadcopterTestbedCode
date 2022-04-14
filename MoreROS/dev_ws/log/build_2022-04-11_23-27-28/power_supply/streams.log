@@ -1,0 +1,22 @@
+[3.295s] Invoking command in '/home/ubuntu/dev_ws/src/power_supply': LD_LIBRARY_PATH=/home/ubuntu/dev_ws/install/bed_messages/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/power_supply build --build-base /home/ubuntu/dev_ws/build/power_supply/build install --prefix /home/ubuntu/dev_ws/install/power_supply --record /home/ubuntu/dev_ws/build/power_supply/install.log --single-version-externally-managed
+[4.234s] running egg_info
+[4.236s] writing ../../build/power_supply/power_supply.egg-info/PKG-INFO
+[4.237s] writing dependency_links to ../../build/power_supply/power_supply.egg-info/dependency_links.txt
+[4.239s] writing entry points to ../../build/power_supply/power_supply.egg-info/entry_points.txt
+[4.240s] writing requirements to ../../build/power_supply/power_supply.egg-info/requires.txt
+[4.240s] writing top-level names to ../../build/power_supply/power_supply.egg-info/top_level.txt
+[4.383s] reading manifest file '../../build/power_supply/power_supply.egg-info/SOURCES.txt'
+[4.387s] writing manifest file '../../build/power_supply/power_supply.egg-info/SOURCES.txt'
+[4.387s] running build
+[4.388s] running build_py
+[4.389s] running install
+[4.392s] running install_lib
+[4.399s] running install_data
+[4.401s] running install_egg_info
+[4.408s] removing '/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply-0.0.0-py3.8.egg-info' (and everything under it)
+[4.409s] Copying ../../build/power_supply/power_supply.egg-info to /home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply-0.0.0-py3.8.egg-info
+[4.414s] running install_scripts
+[4.481s] Installing controller script to /home/ubuntu/dev_ws/install/power_supply/lib/power_supply
+[4.482s] Installing tester script to /home/ubuntu/dev_ws/install/power_supply/lib/power_supply
+[4.483s] writing list of installed files to '/home/ubuntu/dev_ws/build/power_supply/install.log'
+[4.581s] Invoked command in '/home/ubuntu/dev_ws/src/power_supply' returned '0': LD_LIBRARY_PATH=/home/ubuntu/dev_ws/install/bed_messages/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/power_supply build --build-base /home/ubuntu/dev_ws/build/power_supply/build install --prefix /home/ubuntu/dev_ws/install/power_supply --record /home/ubuntu/dev_ws/build/power_supply/install.log --single-version-externally-managed

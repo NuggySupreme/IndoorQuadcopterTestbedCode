@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/linear_actuator/linear_actuator.egg-info
+writing ../../build/linear_actuator/linear_actuator.egg-info/PKG-INFO
+writing dependency_links to ../../build/linear_actuator/linear_actuator.egg-info/dependency_links.txt
+writing entry points to ../../build/linear_actuator/linear_actuator.egg-info/entry_points.txt
+writing requirements to ../../build/linear_actuator/linear_actuator.egg-info/requires.txt
+writing top-level names to ../../build/linear_actuator/linear_actuator.egg-info/top_level.txt
+writing manifest file '../../build/linear_actuator/linear_actuator.egg-info/SOURCES.txt'
+reading manifest file '../../build/linear_actuator/linear_actuator.egg-info/SOURCES.txt'
+writing manifest file '../../build/linear_actuator/linear_actuator.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/dev_ws/build/linear_actuator/build
+creating /home/ubuntu/dev_ws/build/linear_actuator/build/lib
+creating /home/ubuntu/dev_ws/build/linear_actuator/build/lib/linear_actuator
+copying linear_actuator/linear_actuator_controller.py -> /home/ubuntu/dev_ws/build/linear_actuator/build/lib/linear_actuator
+copying linear_actuator/__init__.py -> /home/ubuntu/dev_ws/build/linear_actuator/build/lib/linear_actuator
+running install
+running install_lib
+creating /home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator
+copying /home/ubuntu/dev_ws/build/linear_actuator/build/lib/linear_actuator/linear_actuator_controller.py -> /home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator
+copying /home/ubuntu/dev_ws/build/linear_actuator/build/lib/linear_actuator/__init__.py -> /home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator
+byte-compiling /home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator/linear_actuator_controller.py to linear_actuator_controller.cpython-38.pyc
+byte-compiling /home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/ubuntu/dev_ws/install/linear_actuator/share/ament_index
+creating /home/ubuntu/dev_ws/install/linear_actuator/share/ament_index/resource_index
+creating /home/ubuntu/dev_ws/install/linear_actuator/share/ament_index/resource_index/packages
+copying resource/linear_actuator -> /home/ubuntu/dev_ws/install/linear_actuator/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/dev_ws/install/linear_actuator/share/linear_actuator
+running install_egg_info
+Copying ../../build/linear_actuator/linear_actuator.egg-info to /home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info
+running install_scripts
+Installing controller script to /home/ubuntu/dev_ws/install/linear_actuator/lib/linear_actuator
+writing list of installed files to '/home/ubuntu/dev_ws/build/linear_actuator/install.log'

@@ -1,0 +1,18 @@
+[0.095s] Invoking command in '/home/ubuntu/dev_ws/build/bed_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/dev_ws/install/power_supply:/home/ubuntu/dev_ws/install/linear_actuator:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/dev_ws/build/bed_messages -- -j4 -l4
+[0.337s] [  3%] Built target bed_messages__cpp
+[0.345s] [ 12%] Built target bed_messages__rosidl_generator_c
+[0.470s] [ 22%] Built target bed_messages__rosidl_typesupport_introspection_cpp
+[0.500s] [ 32%] Built target bed_messages__rosidl_typesupport_c
+[0.525s] [ 41%] Built target bed_messages__rosidl_typesupport_cpp
+[0.541s] [ 51%] Built target bed_messages__rosidl_typesupport_fastrtps_cpp
+[0.585s] [ 61%] Built target bed_messages__rosidl_typesupport_introspection_c
+[0.678s] [ 70%] Built target bed_messages__rosidl_typesupport_fastrtps_c
+[0.766s] [ 70%] Built target bed_messages
+[0.855s] [ 74%] Built target bed_messages__py
+[0.993s] [ 80%] Built target bed_messages__python
+[1.147s] [ 87%] Built target bed_messages__rosidl_typesupport_c__pyext
+[1.150s] [ 93%] Built target bed_messages__rosidl_typesupport_fastrtps_c__pyext
+[1.154s] [100%] Built target bed_messages__rosidl_typesupport_introspection_c__pyext
+[1.360s] Invoked command in '/home/ubuntu/dev_ws/build/bed_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/dev_ws/install/power_supply:/home/ubuntu/dev_ws/install/linear_actuator:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/dev_ws/build/bed_messages -- -j4 -l4
+[1.671s] Invoking command in '/home/ubuntu/dev_ws/build/bed_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/dev_ws/install/power_supply:/home/ubuntu/dev_ws/install/linear_actuator:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/dev_ws/build/bed_messages
+[1.698s] Invoked command in '/home/ubuntu/dev_ws/build/bed_messages' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/dev_ws/install/power_supply:/home/ubuntu/dev_ws/install/linear_actuator:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/dev_ws/build/bed_messages

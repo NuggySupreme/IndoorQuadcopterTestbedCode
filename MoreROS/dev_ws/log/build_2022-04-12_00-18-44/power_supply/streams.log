@@ -1,0 +1,22 @@
+[3.173s] Invoking command in '/home/ubuntu/dev_ws/src/power_supply': AMENT_PREFIX_PATH=/home/ubuntu/dev_ws/install/bed_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/dev_ws/install/bed_messages LD_LIBRARY_PATH=/home/ubuntu/dev_ws/install/bed_messages/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/power_supply build --build-base /home/ubuntu/dev_ws/build/power_supply/build install --prefix /home/ubuntu/dev_ws/install/power_supply --record /home/ubuntu/dev_ws/build/power_supply/install.log --single-version-externally-managed
+[4.071s] running egg_info
+[4.073s] writing ../../build/power_supply/power_supply.egg-info/PKG-INFO
+[4.074s] writing dependency_links to ../../build/power_supply/power_supply.egg-info/dependency_links.txt
+[4.075s] writing entry points to ../../build/power_supply/power_supply.egg-info/entry_points.txt
+[4.076s] writing requirements to ../../build/power_supply/power_supply.egg-info/requires.txt
+[4.077s] writing top-level names to ../../build/power_supply/power_supply.egg-info/top_level.txt
+[4.221s] reading manifest file '../../build/power_supply/power_supply.egg-info/SOURCES.txt'
+[4.225s] writing manifest file '../../build/power_supply/power_supply.egg-info/SOURCES.txt'
+[4.225s] running build
+[4.226s] running build_py
+[4.227s] running install
+[4.230s] running install_lib
+[4.237s] running install_data
+[4.239s] running install_egg_info
+[4.246s] removing '/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply-0.0.0-py3.8.egg-info' (and everything under it)
+[4.247s] Copying ../../build/power_supply/power_supply.egg-info to /home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply-0.0.0-py3.8.egg-info
+[4.252s] running install_scripts
+[4.318s] Installing controller script to /home/ubuntu/dev_ws/install/power_supply/lib/power_supply
+[4.319s] Installing tester script to /home/ubuntu/dev_ws/install/power_supply/lib/power_supply
+[4.320s] writing list of installed files to '/home/ubuntu/dev_ws/build/power_supply/install.log'
+[4.417s] Invoked command in '/home/ubuntu/dev_ws/src/power_supply' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/dev_ws/install/bed_messages:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/dev_ws/install/bed_messages LD_LIBRARY_PATH=/home/ubuntu/dev_ws/install/bed_messages/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/power_supply build --build-base /home/ubuntu/dev_ws/build/power_supply/build install --prefix /home/ubuntu/dev_ws/install/power_supply --record /home/ubuntu/dev_ws/build/power_supply/install.log --single-version-externally-managed

@@ -1,0 +1,26 @@
+[2.846s] Invoking command in '/home/ubuntu/dev_ws/src/power_supply': PYTHONPATH=/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/power_supply build --build-base /home/ubuntu/dev_ws/build/power_supply/build install --prefix /home/ubuntu/dev_ws/install/power_supply --record /home/ubuntu/dev_ws/build/power_supply/install.log --single-version-externally-managed
+[3.774s] running egg_info
+[3.777s] writing ../../build/power_supply/power_supply.egg-info/PKG-INFO
+[3.778s] writing dependency_links to ../../build/power_supply/power_supply.egg-info/dependency_links.txt
+[3.779s] writing entry points to ../../build/power_supply/power_supply.egg-info/entry_points.txt
+[3.780s] writing requirements to ../../build/power_supply/power_supply.egg-info/requires.txt
+[3.781s] writing top-level names to ../../build/power_supply/power_supply.egg-info/top_level.txt
+[3.925s] reading manifest file '../../build/power_supply/power_supply.egg-info/SOURCES.txt'
+[3.928s] writing manifest file '../../build/power_supply/power_supply.egg-info/SOURCES.txt'
+[3.929s] running build
+[3.930s] running build_py
+[3.930s] copying power_supply/power_supply_controller.py -> /home/ubuntu/dev_ws/build/power_supply/build/lib/power_supply
+[3.932s] running install
+[3.935s] running install_lib
+[3.939s] copying /home/ubuntu/dev_ws/build/power_supply/build/lib/power_supply/power_supply_controller.py -> /home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply
+[3.942s] byte-compiling /home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply/power_supply_controller.py to power_supply_controller.cpython-38.pyc
+[3.948s] Sorry: IndentationError: unindent does not match any outer indentation level (power_supply_controller.py, line 116)
+[3.948s] running install_data
+[3.950s] running install_egg_info
+[3.956s] removing '/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply-0.0.0-py3.8.egg-info' (and everything under it)
+[3.957s] Copying ../../build/power_supply/power_supply.egg-info to /home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply-0.0.0-py3.8.egg-info
+[3.962s] running install_scripts
+[4.028s] Installing controller script to /home/ubuntu/dev_ws/install/power_supply/lib/power_supply
+[4.029s] Installing tester script to /home/ubuntu/dev_ws/install/power_supply/lib/power_supply
+[4.030s] writing list of installed files to '/home/ubuntu/dev_ws/build/power_supply/install.log'
+[4.129s] Invoked command in '/home/ubuntu/dev_ws/src/power_supply' returned '0': PYTHONPATH=/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/power_supply build --build-base /home/ubuntu/dev_ws/build/power_supply/build install --prefix /home/ubuntu/dev_ws/install/power_supply --record /home/ubuntu/dev_ws/build/power_supply/install.log --single-version-externally-managed

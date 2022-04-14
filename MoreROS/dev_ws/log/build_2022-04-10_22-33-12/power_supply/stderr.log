@@ -1,0 +1,5 @@
+  File "/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply/power_supply_controller.py", line 61
+    if self.isOn[msg.ps_num] = False:
+                             ^
+SyntaxError: invalid syntax
+

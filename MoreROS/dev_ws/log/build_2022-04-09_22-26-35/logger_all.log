@@ -1,0 +1,234 @@
+[0.640s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.640s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff819435e0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff819435e0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff81943b20>)
+[0.664s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.665s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.665s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.665s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.665s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.666s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.666s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/dev_ws'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'ignore'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'ignore_ament_install'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['colcon_pkg']
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'colcon_pkg'
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['colcon_meta']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'colcon_meta'
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['ros']
+[0.729s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'ros'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['cmake', 'python']
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'cmake'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'python'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extensions ['python_setup_py']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(ros_tutorials) by extension 'python_setup_py'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.733s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.734s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/bed_messages) by extensions ['ignore', 'ignore_ament_install']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/bed_messages) by extension 'ignore'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/bed_messages) by extension 'ignore_ament_install'
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/bed_messages) by extensions ['colcon_pkg']
+[0.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/bed_messages) by extension 'colcon_pkg'
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/bed_messages) by extensions ['colcon_meta']
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/bed_messages) by extension 'colcon_meta'
+[0.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/bed_messages) by extensions ['ros']
+[0.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/bed_messages) by extension 'ros'
+[0.748s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bed_messages' with type 'ros.ament_cmake' and name 'bed_messages'
+[0.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/power_supply) by extensions ['ignore', 'ignore_ament_install']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/power_supply) by extension 'ignore'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/power_supply) by extension 'ignore_ament_install'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/power_supply) by extensions ['colcon_pkg']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/power_supply) by extension 'colcon_pkg'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/power_supply) by extensions ['colcon_meta']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/power_supply) by extension 'colcon_meta'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/power_supply) by extensions ['ros']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/power_supply) by extension 'ros'
+[0.760s] DEBUG:colcon.colcon_core.package_identification:Package 'src/power_supply' with type 'ros.ament_python' and name 'power_supply'
+[0.760s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.761s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.761s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.761s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.761s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'bed_messages' build argument 'cmake_args' from command line to 'None'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'bed_messages' build argument 'cmake_target' from command line to 'None'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'bed_messages' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'bed_messages' build argument 'cmake_clean_cache' from command line to 'False'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'bed_messages' build argument 'cmake_clean_first' from command line to 'False'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'bed_messages' build argument 'cmake_force_configure' from command line to 'False'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'bed_messages' build argument 'ament_cmake_args' from command line to 'None'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'bed_messages' build argument 'catkin_cmake_args' from command line to 'None'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'bed_messages' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.839s] DEBUG:colcon.colcon_core.verb:Building package 'bed_messages' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/dev_ws/build/bed_messages', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/dev_ws/install/bed_messages', 'merge_install': False, 'path': '/home/ubuntu/dev_ws/src/bed_messages', 'symlink_install': False, 'test_result_base': None}
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'power_supply' build argument 'cmake_args' from command line to 'None'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'power_supply' build argument 'cmake_target' from command line to 'None'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'power_supply' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'power_supply' build argument 'cmake_clean_cache' from command line to 'False'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'power_supply' build argument 'cmake_clean_first' from command line to 'False'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'power_supply' build argument 'cmake_force_configure' from command line to 'False'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'power_supply' build argument 'ament_cmake_args' from command line to 'None'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'power_supply' build argument 'catkin_cmake_args' from command line to 'None'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'power_supply' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.844s] DEBUG:colcon.colcon_core.verb:Building package 'power_supply' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/dev_ws/build/power_supply', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/dev_ws/install/power_supply', 'merge_install': False, 'path': '/home/ubuntu/dev_ws/src/power_supply', 'symlink_install': False, 'test_result_base': None}
+[0.864s] WARNING:colcon.colcon_core.verb:Some selected packages are already built in one or more underlay workspaces:
+	'bed_messages' is in: /home/ubuntu/dev_ws/install/bed_messages
+	'power_supply' is in: /home/ubuntu/dev_ws/install/power_supply
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding bed_messages power_supply
+
+This may be promoted to an error in a future release of colcon-core.
+[0.866s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.875s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.877s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/dev_ws/src/bed_messages' with build type 'ament_cmake'
+[0.877s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/dev_ws/src/bed_messages'
+[0.894s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.895s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.895s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.921s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/dev_ws/src/power_supply' with build type 'ament_python'
+[0.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('power_supply', 'ament_prefix_path')
+[0.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dev_ws/install/power_supply/share/power_supply/hook/ament_prefix_path.ps1'
+[0.929s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/dev_ws/install/power_supply/share/power_supply/hook/ament_prefix_path.dsv'
+[0.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dev_ws/install/power_supply/share/power_supply/hook/ament_prefix_path.sh'
+[0.937s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.938s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/dev_ws/build/bed_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/dev_ws/install/power_supply:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/dev_ws/build/bed_messages -- -j4 -l4
+[2.348s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/dev_ws/src/power_supply'
+[2.351s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.352s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/dev_ws/build/bed_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/dev_ws/install/power_supply:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/dev_ws/build/bed_messages -- -j4 -l4
+[2.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/dev_ws/build/bed_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/dev_ws/install/power_supply:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/dev_ws/build/bed_messages
+[3.053s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bed_messages)
+[3.085s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dev_ws/install/bed_messages' for CMake module files
+[3.094s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/dev_ws/build/bed_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/dev_ws/install/power_supply:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/dev_ws/build/bed_messages
+[3.097s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dev_ws/install/bed_messages' for CMake config files
+[3.101s] Level 1:colcon.colcon_core.shell:create_environment_hook('bed_messages', 'cmake_prefix_path')
+[3.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/hook/cmake_prefix_path.ps1'
+[3.106s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/hook/cmake_prefix_path.dsv'
+[3.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/hook/cmake_prefix_path.sh'
+[3.112s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dev_ws/install/bed_messages/lib'
+[3.113s] Level 1:colcon.colcon_core.shell:create_environment_hook('bed_messages', 'ld_library_path_lib')
+[3.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/hook/ld_library_path_lib.ps1'
+[3.118s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/hook/ld_library_path_lib.dsv'
+[3.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/hook/ld_library_path_lib.sh'
+[3.123s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dev_ws/install/bed_messages/bin'
+[3.124s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dev_ws/install/bed_messages/lib/pkgconfig/bed_messages.pc'
+[3.124s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages'
+[3.125s] Level 1:colcon.colcon_core.shell:create_environment_hook('bed_messages', 'pythonpath')
+[3.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/hook/pythonpath.ps1'
+[3.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/hook/pythonpath.dsv'
+[3.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/hook/pythonpath.sh'
+[3.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/package.ps1'
+[3.141s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/package.dsv'
+[3.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/package.sh'
+[3.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/package.bash'
+[3.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/package.zsh'
+[3.156s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/dev_ws/install/bed_messages/share/colcon-core/packages/bed_messages)
+[3.450s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bed_messages)
+[3.454s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dev_ws/install/bed_messages' for CMake module files
+[3.459s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dev_ws/install/bed_messages' for CMake config files
+[3.462s] Level 1:colcon.colcon_core.shell:create_environment_hook('bed_messages', 'cmake_prefix_path')
+[3.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/hook/cmake_prefix_path.ps1'
+[3.468s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/hook/cmake_prefix_path.dsv'
+[3.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/hook/cmake_prefix_path.sh'
+[3.475s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dev_ws/install/bed_messages/lib'
+[3.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('bed_messages', 'ld_library_path_lib')
+[3.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/hook/ld_library_path_lib.ps1'
+[3.481s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/hook/ld_library_path_lib.dsv'
+[3.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/hook/ld_library_path_lib.sh'
+[3.487s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dev_ws/install/bed_messages/bin'
+[3.487s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dev_ws/install/bed_messages/lib/pkgconfig/bed_messages.pc'
+[3.488s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages'
+[3.488s] Level 1:colcon.colcon_core.shell:create_environment_hook('bed_messages', 'pythonpath')
+[3.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/hook/pythonpath.ps1'
+[3.493s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/hook/pythonpath.dsv'
+[3.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/hook/pythonpath.sh'
+[3.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/package.ps1'
+[3.507s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/package.dsv'
+[3.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/package.sh'
+[3.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/package.bash'
+[3.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/package.zsh'
+[3.520s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/dev_ws/install/bed_messages/share/colcon-core/packages/bed_messages)
+[4.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/dev_ws/src/power_supply': PYTHONPATH=/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/power_supply build --build-base /home/ubuntu/dev_ws/build/power_supply/build install --prefix /home/ubuntu/dev_ws/install/power_supply --record /home/ubuntu/dev_ws/build/power_supply/install.log --single-version-externally-managed
+[5.763s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dev_ws/install/power_supply' for CMake module files
+[5.766s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/dev_ws/src/power_supply' returned '0': PYTHONPATH=/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/power_supply build --build-base /home/ubuntu/dev_ws/build/power_supply/build install --prefix /home/ubuntu/dev_ws/install/power_supply --record /home/ubuntu/dev_ws/build/power_supply/install.log --single-version-externally-managed
+[5.768s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dev_ws/install/power_supply' for CMake config files
+[5.772s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dev_ws/install/power_supply/lib'
+[5.772s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dev_ws/install/power_supply/bin'
+[5.773s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dev_ws/install/power_supply/lib/pkgconfig/power_supply.pc'
+[5.773s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages'
+[5.774s] Level 1:colcon.colcon_core.shell:create_environment_hook('power_supply', 'pythonpath')
+[5.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dev_ws/install/power_supply/share/power_supply/hook/pythonpath.ps1'
+[5.779s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/dev_ws/install/power_supply/share/power_supply/hook/pythonpath.dsv'
+[5.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dev_ws/install/power_supply/share/power_supply/hook/pythonpath.sh'
+[5.784s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(power_supply)
+[5.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dev_ws/install/power_supply/share/power_supply/package.ps1'
+[5.790s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/dev_ws/install/power_supply/share/power_supply/package.dsv'
+[5.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dev_ws/install/power_supply/share/power_supply/package.sh'
+[5.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dev_ws/install/power_supply/share/power_supply/package.bash'
+[5.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dev_ws/install/power_supply/share/power_supply/package.zsh'
+[5.800s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/dev_ws/install/power_supply/share/colcon-core/packages/power_supply)
+[5.802s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.803s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.805s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.805s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.830s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[5.831s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.832s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.832s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.835s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[5.835s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.838s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/dev_ws/install/local_setup.ps1'
+[5.842s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/dev_ws/install/_local_setup_util_ps1.py'
+[5.849s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/dev_ws/install/setup.ps1'
+[5.856s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/dev_ws/install/local_setup.sh'
+[5.860s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/dev_ws/install/_local_setup_util_sh.py'
+[5.863s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/dev_ws/install/setup.sh'
+[5.869s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/dev_ws/install/local_setup.bash'
+[5.872s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/dev_ws/install/setup.bash'
+[5.878s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/dev_ws/install/local_setup.zsh'
+[5.881s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/dev_ws/install/setup.zsh'

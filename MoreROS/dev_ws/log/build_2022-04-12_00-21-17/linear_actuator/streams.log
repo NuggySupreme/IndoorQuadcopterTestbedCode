@@ -1,0 +1,21 @@
+[3.450s] Invoking command in '/home/ubuntu/dev_ws/src/linear_actuator': PYTHONPATH=/home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/linear_actuator build --build-base /home/ubuntu/dev_ws/build/linear_actuator/build install --prefix /home/ubuntu/dev_ws/install/linear_actuator --record /home/ubuntu/dev_ws/build/linear_actuator/install.log --single-version-externally-managed
+[4.337s] running egg_info
+[4.340s] writing ../../build/linear_actuator/linear_actuator.egg-info/PKG-INFO
+[4.342s] writing dependency_links to ../../build/linear_actuator/linear_actuator.egg-info/dependency_links.txt
+[4.343s] writing entry points to ../../build/linear_actuator/linear_actuator.egg-info/entry_points.txt
+[4.344s] writing requirements to ../../build/linear_actuator/linear_actuator.egg-info/requires.txt
+[4.345s] writing top-level names to ../../build/linear_actuator/linear_actuator.egg-info/top_level.txt
+[4.507s] reading manifest file '../../build/linear_actuator/linear_actuator.egg-info/SOURCES.txt'
+[4.512s] writing manifest file '../../build/linear_actuator/linear_actuator.egg-info/SOURCES.txt'
+[4.513s] running build
+[4.514s] running build_py
+[4.516s] running install
+[4.519s] running install_lib
+[4.527s] running install_data
+[4.531s] running install_egg_info
+[4.538s] removing '/home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info' (and everything under it)
+[4.540s] Copying ../../build/linear_actuator/linear_actuator.egg-info to /home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info
+[4.549s] running install_scripts
+[4.618s] Installing controller script to /home/ubuntu/dev_ws/install/linear_actuator/lib/linear_actuator
+[4.620s] writing list of installed files to '/home/ubuntu/dev_ws/build/linear_actuator/install.log'
+[4.725s] Invoked command in '/home/ubuntu/dev_ws/src/linear_actuator' returned '0': PYTHONPATH=/home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/linear_actuator build --build-base /home/ubuntu/dev_ws/build/linear_actuator/build install --prefix /home/ubuntu/dev_ws/install/linear_actuator --record /home/ubuntu/dev_ws/build/linear_actuator/install.log --single-version-externally-managed
