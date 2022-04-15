@@ -1,0 +1,5 @@
+[console_scripts]
+controller = power_supply.power_supply_controller:main
+listener = power_supply.power_supply_listener:main
+publisher = power_supply.power_supply_publisher:main
+

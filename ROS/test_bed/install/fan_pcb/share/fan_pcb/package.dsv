@@ -1,0 +1,6 @@
+source;share/fan_pcb/hook/pythonpath.ps1
+source;share/fan_pcb/hook/pythonpath.dsv
+source;share/fan_pcb/hook/pythonpath.sh
+source;share/fan_pcb/hook/ament_prefix_path.ps1
+source;share/fan_pcb/hook/ament_prefix_path.dsv
+source;share/fan_pcb/hook/ament_prefix_path.sh

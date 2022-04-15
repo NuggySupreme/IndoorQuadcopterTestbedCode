@@ -1,0 +1,196 @@
+[0.122s] Invoking command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages -- -j4 -l4
+[1.280s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.281s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.304s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.613s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.638s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.696s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.491s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.780s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.486s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.779s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[4.102s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[5.175s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.217s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.335s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[5.351s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[5.482s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[5.483s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.484s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[5.484s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[5.600s] -- Found PythonExtra: .so  
+[5.828s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.845s] -- Added test 'lint_cmake' to check CMake code style
+[5.855s] -- Added test 'xmllint' to check XML markup files
+[5.907s] -- Configuring done
+[6.136s] -- Generating done
+[6.171s] -- Build files have been written to: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages
+[6.310s] [35m[1mScanning dependencies of target bed_messages__cpp[0m
+[6.314s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.359s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.402s] [35m[1mScanning dependencies of target bed_messages__rosidl_generator_c[0m
+[7.403s] [  6%] Built target bed_messages__cpp
+[7.451s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.453s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.455s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.466s] [ 19%] [32mBuilding C object CMakeFiles/bed_messages__rosidl_generator_c.dir/rosidl_generator_c/bed_messages/msg/detail/ps_control__functions.c.o[0m
+[7.701s] [ 22%] [32m[1mLinking C shared library libbed_messages__rosidl_generator_c.so[0m
+[7.887s] [ 22%] Built target bed_messages__rosidl_generator_c
+[7.942s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.581s] [35m[1mScanning dependencies of target bed_messages__rosidl_typesupport_cpp[0m
+[8.665s] [ 29%] [32mBuilding CXX object CMakeFiles/bed_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bed_messages/msg/ps_control__type_support.cpp.o[0m
+[8.684s] [35m[1mScanning dependencies of target bed_messages__rosidl_typesupport_introspection_cpp[0m
+[8.729s] [35m[1mScanning dependencies of target bed_messages__rosidl_typesupport_fastrtps_cpp[0m
+[8.753s] [ 32%] [32mBuilding CXX object CMakeFiles/bed_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bed_messages/msg/detail/ps_control__type_support.cpp.o[0m
+[8.831s] [ 35%] [32mBuilding CXX object CMakeFiles/bed_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bed_messages/msg/detail/dds_fastrtps/ps_control__type_support.cpp.o[0m
+[9.104s] [35m[1mScanning dependencies of target bed_messages__rosidl_typesupport_c[0m
+[9.170s] [ 38%] [32mBuilding CXX object CMakeFiles/bed_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/bed_messages/msg/ps_control__type_support.cpp.o[0m
+[9.333s] [ 41%] [32m[1mLinking CXX shared library libbed_messages__rosidl_typesupport_c.so[0m
+[9.527s] [ 41%] Built target bed_messages__rosidl_typesupport_c
+[9.586s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.392s] [ 48%] [32m[1mLinking CXX shared library libbed_messages__rosidl_typesupport_cpp.so[0m
+[10.509s] [ 51%] [32m[1mLinking CXX shared library libbed_messages__rosidl_typesupport_introspection_cpp.so[0m
+[10.583s] [ 51%] Built target bed_messages__rosidl_typesupport_cpp
+[10.690s] [ 51%] Built target bed_messages__rosidl_typesupport_introspection_cpp
+[10.864s] [35m[1mScanning dependencies of target bed_messages__rosidl_typesupport_introspection_c[0m
+[10.919s] [ 54%] [32mBuilding C object CMakeFiles/bed_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bed_messages/msg/detail/ps_control__type_support.c.o[0m
+[11.074s] [ 58%] [32m[1mLinking C shared library libbed_messages__rosidl_typesupport_introspection_c.so[0m
+[11.196s] [ 58%] Built target bed_messages__rosidl_typesupport_introspection_c
+[11.327s] [ 61%] [32m[1mLinking CXX shared library libbed_messages__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.698s] [ 61%] Built target bed_messages__rosidl_typesupport_fastrtps_cpp
+[11.742s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.653s] [35m[1mScanning dependencies of target bed_messages__rosidl_typesupport_fastrtps_c[0m
+[12.714s] [ 67%] [32mBuilding CXX object CMakeFiles/bed_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bed_messages/msg/detail/ps_control__type_support_c.cpp.o[0m
+[14.234s] [ 70%] [32m[1mLinking CXX shared library libbed_messages__rosidl_typesupport_fastrtps_c.so[0m
+[14.593s] [ 70%] Built target bed_messages__rosidl_typesupport_fastrtps_c
+[14.636s] [35m[1mScanning dependencies of target bed_messages[0m
+[14.678s] [ 70%] Built target bed_messages
+[14.722s] [35m[1mScanning dependencies of target bed_messages__py[0m
+[14.768s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[16.363s] [ 74%] Built target bed_messages__py
+[16.406s] [35m[1mScanning dependencies of target bed_messages__python[0m
+[16.486s] [ 77%] [32mBuilding C object CMakeFiles/bed_messages__python.dir/rosidl_generator_py/bed_messages/msg/_ps_control_s.c.o[0m
+[16.904s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/bed_messages/libbed_messages__python.so[0m
+[17.071s] [ 80%] Built target bed_messages__python
+[17.118s] [35m[1mScanning dependencies of target bed_messages__rosidl_typesupport_c__pyext[0m
+[17.119s] [35m[1mScanning dependencies of target bed_messages__rosidl_typesupport_introspection_c__pyext[0m
+[17.120s] [35m[1mScanning dependencies of target bed_messages__rosidl_typesupport_fastrtps_c__pyext[0m
+[17.198s] [ 83%] [32mBuilding C object CMakeFiles/bed_messages__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/bed_messages/_bed_messages_s.ep.rosidl_typesupport_c.c.o[0m
+[17.218s] [ 87%] [32mBuilding C object CMakeFiles/bed_messages__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/bed_messages/_bed_messages_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[17.237s] [ 90%] [32mBuilding C object CMakeFiles/bed_messages__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/bed_messages/_bed_messages_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[17.615s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/bed_messages/bed_messages_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[17.631s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/bed_messages/bed_messages_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[17.692s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/bed_messages/bed_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[17.800s] [100%] Built target bed_messages__rosidl_typesupport_c__pyext
+[17.819s] [100%] Built target bed_messages__rosidl_typesupport_introspection_c__pyext
+[17.978s] [100%] Built target bed_messages__rosidl_typesupport_fastrtps_c__pyext
+[18.022s] Invoked command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages -- -j4 -l4
+[18.348s] Invoking command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages
+[18.384s] -- Install configuration: ""
+[18.384s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/ament_index/resource_index/rosidl_interfaces/bed_messages
+[18.386s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages
+[18.386s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg
+[18.387s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/rosidl_generator_c__visibility_control.h
+[18.388s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail
+[18.389s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/ps_control__type_support.h
+[18.390s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/ps_control__functions.c
+[18.391s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/ps_control__functions.h
+[18.392s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/ps_control__struct.h
+[18.393s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/ps_control.h
+[18.394s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/environment/library_path.sh
+[18.395s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/environment/library_path.dsv
+[18.397s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/libbed_messages__rosidl_generator_c.so
+[18.399s] -- Set runtime path of "/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/libbed_messages__rosidl_generator_c.so" to ""
+[18.400s] -- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages
+[18.400s] -- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg
+[18.401s] -- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail
+[18.401s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/ps_control__rosidl_typesupport_fastrtps_c.h
+[18.402s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[18.404s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/libbed_messages__rosidl_typesupport_fastrtps_c.so
+[18.406s] -- Set runtime path of "/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/libbed_messages__rosidl_typesupport_fastrtps_c.so" to ""
+[18.406s] -- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages
+[18.407s] -- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg
+[18.408s] -- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail
+[18.408s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/dds_fastrtps
+[18.408s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/ps_control__rosidl_typesupport_fastrtps_cpp.hpp
+[18.410s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[18.411s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/libbed_messages__rosidl_typesupport_fastrtps_cpp.so
+[18.414s] -- Set runtime path of "/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/libbed_messages__rosidl_typesupport_fastrtps_cpp.so" to ""
+[18.414s] -- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages
+[18.415s] -- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg
+[18.415s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[18.416s] -- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail
+[18.417s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/ps_control__type_support.c
+[18.418s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/ps_control__rosidl_typesupport_introspection_c.h
+[18.419s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/libbed_messages__rosidl_typesupport_introspection_c.so
+[18.422s] -- Set runtime path of "/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/libbed_messages__rosidl_typesupport_introspection_c.so" to ""
+[18.422s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/libbed_messages__rosidl_typesupport_c.so
+[18.424s] -- Set runtime path of "/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/libbed_messages__rosidl_typesupport_c.so" to ""
+[18.425s] -- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages
+[18.425s] -- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg
+[18.426s] -- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail
+[18.426s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/ps_control__traits.hpp
+[18.427s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/ps_control__builder.hpp
+[18.428s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/ps_control__struct.hpp
+[18.429s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/ps_control.hpp
+[18.430s] -- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages
+[18.431s] -- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg
+[18.431s] -- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail
+[18.431s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/ps_control__type_support.cpp
+[18.433s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/ps_control__rosidl_typesupport_introspection_cpp.hpp
+[18.434s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/libbed_messages__rosidl_typesupport_introspection_cpp.so
+[18.437s] -- Set runtime path of "/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/libbed_messages__rosidl_typesupport_introspection_cpp.so" to ""
+[18.437s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/libbed_messages__rosidl_typesupport_cpp.so
+[18.439s] -- Set runtime path of "/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/libbed_messages__rosidl_typesupport_cpp.so" to ""
+[18.440s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/environment/pythonpath.sh
+[18.441s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/environment/pythonpath.dsv
+[18.443s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages/bed_messages/__init__.py
+[18.571s] Compiling '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages/bed_messages/__init__.py'...
+[18.593s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages/bed_messages/msg
+[18.593s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages/bed_messages/msg/_ps_control_s.c
+[18.594s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages/bed_messages/msg/__init__.py
+[18.595s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages/bed_messages/msg/_ps_control.py
+[18.597s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages/bed_messages/bed_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[18.600s] -- Set runtime path of "/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages/bed_messages/bed_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[18.601s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages/bed_messages/bed_messages_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[18.604s] -- Set runtime path of "/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages/bed_messages/bed_messages_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[18.605s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages/bed_messages/bed_messages_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[18.608s] -- Set runtime path of "/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages/bed_messages/bed_messages_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[18.608s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/libbed_messages__python.so
+[18.611s] -- Set runtime path of "/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/libbed_messages__python.so" to ""
+[18.612s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/msg/PSControl.idl
+[18.613s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/msg/PSControl.msg
+[18.614s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/ament_index/resource_index/package_run_dependencies/bed_messages
+[18.616s] -- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/ament_index/resource_index/parent_prefix_path/bed_messages
+[18.616s] -- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/environment/ament_prefix_path.sh
+[18.617s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/environment/ament_prefix_path.dsv
+[18.618s] -- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/environment/path.sh
+[18.618s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/environment/path.dsv
+[18.620s] -- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/local_setup.bash
+[18.620s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/local_setup.sh
+[18.621s] -- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/local_setup.zsh
+[18.622s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/local_setup.dsv
+[18.623s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/package.dsv
+[18.624s] -- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/ament_index/resource_index/packages/bed_messages
+[18.625s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_generator_cExport.cmake
+[18.626s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_generator_cExport-noconfig.cmake
+[18.628s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_introspection_cExport.cmake
+[18.630s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[18.631s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_cExport.cmake
+[18.632s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_cExport-noconfig.cmake
+[18.634s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_generator_cppExport.cmake
+[18.636s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_introspection_cppExport.cmake
+[18.637s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[18.639s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_cppExport.cmake
+[18.640s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_cppExport-noconfig.cmake
+[18.641s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/rosidl_cmake-extras.cmake
+[18.643s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.644s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/ament_cmake_export_libraries-extras.cmake
+[18.645s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/ament_cmake_export_targets-extras.cmake
+[18.647s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.648s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[18.649s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[18.651s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/bed_messagesConfig.cmake
+[18.652s] -- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/bed_messagesConfig-version.cmake
+[18.652s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/package.xml
+[18.665s] Invoked command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages

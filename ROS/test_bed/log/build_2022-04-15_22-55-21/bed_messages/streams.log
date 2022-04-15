@@ -1,0 +1,46 @@
+[0.114s] Invoking command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/bed_messages -DCMAKE_INSTALL_PREFIX=/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages
+[1.372s] -- The C compiler identification is GNU 9.4.0
+[1.373s] -- The CXX compiler identification is GNU 9.4.0
+[1.378s] -- Check for working C compiler: /usr/bin/cc
+[1.379s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.380s] -- Detecting C compiler ABI info
+[1.381s] -- Detecting C compiler ABI info - done
+[1.382s] -- Detecting C compile features
+[1.383s] -- Detecting C compile features - done
+[1.383s] -- Check for working CXX compiler: /usr/bin/c++
+[1.650s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.655s] -- Detecting CXX compiler ABI info
+[1.997s] -- Detecting CXX compiler ABI info - done
+[2.042s] -- Detecting CXX compile features
+[2.044s] -- Detecting CXX compile features - done
+[2.067s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.198s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.199s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.500s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.987s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.003s] -- Added test 'lint_cmake' to check CMake code style
+[4.011s] -- Added test 'xmllint' to check XML markup files
+[4.026s] -- Configuring done
+[4.038s] -- Generating done
+[4.044s] -- Build files have been written to: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages
+[4.059s] Invoked command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/bed_messages -DCMAKE_INSTALL_PREFIX=/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages
+[4.072s] Invoking command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages -- -j4 -l4
+[4.257s] Invoked command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages -- -j4 -l4
+[4.412s] Invoking command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages
+[4.461s] -- Install configuration: ""
+[4.462s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/ament_index/resource_index/package_run_dependencies/bed_messages
+[4.465s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/ament_index/resource_index/parent_prefix_path/bed_messages
+[4.466s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/environment/ament_prefix_path.sh
+[4.468s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/environment/ament_prefix_path.dsv
+[4.470s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/environment/path.sh
+[4.471s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/environment/path.dsv
+[4.473s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/local_setup.bash
+[4.474s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/local_setup.sh
+[4.476s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/local_setup.zsh
+[4.477s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/local_setup.dsv
+[4.479s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/package.dsv
+[4.481s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/ament_index/resource_index/packages/bed_messages
+[4.483s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/bed_messagesConfig.cmake
+[4.484s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/bed_messagesConfig-version.cmake
+[4.486s] -- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/package.xml
+[4.510s] Invoked command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages

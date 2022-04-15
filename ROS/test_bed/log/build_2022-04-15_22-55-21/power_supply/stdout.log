@@ -1,0 +1,43 @@
+running egg_info
+creating ../../build/power_supply/power_supply.egg-info
+writing ../../build/power_supply/power_supply.egg-info/PKG-INFO
+writing dependency_links to ../../build/power_supply/power_supply.egg-info/dependency_links.txt
+writing entry points to ../../build/power_supply/power_supply.egg-info/entry_points.txt
+writing requirements to ../../build/power_supply/power_supply.egg-info/requires.txt
+writing top-level names to ../../build/power_supply/power_supply.egg-info/top_level.txt
+writing manifest file '../../build/power_supply/power_supply.egg-info/SOURCES.txt'
+reading manifest file '../../build/power_supply/power_supply.egg-info/SOURCES.txt'
+writing manifest file '../../build/power_supply/power_supply.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply/build
+creating /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply/build/lib
+creating /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply/build/lib/power_supply
+copying power_supply/__init__.py -> /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply/build/lib/power_supply
+copying power_supply/power_supply_off.py -> /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply/build/lib/power_supply
+copying power_supply/power_supply_tester.py -> /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply/build/lib/power_supply
+copying power_supply/power_supply_controller.py -> /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply/build/lib/power_supply
+running install
+running install_lib
+creating /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages/power_supply
+copying /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply/build/lib/power_supply/__init__.py -> /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages/power_supply
+copying /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply/build/lib/power_supply/power_supply_off.py -> /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages/power_supply
+copying /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply/build/lib/power_supply/power_supply_tester.py -> /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages/power_supply
+copying /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply/build/lib/power_supply/power_supply_controller.py -> /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages/power_supply
+byte-compiling /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages/power_supply/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages/power_supply/power_supply_off.py to power_supply_off.cpython-38.pyc
+byte-compiling /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages/power_supply/power_supply_tester.py to power_supply_tester.cpython-38.pyc
+byte-compiling /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages/power_supply/power_supply_controller.py to power_supply_controller.cpython-38.pyc
+running install_data
+creating /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/share/ament_index
+creating /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/share/ament_index/resource_index
+creating /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/share/ament_index/resource_index/packages
+copying resource/power_supply -> /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/share/power_supply
+running install_egg_info
+Copying ../../build/power_supply/power_supply.egg-info to /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages/power_supply-0.0.0-py3.8.egg-info
+running install_scripts
+Installing controller script to /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/power_supply
+Installing off script to /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/power_supply
+Installing tester script to /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/power_supply
+writing list of installed files to '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply/install.log'
