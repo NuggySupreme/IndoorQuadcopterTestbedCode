@@ -1,0 +1,129 @@
+[0.000000] (-) TimerEvent: {}
+[0.002869] (fan_pcb) JobQueued: {'identifier': 'fan_pcb', 'dependencies': OrderedDict()}
+[0.003050] (linear_actuator) JobQueued: {'identifier': 'linear_actuator', 'dependencies': OrderedDict()}
+[0.003146] (power_supply) JobQueued: {'identifier': 'power_supply', 'dependencies': OrderedDict()}
+[0.003241] (fan_pcb) JobStarted: {'identifier': 'fan_pcb'}
+[0.022580] (linear_actuator) JobStarted: {'identifier': 'linear_actuator'}
+[0.098836] (-) TimerEvent: {}
+[0.199786] (-) TimerEvent: {}
+[0.300608] (-) TimerEvent: {}
+[0.401296] (-) TimerEvent: {}
+[0.503207] (-) TimerEvent: {}
+[0.604938] (-) TimerEvent: {}
+[0.706495] (-) TimerEvent: {}
+[0.807191] (-) TimerEvent: {}
+[0.907966] (-) TimerEvent: {}
+[1.009188] (-) TimerEvent: {}
+[1.110963] (-) TimerEvent: {}
+[1.211932] (-) TimerEvent: {}
+[1.313191] (-) TimerEvent: {}
+[1.414156] (-) TimerEvent: {}
+[1.514922] (-) TimerEvent: {}
+[1.617530] (-) TimerEvent: {}
+[1.725427] (-) TimerEvent: {}
+[1.826715] (-) TimerEvent: {}
+[1.933238] (-) TimerEvent: {}
+[2.035790] (-) TimerEvent: {}
+[2.136323] (-) TimerEvent: {}
+[2.237624] (-) TimerEvent: {}
+[2.337716] (linear_actuator) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/linear_actuator', 'build', '--build-base', '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/build/linear_actuator/build', 'install', '--prefix', '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/install/linear_actuator', '--record', '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/build/linear_actuator/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/src/linear_actuator', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_AGENT_PID': '1639', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1466', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '8:60545', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1682,unix/ubuntu:/tmp/.ICE-unix/1682', 'INVOCATION_ID': '66c570a7a17241f28f41e11135a92c95', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/060bc574_d5e7_4a2c_9bbe_2e765629426d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.94', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/build/linear_actuator', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'VTE_VERSION': '6003', 'PYTHONPATH': '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/install/linear_actuator/lib/python3.8/site-packages:'}, 'shell': False}
+[2.354409] (-) TimerEvent: {}
+[2.400868] (fan_pcb) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/fan_pcb', 'build', '--build-base', '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/build/fan_pcb/build', 'install', '--prefix', '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/install/fan_pcb', '--record', '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/build/fan_pcb/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/src/fan_pcb', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_AGENT_PID': '1639', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1466', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '8:60545', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1682,unix/ubuntu:/tmp/.ICE-unix/1682', 'INVOCATION_ID': '66c570a7a17241f28f41e11135a92c95', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/060bc574_d5e7_4a2c_9bbe_2e765629426d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.94', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/build/fan_pcb', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'VTE_VERSION': '6003', 'PYTHONPATH': '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/install/fan_pcb/lib/python3.8/site-packages:'}, 'shell': False}
+[2.455074] (-) TimerEvent: {}
+[2.556760] (-) TimerEvent: {}
+[2.657650] (-) TimerEvent: {}
+[2.759295] (-) TimerEvent: {}
+[2.853215] (linear_actuator) StdoutLine: {'line': b'running egg_info\n'}
+[2.855010] (linear_actuator) StdoutLine: {'line': b'writing ../../build/linear_actuator/linear_actuator.egg-info/PKG-INFO\n'}
+[2.857195] (linear_actuator) StdoutLine: {'line': b'writing dependency_links to ../../build/linear_actuator/linear_actuator.egg-info/dependency_links.txt\n'}
+[2.859089] (linear_actuator) StdoutLine: {'line': b'writing entry points to ../../build/linear_actuator/linear_actuator.egg-info/entry_points.txt\n'}
+[2.860735] (-) TimerEvent: {}
+[2.862115] (linear_actuator) StdoutLine: {'line': b'writing requirements to ../../build/linear_actuator/linear_actuator.egg-info/requires.txt\n'}
+[2.863562] (linear_actuator) StdoutLine: {'line': b'writing top-level names to ../../build/linear_actuator/linear_actuator.egg-info/top_level.txt\n'}
+[2.961740] (-) TimerEvent: {}
+[3.000084] (linear_actuator) StdoutLine: {'line': b"reading manifest file '../../build/linear_actuator/linear_actuator.egg-info/SOURCES.txt'\n"}
+[3.009307] (linear_actuator) StdoutLine: {'line': b"writing manifest file '../../build/linear_actuator/linear_actuator.egg-info/SOURCES.txt'\n"}
+[3.015016] (linear_actuator) StdoutLine: {'line': b'running build\n'}
+[3.017217] (linear_actuator) StdoutLine: {'line': b'running build_py\n'}
+[3.020570] (linear_actuator) StdoutLine: {'line': b'running install\n'}
+[3.023012] (fan_pcb) StdoutLine: {'line': b'running egg_info\n'}
+[3.025375] (fan_pcb) StdoutLine: {'line': b'writing ../../build/fan_pcb/fan_pcb.egg-info/PKG-INFO\n'}
+[3.025988] (fan_pcb) StdoutLine: {'line': b'writing dependency_links to ../../build/fan_pcb/fan_pcb.egg-info/dependency_links.txt\n'}
+[3.026221] (fan_pcb) StdoutLine: {'line': b'writing entry points to ../../build/fan_pcb/fan_pcb.egg-info/entry_points.txt\n'}
+[3.026476] (fan_pcb) StdoutLine: {'line': b'writing requirements to ../../build/fan_pcb/fan_pcb.egg-info/requires.txt\n'}
+[3.026789] (fan_pcb) StdoutLine: {'line': b'writing top-level names to ../../build/fan_pcb/fan_pcb.egg-info/top_level.txt\n'}
+[3.029527] (linear_actuator) StdoutLine: {'line': b'running install_lib\n'}
+[3.035036] (linear_actuator) StdoutLine: {'line': b'running install_data\n'}
+[3.037568] (linear_actuator) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.049698] (linear_actuator) StdoutLine: {'line': b"removing '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.051260] (linear_actuator) StdoutLine: {'line': b'Copying ../../build/linear_actuator/linear_actuator.egg-info to /home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info\n'}
+[3.055412] (linear_actuator) StdoutLine: {'line': b'running install_scripts\n'}
+[3.062021] (-) TimerEvent: {}
+[3.118881] (linear_actuator) StdoutLine: {'line': b'Installing controller script to /home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/install/linear_actuator/lib/linear_actuator\n'}
+[3.122224] (linear_actuator) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/build/linear_actuator/install.log'\n"}
+[3.149322] (fan_pcb) StdoutLine: {'line': b"reading manifest file '../../build/fan_pcb/fan_pcb.egg-info/SOURCES.txt'\n"}
+[3.152410] (fan_pcb) StdoutLine: {'line': b"writing manifest file '../../build/fan_pcb/fan_pcb.egg-info/SOURCES.txt'\n"}
+[3.153494] (fan_pcb) StdoutLine: {'line': b'running build\n'}
+[3.154363] (fan_pcb) StdoutLine: {'line': b'running build_py\n'}
+[3.154948] (fan_pcb) StdoutLine: {'line': b'running install\n'}
+[3.156550] (fan_pcb) StdoutLine: {'line': b'running install_lib\n'}
+[3.160599] (fan_pcb) StdoutLine: {'line': b'running install_data\n'}
+[3.163649] (-) TimerEvent: {}
+[3.164916] (fan_pcb) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.170019] (fan_pcb) StdoutLine: {'line': b"removing '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/install/fan_pcb/lib/python3.8/site-packages/fan_pcb-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.176055] (fan_pcb) StdoutLine: {'line': b'Copying ../../build/fan_pcb/fan_pcb.egg-info to /home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/install/fan_pcb/lib/python3.8/site-packages/fan_pcb-0.0.0-py3.8.egg-info\n'}
+[3.176446] (fan_pcb) StdoutLine: {'line': b'running install_scripts\n'}
+[3.218260] (linear_actuator) CommandEnded: {'returncode': 0}
+[3.250621] (fan_pcb) StdoutLine: {'line': b'Installing controller script to /home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/install/fan_pcb/lib/fan_pcb\n'}
+[3.251858] (fan_pcb) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/build/fan_pcb/install.log'\n"}
+[3.264733] (-) TimerEvent: {}
+[3.286944] (linear_actuator) JobEnded: {'identifier': 'linear_actuator', 'rc': 0}
+[3.289079] (power_supply) JobStarted: {'identifier': 'power_supply'}
+[3.365986] (-) TimerEvent: {}
+[3.467251] (-) TimerEvent: {}
+[3.569537] (-) TimerEvent: {}
+[3.671354] (-) TimerEvent: {}
+[3.785519] (-) TimerEvent: {}
+[3.886631] (-) TimerEvent: {}
+[3.987377] (-) TimerEvent: {}
+[4.066973] (fan_pcb) CommandEnded: {'returncode': 0}
+[4.087993] (-) TimerEvent: {}
+[4.090244] (fan_pcb) JobEnded: {'identifier': 'fan_pcb', 'rc': 0}
+[4.188825] (-) TimerEvent: {}
+[4.290161] (-) TimerEvent: {}
+[4.391268] (-) TimerEvent: {}
+[4.492109] (-) TimerEvent: {}
+[4.593570] (-) TimerEvent: {}
+[4.694978] (-) TimerEvent: {}
+[4.795362] (-) TimerEvent: {}
+[4.896683] (-) TimerEvent: {}
+[4.924231] (power_supply) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/power_supply', 'build', '--build-base', '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/build/power_supply/build', 'install', '--prefix', '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/install/power_supply', '--record', '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/build/power_supply/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/src/power_supply', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_AGENT_PID': '1639', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1466', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '8:60545', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1682,unix/ubuntu:/tmp/.ICE-unix/1682', 'INVOCATION_ID': '66c570a7a17241f28f41e11135a92c95', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/060bc574_d5e7_4a2c_9bbe_2e765629426d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.94', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/build/power_supply', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'VTE_VERSION': '6003', 'PYTHONPATH': '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/install/power_supply/lib/python3.8/site-packages:'}, 'shell': False}
+[4.997596] (-) TimerEvent: {}
+[5.099239] (-) TimerEvent: {}
+[5.200317] (-) TimerEvent: {}
+[5.232853] (power_supply) StdoutLine: {'line': b'running egg_info\n'}
+[5.234386] (power_supply) StdoutLine: {'line': b'writing ../../build/power_supply/power_supply.egg-info/PKG-INFO\n'}
+[5.235465] (power_supply) StdoutLine: {'line': b'writing dependency_links to ../../build/power_supply/power_supply.egg-info/dependency_links.txt\n'}
+[5.236188] (power_supply) StdoutLine: {'line': b'writing entry points to ../../build/power_supply/power_supply.egg-info/entry_points.txt\n'}
+[5.236912] (power_supply) StdoutLine: {'line': b'writing requirements to ../../build/power_supply/power_supply.egg-info/requires.txt\n'}
+[5.237509] (power_supply) StdoutLine: {'line': b'writing top-level names to ../../build/power_supply/power_supply.egg-info/top_level.txt\n'}
+[5.298514] (power_supply) StdoutLine: {'line': b"reading manifest file '../../build/power_supply/power_supply.egg-info/SOURCES.txt'\n"}
+[5.300519] (-) TimerEvent: {}
+[5.301039] (power_supply) StdoutLine: {'line': b"writing manifest file '../../build/power_supply/power_supply.egg-info/SOURCES.txt'\n"}
+[5.301576] (power_supply) StdoutLine: {'line': b'running build\n'}
+[5.301724] (power_supply) StdoutLine: {'line': b'running build_py\n'}
+[5.302290] (power_supply) StdoutLine: {'line': b'running install\n'}
+[5.304002] (power_supply) StdoutLine: {'line': b'running install_lib\n'}
+[5.307177] (power_supply) StdoutLine: {'line': b'running install_data\n'}
+[5.308205] (power_supply) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.310250] (power_supply) StdoutLine: {'line': b"removing '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[5.310893] (power_supply) StdoutLine: {'line': b'Copying ../../build/power_supply/power_supply.egg-info to /home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply-0.0.0-py3.8.egg-info\n'}
+[5.312937] (power_supply) StdoutLine: {'line': b'running install_scripts\n'}
+[5.336231] (power_supply) StdoutLine: {'line': b'Installing controller script to /home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/install/power_supply/lib/power_supply\n'}
+[5.338118] (power_supply) StdoutLine: {'line': b'Installing off script to /home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/install/power_supply/lib/power_supply\n'}
+[5.338379] (power_supply) StdoutLine: {'line': b'Installing tester script to /home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/install/power_supply/lib/power_supply\n'}
+[5.338579] (power_supply) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/build/power_supply/install.log'\n"}
+[5.387381] (power_supply) CommandEnded: {'returncode': 0}
+[5.400913] (-) TimerEvent: {}
+[5.402040] (power_supply) JobEnded: {'identifier': 'power_supply', 'rc': 0}
+[5.403335] (-) EventReactorShutdown: {}

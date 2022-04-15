@@ -1,0 +1,4 @@
+CMake Error: The current CMakeCache.txt directory /home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/MoreROS/dev_ws/build/bed_messages/CMakeCache.txt is different than the directory /home/ubuntu/dev_ws/build/bed_messages where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source directory "/home/ubuntu/dev_ws/src/bed_messages" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.
+make: *** [Makefile:748: cmake_check_build_system] Error 1

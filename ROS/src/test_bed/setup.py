@@ -20,8 +20,13 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-        	'FanNode = test_bed.FanNode:main',
-        	'ActuatorNode = test_bed.ActuatorNode:main'
+			'FanNode = test_bed.FanNode:main',
+			'ActuatorNode = test_bed.ActuatorNode:main',
+			'controllerActuator = test_bed.linear_actuator_controller:main',
+			'controllerPowerSupply = test_bed.power_supply_controller:main',
+			'tester = test_bed.power_supply_tester:main',
+			'off = test_bed.power_supply_off:main',
+			'controllerFans = test_bed.fan_controller:main',
         ],
     },
 )

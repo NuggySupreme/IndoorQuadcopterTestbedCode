@@ -1,0 +1,6 @@
+[0.061s] Invoking command in '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/MoreROS/dev_ws/build/bed_messages': /usr/bin/cmake --build /home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/MoreROS/dev_ws/build/bed_messages -- -j2 -l2
+[0.080s] CMake Error: The current CMakeCache.txt directory /home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/MoreROS/dev_ws/build/bed_messages/CMakeCache.txt is different than the directory /home/ubuntu/dev_ws/build/bed_messages where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.105s] CMake Error: The source directory "/home/ubuntu/dev_ws/src/bed_messages" does not exist.
+[0.105s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.108s] make: *** [Makefile:748: cmake_check_build_system] Error 1
+[0.411s] Invoked command in '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/MoreROS/dev_ws/build/bed_messages' returned '2': /usr/bin/cmake --build /home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/MoreROS/dev_ws/build/bed_messages -- -j2 -l2

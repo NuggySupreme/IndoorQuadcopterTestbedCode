@@ -1,0 +1,21 @@
+[2.329s] Invoking command in '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/src/linear_actuator': PYTHONPATH=/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/install/linear_actuator/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/linear_actuator build --build-base /home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/build/linear_actuator/build install --prefix /home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/install/linear_actuator --record /home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/build/linear_actuator/install.log --single-version-externally-managed
+[2.831s] running egg_info
+[2.833s] writing ../../build/linear_actuator/linear_actuator.egg-info/PKG-INFO
+[2.835s] writing dependency_links to ../../build/linear_actuator/linear_actuator.egg-info/dependency_links.txt
+[2.838s] writing entry points to ../../build/linear_actuator/linear_actuator.egg-info/entry_points.txt
+[2.840s] writing requirements to ../../build/linear_actuator/linear_actuator.egg-info/requires.txt
+[2.841s] writing top-level names to ../../build/linear_actuator/linear_actuator.egg-info/top_level.txt
+[2.978s] reading manifest file '../../build/linear_actuator/linear_actuator.egg-info/SOURCES.txt'
+[2.987s] writing manifest file '../../build/linear_actuator/linear_actuator.egg-info/SOURCES.txt'
+[2.994s] running build
+[2.997s] running build_py
+[3.000s] running install
+[3.007s] running install_lib
+[3.013s] running install_data
+[3.017s] running install_egg_info
+[3.028s] removing '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info' (and everything under it)
+[3.029s] Copying ../../build/linear_actuator/linear_actuator.egg-info to /home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info
+[3.033s] running install_scripts
+[3.097s] Installing controller script to /home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/install/linear_actuator/lib/linear_actuator
+[3.101s] writing list of installed files to '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/build/linear_actuator/install.log'
+[3.199s] Invoked command in '/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/src/linear_actuator' returned '0': PYTHONPATH=/home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/install/linear_actuator/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/linear_actuator build --build-base /home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/build/linear_actuator/build install --prefix /home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/install/linear_actuator --record /home/ubuntu/Documents/github/IndoorQuadcopterTestbedCode/dev_ws/build/linear_actuator/install.log --single-version-externally-managed
