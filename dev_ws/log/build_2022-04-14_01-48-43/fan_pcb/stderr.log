@@ -1,0 +1,5 @@
+  File "/home/ubuntu/dev_ws/install/fan_pcb/lib/python3.8/site-packages/fan_pcb/fan_controller.py", line 16
+    fcontroller = FanController(1https://github.com/NuggySupreme/IndoorQuadcopterTestbedCode)
+                                 ^
+SyntaxError: invalid syntax
+

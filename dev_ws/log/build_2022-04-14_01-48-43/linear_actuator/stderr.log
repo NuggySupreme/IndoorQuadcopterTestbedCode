@@ -1,0 +1,5 @@
+  File "/home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator/linear_actuator_controller.py", line 37
+    self.rotated_coords[0] =
+                            ^
+SyntaxError: invalid syntax
+

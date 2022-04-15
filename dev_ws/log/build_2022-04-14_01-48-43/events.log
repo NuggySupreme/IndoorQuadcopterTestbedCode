@@ -1,0 +1,636 @@
+[0.000000] (-) TimerEvent: {}
+[0.000992] (bed_messages) JobQueued: {'identifier': 'bed_messages', 'dependencies': OrderedDict()}
+[0.001306] (fan_pcb) JobQueued: {'identifier': 'fan_pcb', 'dependencies': OrderedDict()}
+[0.002157] (linear_actuator) JobQueued: {'identifier': 'linear_actuator', 'dependencies': OrderedDict()}
+[0.002695] (power_supply) JobQueued: {'identifier': 'power_supply', 'dependencies': OrderedDict([('bed_messages', '/home/ubuntu/dev_ws/install/bed_messages')])}
+[0.003854] (bed_messages) JobStarted: {'identifier': 'bed_messages'}
+[0.053858] (fan_pcb) JobStarted: {'identifier': 'fan_pcb'}
+[0.091698] (linear_actuator) JobStarted: {'identifier': 'linear_actuator'}
+[0.098993] (-) TimerEvent: {}
+[0.133164] (bed_messages) JobProgress: {'identifier': 'bed_messages', 'progress': 'cmake'}
+[0.134157] (bed_messages) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/dev_ws/src/bed_messages', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/dev_ws/install/bed_messages'], 'cwd': '/home/ubuntu/dev_ws/build/bed_messages', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/dev_ws/build/bed_messages'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.199345] (-) TimerEvent: {}
+[0.300515] (-) TimerEvent: {}
+[0.401221] (-) TimerEvent: {}
+[0.501932] (-) TimerEvent: {}
+[0.602612] (-) TimerEvent: {}
+[0.703361] (-) TimerEvent: {}
+[0.804084] (-) TimerEvent: {}
+[0.904801] (-) TimerEvent: {}
+[1.005528] (-) TimerEvent: {}
+[1.106275] (-) TimerEvent: {}
+[1.207209] (-) TimerEvent: {}
+[1.280282] (bed_messages) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.307486] (-) TimerEvent: {}
+[1.408508] (-) TimerEvent: {}
+[1.509329] (-) TimerEvent: {}
+[1.610087] (-) TimerEvent: {}
+[1.710796] (-) TimerEvent: {}
+[1.811502] (-) TimerEvent: {}
+[1.912295] (-) TimerEvent: {}
+[2.013259] (-) TimerEvent: {}
+[2.067913] (bed_messages) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[2.100822] (bed_messages) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.113400] (-) TimerEvent: {}
+[2.214164] (-) TimerEvent: {}
+[2.315165] (-) TimerEvent: {}
+[2.417202] (-) TimerEvent: {}
+[2.450386] (bed_messages) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.456861] (bed_messages) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.517135] (-) TimerEvent: {}
+[2.618707] (-) TimerEvent: {}
+[2.722465] (-) TimerEvent: {}
+[2.804522] (bed_messages) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.822613] (-) TimerEvent: {}
+[2.851182] (bed_messages) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.853704] (bed_messages) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.868841] (bed_messages) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.922848] (-) TimerEvent: {}
+[3.023744] (-) TimerEvent: {}
+[3.126728] (-) TimerEvent: {}
+[3.226980] (bed_messages) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.227624] (-) TimerEvent: {}
+[3.231634] (bed_messages) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.327839] (-) TimerEvent: {}
+[3.430117] (-) TimerEvent: {}
+[3.532298] (-) TimerEvent: {}
+[3.599781] (bed_messages) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.632571] (-) TimerEvent: {}
+[3.647271] (bed_messages) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.650568] (bed_messages) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.695914] (bed_messages) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[3.732755] (-) TimerEvent: {}
+[3.834598] (-) TimerEvent: {}
+[3.889497] (bed_messages) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.890729] (bed_messages) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.934784] (-) TimerEvent: {}
+[4.035702] (-) TimerEvent: {}
+[4.136538] (-) TimerEvent: {}
+[4.237273] (-) TimerEvent: {}
+[4.338878] (-) TimerEvent: {}
+[4.439692] (-) TimerEvent: {}
+[4.540541] (-) TimerEvent: {}
+[4.641261] (-) TimerEvent: {}
+[4.741976] (-) TimerEvent: {}
+[4.842690] (-) TimerEvent: {}
+[4.943479] (-) TimerEvent: {}
+[5.044608] (-) TimerEvent: {}
+[5.148556] (-) TimerEvent: {}
+[5.251912] (-) TimerEvent: {}
+[5.260813] (linear_actuator) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/linear_actuator', 'build', '--build-base', '/home/ubuntu/dev_ws/build/linear_actuator/build', 'install', '--prefix', '/home/ubuntu/dev_ws/install/linear_actuator', '--record', '/home/ubuntu/dev_ws/build/linear_actuator/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/dev_ws/src/linear_actuator', 'env': {'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'SUDO_UID': '1000', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'SUDO_USER': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/dev_ws/build/linear_actuator', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[5.268730] (fan_pcb) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/fan_pcb', 'build', '--build-base', '/home/ubuntu/dev_ws/build/fan_pcb/build', 'install', '--prefix', '/home/ubuntu/dev_ws/install/fan_pcb', '--record', '/home/ubuntu/dev_ws/build/fan_pcb/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/dev_ws/src/fan_pcb', 'env': {'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'SUDO_UID': '1000', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'SUDO_USER': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/dev_ws/build/fan_pcb', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/home/ubuntu/dev_ws/install/fan_pcb/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[5.323668] (bed_messages) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[5.352176] (-) TimerEvent: {}
+[5.359795] (bed_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.436154] (bed_messages) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[5.452239] (-) TimerEvent: {}
+[5.553964] (-) TimerEvent: {}
+[5.655472] (-) TimerEvent: {}
+[5.757049] (-) TimerEvent: {}
+[5.858411] (-) TimerEvent: {}
+[5.960023] (-) TimerEvent: {}
+[6.061167] (-) TimerEvent: {}
+[6.162049] (-) TimerEvent: {}
+[6.263788] (-) TimerEvent: {}
+[6.363355] (linear_actuator) StdoutLine: {'line': b'running egg_info\n'}
+[6.364622] (-) TimerEvent: {}
+[6.366350] (linear_actuator) StdoutLine: {'line': b'creating ../../build/linear_actuator/linear_actuator.egg-info\n'}
+[6.367314] (linear_actuator) StdoutLine: {'line': b'writing ../../build/linear_actuator/linear_actuator.egg-info/PKG-INFO\n'}
+[6.368633] (linear_actuator) StdoutLine: {'line': b'writing dependency_links to ../../build/linear_actuator/linear_actuator.egg-info/dependency_links.txt\n'}
+[6.369681] (linear_actuator) StdoutLine: {'line': b'writing entry points to ../../build/linear_actuator/linear_actuator.egg-info/entry_points.txt\n'}
+[6.370677] (linear_actuator) StdoutLine: {'line': b'writing requirements to ../../build/linear_actuator/linear_actuator.egg-info/requires.txt\n'}
+[6.371247] (linear_actuator) StdoutLine: {'line': b'writing top-level names to ../../build/linear_actuator/linear_actuator.egg-info/top_level.txt\n'}
+[6.377617] (fan_pcb) StdoutLine: {'line': b'running egg_info\n'}
+[6.380215] (fan_pcb) StdoutLine: {'line': b'creating ../../build/fan_pcb/fan_pcb.egg-info\n'}
+[6.381092] (fan_pcb) StdoutLine: {'line': b'writing ../../build/fan_pcb/fan_pcb.egg-info/PKG-INFO\n'}
+[6.382146] (fan_pcb) StdoutLine: {'line': b'writing dependency_links to ../../build/fan_pcb/fan_pcb.egg-info/dependency_links.txt\n'}
+[6.383072] (fan_pcb) StdoutLine: {'line': b'writing entry points to ../../build/fan_pcb/fan_pcb.egg-info/entry_points.txt\n'}
+[6.384585] (fan_pcb) StdoutLine: {'line': b'writing requirements to ../../build/fan_pcb/fan_pcb.egg-info/requires.txt\n'}
+[6.385233] (fan_pcb) StdoutLine: {'line': b'writing top-level names to ../../build/fan_pcb/fan_pcb.egg-info/top_level.txt\n'}
+[6.386045] (linear_actuator) StdoutLine: {'line': b"writing manifest file '../../build/linear_actuator/linear_actuator.egg-info/SOURCES.txt'\n"}
+[6.391674] (fan_pcb) StdoutLine: {'line': b"writing manifest file '../../build/fan_pcb/fan_pcb.egg-info/SOURCES.txt'\n"}
+[6.429636] (bed_messages) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[6.464783] (-) TimerEvent: {}
+[6.538930] (linear_actuator) StdoutLine: {'line': b"reading manifest file '../../build/linear_actuator/linear_actuator.egg-info/SOURCES.txt'\n"}
+[6.542850] (linear_actuator) StdoutLine: {'line': b"writing manifest file '../../build/linear_actuator/linear_actuator.egg-info/SOURCES.txt'\n"}
+[6.543722] (linear_actuator) StdoutLine: {'line': b'running build\n'}
+[6.544946] (linear_actuator) StdoutLine: {'line': b'running build_py\n'}
+[6.545873] (linear_actuator) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/build/linear_actuator/build\n'}
+[6.546664] (linear_actuator) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/build/linear_actuator/build/lib\n'}
+[6.547502] (linear_actuator) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/build/linear_actuator/build/lib/linear_actuator\n'}
+[6.548057] (linear_actuator) StdoutLine: {'line': b'copying linear_actuator/linear_actuator_controller.py -> /home/ubuntu/dev_ws/build/linear_actuator/build/lib/linear_actuator\n'}
+[6.548666] (fan_pcb) StdoutLine: {'line': b"reading manifest file '../../build/fan_pcb/fan_pcb.egg-info/SOURCES.txt'\n"}
+[6.549621] (linear_actuator) StdoutLine: {'line': b'copying linear_actuator/__init__.py -> /home/ubuntu/dev_ws/build/linear_actuator/build/lib/linear_actuator\n'}
+[6.550843] (linear_actuator) StdoutLine: {'line': b'running install\n'}
+[6.551947] (fan_pcb) StdoutLine: {'line': b"writing manifest file '../../build/fan_pcb/fan_pcb.egg-info/SOURCES.txt'\n"}
+[6.552873] (fan_pcb) StdoutLine: {'line': b'running build\n'}
+[6.553519] (fan_pcb) StdoutLine: {'line': b'running build_py\n'}
+[6.554266] (linear_actuator) StdoutLine: {'line': b'running install_lib\n'}
+[6.554893] (fan_pcb) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/build/fan_pcb/build\n'}
+[6.555930] (fan_pcb) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/build/fan_pcb/build/lib\n'}
+[6.556735] (fan_pcb) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/build/fan_pcb/build/lib/fan_pcb\n'}
+[6.557418] (fan_pcb) StdoutLine: {'line': b'copying fan_pcb/__init__.py -> /home/ubuntu/dev_ws/build/fan_pcb/build/lib/fan_pcb\n'}
+[6.557922] (fan_pcb) StdoutLine: {'line': b'copying fan_pcb/fan_controller.py -> /home/ubuntu/dev_ws/build/fan_pcb/build/lib/fan_pcb\n'}
+[6.558431] (fan_pcb) StdoutLine: {'line': b'running install\n'}
+[6.559028] (linear_actuator) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator\n'}
+[6.559752] (linear_actuator) StdoutLine: {'line': b'copying /home/ubuntu/dev_ws/build/linear_actuator/build/lib/linear_actuator/linear_actuator_controller.py -> /home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator\n'}
+[6.560691] (linear_actuator) StdoutLine: {'line': b'copying /home/ubuntu/dev_ws/build/linear_actuator/build/lib/linear_actuator/__init__.py -> /home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator\n'}
+[6.561443] (fan_pcb) StdoutLine: {'line': b'running install_lib\n'}
+[6.562279] (linear_actuator) StdoutLine: {'line': b'byte-compiling /home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator/linear_actuator_controller.py to linear_actuator_controller.cpython-38.pyc\n'}
+[6.562803] (fan_pcb) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/install/fan_pcb/lib/python3.8/site-packages/fan_pcb\n'}
+[6.563402] (fan_pcb) StdoutLine: {'line': b'copying /home/ubuntu/dev_ws/build/fan_pcb/build/lib/fan_pcb/__init__.py -> /home/ubuntu/dev_ws/install/fan_pcb/lib/python3.8/site-packages/fan_pcb\n'}
+[6.563907] (fan_pcb) StdoutLine: {'line': b'copying /home/ubuntu/dev_ws/build/fan_pcb/build/lib/fan_pcb/fan_controller.py -> /home/ubuntu/dev_ws/install/fan_pcb/lib/python3.8/site-packages/fan_pcb\n'}
+[6.564798] (-) TimerEvent: {}
+[6.566863] (linear_actuator) StderrLine: {'line': b'  File "/home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator/linear_actuator_controller.py", line 37\n'}
+[6.568209] (linear_actuator) StderrLine: {'line': b'    self.rotated_coords[0] =\n'}
+[6.569311] (linear_actuator) StderrLine: {'line': b'                            ^\n'}
+[6.569934] (linear_actuator) StderrLine: {'line': b'SyntaxError: invalid syntax\n'}
+[6.570999] (linear_actuator) StderrLine: {'line': b'\n'}
+[6.571643] (linear_actuator) StdoutLine: {'line': b'byte-compiling /home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator/__init__.py to __init__.cpython-38.pyc\n'}
+[6.572560] (fan_pcb) StdoutLine: {'line': b'byte-compiling /home/ubuntu/dev_ws/install/fan_pcb/lib/python3.8/site-packages/fan_pcb/__init__.py to __init__.cpython-38.pyc\n'}
+[6.573130] (linear_actuator) StdoutLine: {'line': b'running install_data\n'}
+[6.573659] (linear_actuator) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/install/linear_actuator/share/ament_index\n'}
+[6.574956] (linear_actuator) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/install/linear_actuator/share/ament_index/resource_index\n'}
+[6.575763] (linear_actuator) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/install/linear_actuator/share/ament_index/resource_index/packages\n'}
+[6.576606] (linear_actuator) StdoutLine: {'line': b'copying resource/linear_actuator -> /home/ubuntu/dev_ws/install/linear_actuator/share/ament_index/resource_index/packages\n'}
+[6.577456] (linear_actuator) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/dev_ws/install/linear_actuator/share/linear_actuator\n'}
+[6.578066] (linear_actuator) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.578756] (fan_pcb) StdoutLine: {'line': b'byte-compiling /home/ubuntu/dev_ws/install/fan_pcb/lib/python3.8/site-packages/fan_pcb/fan_controller.py to fan_controller.cpython-38.pyc\n'}
+[6.579270] (fan_pcb) StderrLine: {'line': b'  File "/home/ubuntu/dev_ws/install/fan_pcb/lib/python3.8/site-packages/fan_pcb/fan_controller.py", line 16\n'}
+[6.579786] (fan_pcb) StderrLine: {'line': b'    fcontroller = FanController(1https://github.com/NuggySupreme/IndoorQuadcopterTestbedCode)\n'}
+[6.580316] (fan_pcb) StderrLine: {'line': b'                                 ^\n'}
+[6.581088] (fan_pcb) StderrLine: {'line': b'SyntaxError: invalid syntax\n'}
+[6.581615] (fan_pcb) StderrLine: {'line': b'\n'}
+[6.582114] (fan_pcb) StdoutLine: {'line': b'running install_data\n'}
+[6.582742] (fan_pcb) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/install/fan_pcb/share/ament_index\n'}
+[6.583282] (fan_pcb) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/install/fan_pcb/share/ament_index/resource_index\n'}
+[6.583747] (fan_pcb) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/install/fan_pcb/share/ament_index/resource_index/packages\n'}
+[6.584789] (fan_pcb) StdoutLine: {'line': b'copying resource/fan_pcb -> /home/ubuntu/dev_ws/install/fan_pcb/share/ament_index/resource_index/packages\n'}
+[6.585290] (fan_pcb) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/dev_ws/install/fan_pcb/share/fan_pcb\n'}
+[6.586036] (fan_pcb) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.586540] (linear_actuator) StdoutLine: {'line': b'Copying ../../build/linear_actuator/linear_actuator.egg-info to /home/ubuntu/dev_ws/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info\n'}
+[6.587073] (fan_pcb) StdoutLine: {'line': b'Copying ../../build/fan_pcb/fan_pcb.egg-info to /home/ubuntu/dev_ws/install/fan_pcb/lib/python3.8/site-packages/fan_pcb-0.0.0-py3.8.egg-info\n'}
+[6.587603] (linear_actuator) StdoutLine: {'line': b'running install_scripts\n'}
+[6.590898] (fan_pcb) StdoutLine: {'line': b'running install_scripts\n'}
+[6.664977] (-) TimerEvent: {}
+[6.666555] (linear_actuator) StdoutLine: {'line': b'Installing controller script to /home/ubuntu/dev_ws/install/linear_actuator/lib/linear_actuator\n'}
+[6.667918] (linear_actuator) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/dev_ws/build/linear_actuator/install.log'\n"}
+[6.673875] (fan_pcb) StdoutLine: {'line': b'Installing controller script to /home/ubuntu/dev_ws/install/fan_pcb/lib/fan_pcb\n'}
+[6.676640] (fan_pcb) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/dev_ws/build/fan_pcb/install.log'\n"}
+[6.728828] (bed_messages) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[6.765320] (-) TimerEvent: {}
+[6.819242] (linear_actuator) CommandEnded: {'returncode': 0}
+[6.866658] (-) TimerEvent: {}
+[6.896619] (linear_actuator) JobEnded: {'identifier': 'linear_actuator', 'rc': 0}
+[6.903865] (fan_pcb) CommandEnded: {'returncode': 0}
+[6.928921] (fan_pcb) JobEnded: {'identifier': 'fan_pcb', 'rc': 0}
+[6.966828] (-) TimerEvent: {}
+[7.067541] (-) TimerEvent: {}
+[7.168213] (-) TimerEvent: {}
+[7.268929] (-) TimerEvent: {}
+[7.369608] (-) TimerEvent: {}
+[7.465597] (bed_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.469699] (-) TimerEvent: {}
+[7.570290] (-) TimerEvent: {}
+[7.671010] (-) TimerEvent: {}
+[7.728305] (bed_messages) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[7.771181] (-) TimerEvent: {}
+[7.871772] (-) TimerEvent: {}
+[7.972537] (-) TimerEvent: {}
+[8.073486] (-) TimerEvent: {}
+[8.174219] (-) TimerEvent: {}
+[8.262832] (bed_messages) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[8.274354] (-) TimerEvent: {}
+[8.374975] (-) TimerEvent: {}
+[8.475620] (-) TimerEvent: {}
+[8.576291] (-) TimerEvent: {}
+[8.676965] (-) TimerEvent: {}
+[8.777685] (-) TimerEvent: {}
+[8.878397] (-) TimerEvent: {}
+[8.979162] (-) TimerEvent: {}
+[9.079968] (-) TimerEvent: {}
+[9.180815] (-) TimerEvent: {}
+[9.238479] (bed_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.277625] (bed_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.280941] (-) TimerEvent: {}
+[9.379319] (bed_messages) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[9.381040] (-) TimerEvent: {}
+[9.397992] (bed_messages) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[9.481286] (-) TimerEvent: {}
+[9.523824] (bed_messages) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[9.524916] (bed_messages) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.525562] (bed_messages) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[9.526119] (bed_messages) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[9.581417] (-) TimerEvent: {}
+[9.622005] (bed_messages) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[9.681554] (-) TimerEvent: {}
+[9.782180] (-) TimerEvent: {}
+[9.812638] (bed_messages) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[9.882410] (-) TimerEvent: {}
+[9.983082] (-) TimerEvent: {}
+[10.044600] (bed_messages) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[10.057903] (bed_messages) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.065311] (bed_messages) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.083243] (-) TimerEvent: {}
+[10.102187] (bed_messages) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.183420] (-) TimerEvent: {}
+[10.251935] (bed_messages) StdoutLine: {'line': b'-- Generating done\n'}
+[10.264541] (bed_messages) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/dev_ws/build/bed_messages\n'}
+[10.283776] (-) TimerEvent: {}
+[10.296630] (bed_messages) CommandEnded: {'returncode': 0}
+[10.298516] (bed_messages) JobProgress: {'identifier': 'bed_messages', 'progress': 'build'}
+[10.301273] (bed_messages) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/dev_ws/build/bed_messages', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/dev_ws/build/bed_messages', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/dev_ws/build/bed_messages'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[10.384029] (-) TimerEvent: {}
+[10.481077] (bed_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bed_messages__cpp\x1b[0m\n'}
+[10.481910] (bed_messages) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[10.484251] (-) TimerEvent: {}
+[10.525932] (bed_messages) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[10.584504] (-) TimerEvent: {}
+[10.685390] (-) TimerEvent: {}
+[10.786337] (-) TimerEvent: {}
+[10.887002] (-) TimerEvent: {}
+[10.987778] (-) TimerEvent: {}
+[11.088814] (-) TimerEvent: {}
+[11.189537] (-) TimerEvent: {}
+[11.290291] (-) TimerEvent: {}
+[11.390969] (-) TimerEvent: {}
+[11.491915] (-) TimerEvent: {}
+[11.592027] (bed_messages) StdoutLine: {'line': b'[  6%] Built target bed_messages__cpp\n'}
+[11.593002] (-) TimerEvent: {}
+[11.640920] (bed_messages) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[11.642184] (bed_messages) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[11.644296] (bed_messages) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[11.657989] (bed_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bed_messages__rosidl_generator_c\x1b[0m\n'}
+[11.693233] (-) TimerEvent: {}
+[11.728218] (bed_messages) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/bed_messages__rosidl_generator_c.dir/rosidl_generator_c/bed_messages/msg/detail/ps_control__functions.c.o\x1b[0m\n'}
+[11.793463] (-) TimerEvent: {}
+[11.894697] (-) TimerEvent: {}
+[11.995648] (-) TimerEvent: {}
+[12.025371] (bed_messages) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libbed_messages__rosidl_generator_c.so\x1b[0m\n'}
+[12.096257] (-) TimerEvent: {}
+[12.198338] (-) TimerEvent: {}
+[12.212955] (bed_messages) StdoutLine: {'line': b'[ 22%] Built target bed_messages__rosidl_generator_c\n'}
+[12.269513] (bed_messages) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.298539] (-) TimerEvent: {}
+[12.399432] (-) TimerEvent: {}
+[12.500303] (-) TimerEvent: {}
+[12.601109] (-) TimerEvent: {}
+[12.702186] (-) TimerEvent: {}
+[12.803946] (-) TimerEvent: {}
+[12.839401] (bed_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bed_messages__rosidl_typesupport_cpp\x1b[0m\n'}
+[12.869263] (bed_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bed_messages__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[12.904134] (-) TimerEvent: {}
+[12.916550] (bed_messages) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/bed_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bed_messages/msg/ps_control__type_support.cpp.o\x1b[0m\n'}
+[12.920140] (bed_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bed_messages__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[12.946383] (bed_messages) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/bed_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bed_messages/msg/detail/ps_control__type_support.cpp.o\x1b[0m\n'}
+[13.004341] (-) TimerEvent: {}
+[13.021480] (bed_messages) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/bed_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bed_messages/msg/detail/dds_fastrtps/ps_control__type_support.cpp.o\x1b[0m\n'}
+[13.104589] (-) TimerEvent: {}
+[13.205393] (-) TimerEvent: {}
+[13.306292] (-) TimerEvent: {}
+[13.371945] (bed_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bed_messages__rosidl_typesupport_c\x1b[0m\n'}
+[13.406571] (-) TimerEvent: {}
+[13.443306] (bed_messages) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/bed_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/bed_messages/msg/ps_control__type_support.cpp.o\x1b[0m\n'}
+[13.506769] (-) TimerEvent: {}
+[13.607775] (-) TimerEvent: {}
+[13.612758] (bed_messages) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libbed_messages__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.708054] (-) TimerEvent: {}
+[13.805671] (bed_messages) StdoutLine: {'line': b'[ 41%] Built target bed_messages__rosidl_typesupport_c\n'}
+[13.808290] (-) TimerEvent: {}
+[13.863230] (bed_messages) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[13.908583] (-) TimerEvent: {}
+[14.009599] (-) TimerEvent: {}
+[14.110655] (-) TimerEvent: {}
+[14.211740] (-) TimerEvent: {}
+[14.312803] (-) TimerEvent: {}
+[14.414014] (-) TimerEvent: {}
+[14.515133] (-) TimerEvent: {}
+[14.616283] (-) TimerEvent: {}
+[14.717371] (-) TimerEvent: {}
+[14.805951] (bed_messages) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libbed_messages__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[14.817647] (-) TimerEvent: {}
+[14.819585] (bed_messages) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libbed_messages__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[14.917994] (-) TimerEvent: {}
+[15.002266] (bed_messages) StdoutLine: {'line': b'[ 51%] Built target bed_messages__rosidl_typesupport_cpp\n'}
+[15.009421] (bed_messages) StdoutLine: {'line': b'[ 51%] Built target bed_messages__rosidl_typesupport_introspection_cpp\n'}
+[15.018359] (-) TimerEvent: {}
+[15.119798] (-) TimerEvent: {}
+[15.158767] (bed_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bed_messages__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[15.213471] (bed_messages) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/bed_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bed_messages/msg/detail/ps_control__type_support.c.o\x1b[0m\n'}
+[15.219998] (-) TimerEvent: {}
+[15.321004] (-) TimerEvent: {}
+[15.365668] (bed_messages) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libbed_messages__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[15.421169] (-) TimerEvent: {}
+[15.488013] (bed_messages) StdoutLine: {'line': b'[ 58%] Built target bed_messages__rosidl_typesupport_introspection_c\n'}
+[15.521384] (-) TimerEvent: {}
+[15.588395] (bed_messages) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libbed_messages__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[15.621556] (-) TimerEvent: {}
+[15.722263] (-) TimerEvent: {}
+[15.823064] (-) TimerEvent: {}
+[15.924005] (-) TimerEvent: {}
+[16.019448] (bed_messages) StdoutLine: {'line': b'[ 61%] Built target bed_messages__rosidl_typesupport_fastrtps_cpp\n'}
+[16.024182] (-) TimerEvent: {}
+[16.062599] (bed_messages) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[16.124360] (-) TimerEvent: {}
+[16.225308] (-) TimerEvent: {}
+[16.326311] (-) TimerEvent: {}
+[16.427040] (-) TimerEvent: {}
+[16.527745] (-) TimerEvent: {}
+[16.628491] (-) TimerEvent: {}
+[16.729195] (-) TimerEvent: {}
+[16.829819] (-) TimerEvent: {}
+[16.930543] (-) TimerEvent: {}
+[17.013627] (bed_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bed_messages__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[17.030680] (-) TimerEvent: {}
+[17.075063] (bed_messages) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/bed_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bed_messages/msg/detail/ps_control__type_support_c.cpp.o\x1b[0m\n'}
+[17.130866] (-) TimerEvent: {}
+[17.231584] (-) TimerEvent: {}
+[17.332341] (-) TimerEvent: {}
+[17.433075] (-) TimerEvent: {}
+[17.533817] (-) TimerEvent: {}
+[17.634510] (-) TimerEvent: {}
+[17.735224] (-) TimerEvent: {}
+[17.835961] (-) TimerEvent: {}
+[17.936736] (-) TimerEvent: {}
+[18.037472] (-) TimerEvent: {}
+[18.138176] (-) TimerEvent: {}
+[18.239011] (-) TimerEvent: {}
+[18.339841] (-) TimerEvent: {}
+[18.440549] (-) TimerEvent: {}
+[18.541415] (-) TimerEvent: {}
+[18.588365] (bed_messages) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libbed_messages__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[18.641568] (-) TimerEvent: {}
+[18.742537] (-) TimerEvent: {}
+[18.843856] (-) TimerEvent: {}
+[18.945181] (-) TimerEvent: {}
+[18.950744] (bed_messages) StdoutLine: {'line': b'[ 70%] Built target bed_messages__rosidl_typesupport_fastrtps_c\n'}
+[18.993567] (bed_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bed_messages\x1b[0m\n'}
+[19.035583] (bed_messages) StdoutLine: {'line': b'[ 70%] Built target bed_messages\n'}
+[19.045373] (-) TimerEvent: {}
+[19.078792] (bed_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bed_messages__py\x1b[0m\n'}
+[19.125955] (bed_messages) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[19.145572] (-) TimerEvent: {}
+[19.246435] (-) TimerEvent: {}
+[19.347125] (-) TimerEvent: {}
+[19.447763] (-) TimerEvent: {}
+[19.548453] (-) TimerEvent: {}
+[19.649129] (-) TimerEvent: {}
+[19.749809] (-) TimerEvent: {}
+[19.850503] (-) TimerEvent: {}
+[19.951307] (-) TimerEvent: {}
+[20.052025] (-) TimerEvent: {}
+[20.152844] (-) TimerEvent: {}
+[20.253636] (-) TimerEvent: {}
+[20.354472] (-) TimerEvent: {}
+[20.455346] (-) TimerEvent: {}
+[20.556159] (-) TimerEvent: {}
+[20.656810] (-) TimerEvent: {}
+[20.757461] (-) TimerEvent: {}
+[20.858059] (-) TimerEvent: {}
+[20.958800] (-) TimerEvent: {}
+[21.060017] (-) TimerEvent: {}
+[21.137473] (bed_messages) StdoutLine: {'line': b'[ 74%] Built target bed_messages__py\n'}
+[21.160222] (-) TimerEvent: {}
+[21.184296] (bed_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bed_messages__python\x1b[0m\n'}
+[21.260449] (-) TimerEvent: {}
+[21.339321] (bed_messages) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/bed_messages__python.dir/rosidl_generator_py/bed_messages/msg/_ps_control_s.c.o\x1b[0m\n'}
+[21.360598] (-) TimerEvent: {}
+[21.461303] (-) TimerEvent: {}
+[21.562017] (-) TimerEvent: {}
+[21.662714] (-) TimerEvent: {}
+[21.763442] (-) TimerEvent: {}
+[21.804121] (bed_messages) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/bed_messages/libbed_messages__python.so\x1b[0m\n'}
+[21.863699] (-) TimerEvent: {}
+[21.964673] (-) TimerEvent: {}
+[21.972917] (bed_messages) StdoutLine: {'line': b'[ 80%] Built target bed_messages__python\n'}
+[22.019193] (bed_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bed_messages__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[22.020014] (bed_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bed_messages__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[22.020970] (bed_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bed_messages__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[22.064865] (-) TimerEvent: {}
+[22.099383] (bed_messages) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/bed_messages__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/bed_messages/_bed_messages_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[22.122641] (bed_messages) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/bed_messages__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/bed_messages/_bed_messages_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[22.133198] (bed_messages) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/bed_messages__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/bed_messages/_bed_messages_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[22.165204] (-) TimerEvent: {}
+[22.266998] (-) TimerEvent: {}
+[22.368575] (-) TimerEvent: {}
+[22.470411] (-) TimerEvent: {}
+[22.527135] (bed_messages) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/bed_messages/bed_messages_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[22.535519] (bed_messages) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/bed_messages/bed_messages_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[22.570572] (-) TimerEvent: {}
+[22.574140] (bed_messages) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/bed_messages/bed_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[22.670990] (-) TimerEvent: {}
+[22.714654] (bed_messages) StdoutLine: {'line': b'[100%] Built target bed_messages__rosidl_typesupport_introspection_c__pyext\n'}
+[22.719450] (bed_messages) StdoutLine: {'line': b'[100%] Built target bed_messages__rosidl_typesupport_c__pyext\n'}
+[22.771195] (-) TimerEvent: {}
+[22.862819] (bed_messages) StdoutLine: {'line': b'[100%] Built target bed_messages__rosidl_typesupport_fastrtps_c__pyext\n'}
+[22.871368] (-) TimerEvent: {}
+[22.905734] (bed_messages) CommandEnded: {'returncode': 0}
+[22.971666] (-) TimerEvent: {}
+[23.073302] (-) TimerEvent: {}
+[23.174201] (-) TimerEvent: {}
+[23.178795] (bed_messages) JobProgress: {'identifier': 'bed_messages', 'progress': 'install'}
+[23.221560] (bed_messages) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/dev_ws/build/bed_messages'], 'cwd': '/home/ubuntu/dev_ws/build/bed_messages', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/dev_ws/build/bed_messages'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[23.263283] (bed_messages) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.264123] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/ament_index/resource_index/rosidl_interfaces/bed_messages\n'}
+[23.265548] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages\n'}
+[23.266101] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg\n'}
+[23.266599] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/rosidl_generator_c__visibility_control.h\n'}
+[23.267510] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail\n'}
+[23.268034] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__type_support.h\n'}
+[23.268967] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__functions.c\n'}
+[23.269824] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__functions.h\n'}
+[23.270687] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__struct.h\n'}
+[23.271514] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/ps_control.h\n'}
+[23.272839] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/environment/library_path.sh\n'}
+[23.273873] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/environment/library_path.dsv\n'}
+[23.274272] (-) TimerEvent: {}
+[23.275431] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__rosidl_generator_c.so\n'}
+[23.277597] (bed_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__rosidl_generator_c.so" to ""\n'}
+[23.278123] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages\n'}
+[23.278578] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg\n'}
+[23.279004] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail\n'}
+[23.279355] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__rosidl_typesupport_fastrtps_c.h\n'}
+[23.279953] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[23.281373] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__rosidl_typesupport_fastrtps_c.so\n'}
+[23.283572] (bed_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[23.284102] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages\n'}
+[23.284669] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg\n'}
+[23.285100] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail\n'}
+[23.285491] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/dds_fastrtps\n'}
+[23.285827] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.286509] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[23.287853] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__rosidl_typesupport_fastrtps_cpp.so\n'}
+[23.290122] (bed_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[23.290631] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages\n'}
+[23.291073] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg\n'}
+[23.291462] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[23.292085] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail\n'}
+[23.292558] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__type_support.c\n'}
+[23.293549] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__rosidl_typesupport_introspection_c.h\n'}
+[23.294947] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__rosidl_typesupport_introspection_c.so\n'}
+[23.297188] (bed_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__rosidl_typesupport_introspection_c.so" to ""\n'}
+[23.297830] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__rosidl_typesupport_c.so\n'}
+[23.299857] (bed_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__rosidl_typesupport_c.so" to ""\n'}
+[23.300345] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages\n'}
+[23.300878] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg\n'}
+[23.301308] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail\n'}
+[23.301652] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__traits.hpp\n'}
+[23.302069] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__builder.hpp\n'}
+[23.302943] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__struct.hpp\n'}
+[23.303785] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/ps_control.hpp\n'}
+[23.304806] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages\n'}
+[23.305321] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg\n'}
+[23.305752] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail\n'}
+[23.306140] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__type_support.cpp\n'}
+[23.306860] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/include/bed_messages/msg/detail/ps_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.308261] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__rosidl_typesupport_introspection_cpp.so\n'}
+[23.310458] (bed_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[23.311026] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__rosidl_typesupport_cpp.so\n'}
+[23.313097] (bed_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__rosidl_typesupport_cpp.so" to ""\n'}
+[23.313588] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/environment/pythonpath.sh\n'}
+[23.314523] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/environment/pythonpath.dsv\n'}
+[23.315941] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages/bed_messages/__init__.py\n'}
+[23.374529] (-) TimerEvent: {}
+[23.441815] (bed_messages) StdoutLine: {'line': b"Compiling '/home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages/bed_messages/__init__.py'...\n"}
+[23.463816] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages/bed_messages/msg\n'}
+[23.464463] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages/bed_messages/msg/_ps_control_s.c\n'}
+[23.465347] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages/bed_messages/msg/__init__.py\n'}
+[23.466188] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages/bed_messages/msg/_ps_control.py\n'}
+[23.467844] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages/bed_messages/bed_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[23.470682] (bed_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages/bed_messages/bed_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[23.471648] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages/bed_messages/bed_messages_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[23.474623] (-) TimerEvent: {}
+[23.475186] (bed_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages/bed_messages/bed_messages_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[23.476176] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages/bed_messages/bed_messages_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[23.479663] (bed_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages/bed_messages/bed_messages_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[23.480311] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__python.so\n'}
+[23.482802] (bed_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/dev_ws/install/bed_messages/lib/libbed_messages__python.so" to ""\n'}
+[23.483518] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/msg/PSControl.idl\n'}
+[23.484671] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/msg/PSControl.msg\n'}
+[23.485994] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/ament_index/resource_index/package_run_dependencies/bed_messages\n'}
+[23.487381] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/ament_index/resource_index/parent_prefix_path/bed_messages\n'}
+[23.488520] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/environment/ament_prefix_path.sh\n'}
+[23.489548] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/environment/ament_prefix_path.dsv\n'}
+[23.490594] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/environment/path.sh\n'}
+[23.491595] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/environment/path.dsv\n'}
+[23.492603] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/local_setup.bash\n'}
+[23.493595] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/local_setup.sh\n'}
+[23.494535] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/local_setup.zsh\n'}
+[23.495513] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/local_setup.dsv\n'}
+[23.496568] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/package.dsv\n'}
+[23.497799] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/ament_index/resource_index/packages/bed_messages\n'}
+[23.499208] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_generator_cExport.cmake\n'}
+[23.500357] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_generator_cExport-noconfig.cmake\n'}
+[23.501772] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_introspection_cExport.cmake\n'}
+[23.503023] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[23.504382] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_cExport.cmake\n'}
+[23.505589] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[23.506955] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_generator_cppExport.cmake\n'}
+[23.508297] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[23.509681] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[23.511090] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_cppExport.cmake\n'}
+[23.512285] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[23.513493] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/rosidl_cmake-extras.cmake\n'}
+[23.514505] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[23.515604] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[23.516860] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[23.517954] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[23.519100] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[23.520216] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[23.521386] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messagesConfig.cmake\n'}
+[23.522213] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/cmake/bed_messagesConfig-version.cmake\n'}
+[23.523215] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/bed_messages/share/bed_messages/package.xml\n'}
+[23.529913] (bed_messages) CommandEnded: {'returncode': 0}
+[23.575065] (-) TimerEvent: {}
+[23.676125] (-) TimerEvent: {}
+[23.777610] (-) TimerEvent: {}
+[23.878618] (-) TimerEvent: {}
+[23.902352] (bed_messages) JobEnded: {'identifier': 'bed_messages', 'rc': 0}
+[23.907617] (power_supply) JobStarted: {'identifier': 'power_supply'}
+[23.978920] (-) TimerEvent: {}
+[24.079775] (-) TimerEvent: {}
+[24.180502] (-) TimerEvent: {}
+[24.281480] (-) TimerEvent: {}
+[24.382105] (-) TimerEvent: {}
+[24.482754] (-) TimerEvent: {}
+[24.583346] (-) TimerEvent: {}
+[24.683953] (-) TimerEvent: {}
+[24.784580] (-) TimerEvent: {}
+[24.885312] (-) TimerEvent: {}
+[24.986241] (-) TimerEvent: {}
+[25.087104] (-) TimerEvent: {}
+[25.187761] (-) TimerEvent: {}
+[25.288380] (-) TimerEvent: {}
+[25.389012] (-) TimerEvent: {}
+[25.489630] (-) TimerEvent: {}
+[25.590215] (-) TimerEvent: {}
+[25.690790] (-) TimerEvent: {}
+[25.791457] (-) TimerEvent: {}
+[25.892060] (-) TimerEvent: {}
+[25.992712] (-) TimerEvent: {}
+[26.093564] (-) TimerEvent: {}
+[26.194225] (-) TimerEvent: {}
+[26.295230] (-) TimerEvent: {}
+[26.396228] (-) TimerEvent: {}
+[26.497005] (-) TimerEvent: {}
+[26.598054] (-) TimerEvent: {}
+[26.670083] (power_supply) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/power_supply', 'build', '--build-base', '/home/ubuntu/dev_ws/build/power_supply/build', 'install', '--prefix', '/home/ubuntu/dev_ws/install/power_supply', '--record', '/home/ubuntu/dev_ws/build/power_supply/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/dev_ws/src/power_supply', 'env': {'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/dev_ws/install/bed_messages/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'SUDO_UID': '1000', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/home/ubuntu/dev_ws/install/bed_messages:/opt/ros/foxy', 'SHELL': '/bin/bash', 'SUDO_USER': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/dev_ws/build/power_supply', 'LC_ALL': 'en_US.UTF-8', 'PYTHONPATH': '/home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/dev_ws/install/bed_messages/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/dev_ws/install/bed_messages'}, 'shell': False}
+[26.698201] (-) TimerEvent: {}
+[26.798954] (-) TimerEvent: {}
+[26.899718] (-) TimerEvent: {}
+[27.000350] (-) TimerEvent: {}
+[27.100982] (-) TimerEvent: {}
+[27.201604] (-) TimerEvent: {}
+[27.302184] (-) TimerEvent: {}
+[27.402805] (-) TimerEvent: {}
+[27.503430] (-) TimerEvent: {}
+[27.587690] (power_supply) StdoutLine: {'line': b'running egg_info\n'}
+[27.589830] (power_supply) StdoutLine: {'line': b'creating ../../build/power_supply/power_supply.egg-info\n'}
+[27.590460] (power_supply) StdoutLine: {'line': b'writing ../../build/power_supply/power_supply.egg-info/PKG-INFO\n'}
+[27.591519] (power_supply) StdoutLine: {'line': b'writing dependency_links to ../../build/power_supply/power_supply.egg-info/dependency_links.txt\n'}
+[27.592094] (power_supply) StdoutLine: {'line': b'writing entry points to ../../build/power_supply/power_supply.egg-info/entry_points.txt\n'}
+[27.592723] (power_supply) StdoutLine: {'line': b'writing requirements to ../../build/power_supply/power_supply.egg-info/requires.txt\n'}
+[27.593217] (power_supply) StdoutLine: {'line': b'writing top-level names to ../../build/power_supply/power_supply.egg-info/top_level.txt\n'}
+[27.598802] (power_supply) StdoutLine: {'line': b"writing manifest file '../../build/power_supply/power_supply.egg-info/SOURCES.txt'\n"}
+[27.603570] (-) TimerEvent: {}
+[27.704193] (-) TimerEvent: {}
+[27.736784] (power_supply) StdoutLine: {'line': b"reading manifest file '../../build/power_supply/power_supply.egg-info/SOURCES.txt'\n"}
+[27.739995] (power_supply) StdoutLine: {'line': b"writing manifest file '../../build/power_supply/power_supply.egg-info/SOURCES.txt'\n"}
+[27.740606] (power_supply) StdoutLine: {'line': b'running build\n'}
+[27.741086] (power_supply) StdoutLine: {'line': b'running build_py\n'}
+[27.741545] (power_supply) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/build/power_supply/build\n'}
+[27.742077] (power_supply) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/build/power_supply/build/lib\n'}
+[27.742551] (power_supply) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/build/power_supply/build/lib/power_supply\n'}
+[27.743016] (power_supply) StdoutLine: {'line': b'copying power_supply/__init__.py -> /home/ubuntu/dev_ws/build/power_supply/build/lib/power_supply\n'}
+[27.743423] (power_supply) StdoutLine: {'line': b'copying power_supply/power_supply_off.py -> /home/ubuntu/dev_ws/build/power_supply/build/lib/power_supply\n'}
+[27.743903] (power_supply) StdoutLine: {'line': b'copying power_supply/power_supply_tester.py -> /home/ubuntu/dev_ws/build/power_supply/build/lib/power_supply\n'}
+[27.744384] (power_supply) StdoutLine: {'line': b'copying power_supply/power_supply_controller.py -> /home/ubuntu/dev_ws/build/power_supply/build/lib/power_supply\n'}
+[27.745515] (power_supply) StdoutLine: {'line': b'running install\n'}
+[27.748471] (power_supply) StdoutLine: {'line': b'running install_lib\n'}
+[27.752361] (power_supply) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply\n'}
+[27.752989] (power_supply) StdoutLine: {'line': b'copying /home/ubuntu/dev_ws/build/power_supply/build/lib/power_supply/__init__.py -> /home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply\n'}
+[27.753561] (power_supply) StdoutLine: {'line': b'copying /home/ubuntu/dev_ws/build/power_supply/build/lib/power_supply/power_supply_off.py -> /home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply\n'}
+[27.754319] (power_supply) StdoutLine: {'line': b'copying /home/ubuntu/dev_ws/build/power_supply/build/lib/power_supply/power_supply_tester.py -> /home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply\n'}
+[27.754970] (power_supply) StdoutLine: {'line': b'copying /home/ubuntu/dev_ws/build/power_supply/build/lib/power_supply/power_supply_controller.py -> /home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply\n'}
+[27.757267] (power_supply) StdoutLine: {'line': b'byte-compiling /home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply/__init__.py to __init__.cpython-38.pyc\n'}
+[27.762323] (power_supply) StdoutLine: {'line': b'byte-compiling /home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply/power_supply_off.py to power_supply_off.cpython-38.pyc\n'}
+[27.764142] (power_supply) StdoutLine: {'line': b'byte-compiling /home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply/power_supply_tester.py to power_supply_tester.cpython-38.pyc\n'}
+[27.765961] (power_supply) StdoutLine: {'line': b'byte-compiling /home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply/power_supply_controller.py to power_supply_controller.cpython-38.pyc\n'}
+[27.771504] (power_supply) StdoutLine: {'line': b'running install_data\n'}
+[27.773562] (power_supply) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/install/power_supply/share/ament_index\n'}
+[27.774182] (power_supply) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/install/power_supply/share/ament_index/resource_index\n'}
+[27.774631] (power_supply) StdoutLine: {'line': b'creating /home/ubuntu/dev_ws/install/power_supply/share/ament_index/resource_index/packages\n'}
+[27.775111] (power_supply) StdoutLine: {'line': b'copying resource/power_supply -> /home/ubuntu/dev_ws/install/power_supply/share/ament_index/resource_index/packages\n'}
+[27.775581] (power_supply) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/dev_ws/install/power_supply/share/power_supply\n'}
+[27.775953] (power_supply) StdoutLine: {'line': b'running install_egg_info\n'}
+[27.781379] (power_supply) StdoutLine: {'line': b'Copying ../../build/power_supply/power_supply.egg-info to /home/ubuntu/dev_ws/install/power_supply/lib/python3.8/site-packages/power_supply-0.0.0-py3.8.egg-info\n'}
+[27.786040] (power_supply) StdoutLine: {'line': b'running install_scripts\n'}
+[27.804334] (-) TimerEvent: {}
+[27.851671] (power_supply) StdoutLine: {'line': b'Installing controller script to /home/ubuntu/dev_ws/install/power_supply/lib/power_supply\n'}
+[27.852309] (power_supply) StdoutLine: {'line': b'Installing off script to /home/ubuntu/dev_ws/install/power_supply/lib/power_supply\n'}
+[27.852886] (power_supply) StdoutLine: {'line': b'Installing tester script to /home/ubuntu/dev_ws/install/power_supply/lib/power_supply\n'}
+[27.854358] (power_supply) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/dev_ws/build/power_supply/install.log'\n"}
+[27.904602] (-) TimerEvent: {}
+[27.952677] (power_supply) CommandEnded: {'returncode': 0}
+[27.982299] (power_supply) JobEnded: {'identifier': 'power_supply', 'rc': 0}
+[27.985386] (-) EventReactorShutdown: {}

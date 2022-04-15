@@ -1,0 +1,6 @@
+{
+  "package_name": "bed_messages",
+  "non_idl_tuples": [
+    "/home/ubuntu/dev_ws/src/bed_messages:msg/PSControl.msg"
+  ]
+}

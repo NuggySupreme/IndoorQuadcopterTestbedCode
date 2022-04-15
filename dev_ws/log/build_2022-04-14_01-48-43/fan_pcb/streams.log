@@ -1,0 +1,42 @@
+[5.224s] Invoking command in '/home/ubuntu/dev_ws/src/fan_pcb': PYTHONPATH=/home/ubuntu/dev_ws/install/fan_pcb/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/fan_pcb build --build-base /home/ubuntu/dev_ws/build/fan_pcb/build install --prefix /home/ubuntu/dev_ws/install/fan_pcb --record /home/ubuntu/dev_ws/build/fan_pcb/install.log --single-version-externally-managed
+[6.323s] running egg_info
+[6.326s] creating ../../build/fan_pcb/fan_pcb.egg-info
+[6.327s] writing ../../build/fan_pcb/fan_pcb.egg-info/PKG-INFO
+[6.328s] writing dependency_links to ../../build/fan_pcb/fan_pcb.egg-info/dependency_links.txt
+[6.330s] writing entry points to ../../build/fan_pcb/fan_pcb.egg-info/entry_points.txt
+[6.330s] writing requirements to ../../build/fan_pcb/fan_pcb.egg-info/requires.txt
+[6.331s] writing top-level names to ../../build/fan_pcb/fan_pcb.egg-info/top_level.txt
+[6.337s] writing manifest file '../../build/fan_pcb/fan_pcb.egg-info/SOURCES.txt'
+[6.495s] reading manifest file '../../build/fan_pcb/fan_pcb.egg-info/SOURCES.txt'
+[6.498s] writing manifest file '../../build/fan_pcb/fan_pcb.egg-info/SOURCES.txt'
+[6.498s] running build
+[6.499s] running build_py
+[6.501s] creating /home/ubuntu/dev_ws/build/fan_pcb/build
+[6.502s] creating /home/ubuntu/dev_ws/build/fan_pcb/build/lib
+[6.502s] creating /home/ubuntu/dev_ws/build/fan_pcb/build/lib/fan_pcb
+[6.503s] copying fan_pcb/__init__.py -> /home/ubuntu/dev_ws/build/fan_pcb/build/lib/fan_pcb
+[6.504s] copying fan_pcb/fan_controller.py -> /home/ubuntu/dev_ws/build/fan_pcb/build/lib/fan_pcb
+[6.504s] running install
+[6.507s] running install_lib
+[6.508s] creating /home/ubuntu/dev_ws/install/fan_pcb/lib/python3.8/site-packages/fan_pcb
+[6.509s] copying /home/ubuntu/dev_ws/build/fan_pcb/build/lib/fan_pcb/__init__.py -> /home/ubuntu/dev_ws/install/fan_pcb/lib/python3.8/site-packages/fan_pcb
+[6.510s] copying /home/ubuntu/dev_ws/build/fan_pcb/build/lib/fan_pcb/fan_controller.py -> /home/ubuntu/dev_ws/install/fan_pcb/lib/python3.8/site-packages/fan_pcb
+[6.518s] byte-compiling /home/ubuntu/dev_ws/install/fan_pcb/lib/python3.8/site-packages/fan_pcb/__init__.py to __init__.cpython-38.pyc
+[6.524s] byte-compiling /home/ubuntu/dev_ws/install/fan_pcb/lib/python3.8/site-packages/fan_pcb/fan_controller.py to fan_controller.cpython-38.pyc
+[6.525s]   File "/home/ubuntu/dev_ws/install/fan_pcb/lib/python3.8/site-packages/fan_pcb/fan_controller.py", line 16
+[6.525s]     fcontroller = FanController(1https://github.com/NuggySupreme/IndoorQuadcopterTestbedCode)
+[6.526s]                                  ^
+[6.527s] SyntaxError: invalid syntax
+[6.527s] 
+[6.528s] running install_data
+[6.528s] creating /home/ubuntu/dev_ws/install/fan_pcb/share/ament_index
+[6.529s] creating /home/ubuntu/dev_ws/install/fan_pcb/share/ament_index/resource_index
+[6.530s] creating /home/ubuntu/dev_ws/install/fan_pcb/share/ament_index/resource_index/packages
+[6.530s] copying resource/fan_pcb -> /home/ubuntu/dev_ws/install/fan_pcb/share/ament_index/resource_index/packages
+[6.531s] copying package.xml -> /home/ubuntu/dev_ws/install/fan_pcb/share/fan_pcb
+[6.532s] running install_egg_info
+[6.533s] Copying ../../build/fan_pcb/fan_pcb.egg-info to /home/ubuntu/dev_ws/install/fan_pcb/lib/python3.8/site-packages/fan_pcb-0.0.0-py3.8.egg-info
+[6.537s] running install_scripts
+[6.620s] Installing controller script to /home/ubuntu/dev_ws/install/fan_pcb/lib/fan_pcb
+[6.623s] writing list of installed files to '/home/ubuntu/dev_ws/build/fan_pcb/install.log'
+[6.851s] Invoked command in '/home/ubuntu/dev_ws/src/fan_pcb' returned '0': PYTHONPATH=/home/ubuntu/dev_ws/install/fan_pcb/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/fan_pcb build --build-base /home/ubuntu/dev_ws/build/fan_pcb/build install --prefix /home/ubuntu/dev_ws/install/fan_pcb --record /home/ubuntu/dev_ws/build/fan_pcb/install.log --single-version-externally-managed
