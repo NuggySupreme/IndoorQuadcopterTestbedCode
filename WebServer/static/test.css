@@ -1,9 +1,14 @@
 :root{
     --black: #000000;
-    --orange: #d95900;
+    --orange: #Fe5c00;
     --dark-gray: #797978;
     --light-grey: #90979b;
     --white: #edece6;
+}
+
+h1{
+    background-color: #Fe5c00;
+    text-align: center;
 }
 
 .theme {
@@ -47,7 +52,11 @@ body{
 }
 
 .faninput{
-    width: 50%;
+        border-radius: 25px;
+        border: 2px solid #Fe5c00;
+        padding: 20px;
+        width: 100px;
+        height: 10px;
 }
 
 .allfans{
