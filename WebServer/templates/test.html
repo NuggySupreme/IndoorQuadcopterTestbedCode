@@ -1,3 +1,6 @@
+<style>
+@import url(test.css);
+</style>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -17,77 +20,77 @@
                 </div>
                 <div class="fan">
                     <p>Fan 2</p>
-                    <input class="faninput"  type="text" name = "fan2" value = "" placeholder="Enter desierd speed">
+                    <input class="faninput"  type="text" name = "fan2" value = "" placeholder="speed">
                     <p>{{data['fan2'][1]}}</p>
                 </div>
                 <div class="fan">
                     <p>Fan 3</p>
-                    <input class="faninput"  type="text" name = "fan3" value = "" placeholder="Enter desierd speed">
+                    <input class="faninput"  type="text" name = "fan3" value = "" placeholder="speed">
                     <p>{{data['fan3'][1]}}</p>
                 </div>
                 <div class="fan">
                     <p>Fan 4</p>
-                    <input class="faninput"  type="text" name = "fan4" value = "" placeholder="Enter desierd speed">
+                    <input class="faninput"  type="text" name = "fan4" value = "" placeholder="speed">
                     <p>{{data['fan4'][1]}}</p>
                 </div>
                 <div class="fan">
                     <p>Fan 5</p>
-                    <input class="faninput"  type="text" name = "fan5" value = "" placeholder="Enter desierd speed">
+                    <input class="faninput"  type="text" name = "fan5" value = "" placeholder="speed">
                     <p>{{data['fan5'][1]}}</p>
                 </div>
                 <div class="fan">
                     <p>Fan 6</p>
-                    <input class="faninput"  type="text" name = "fan6" value = "" placeholder="Enter desierd speed">
+                    <input class="faninput"  type="text" name = "fan6" value = "" placeholder="speed">
                     <p>{{data['fan6'][1]}}</p>
                 </div>
                 <div class="fan">
                     <p>Fan 7</p>
-                    <input class="faninput"  type="text" name = "fan7" value = "" placeholder="Enter desierd speed">
+                    <input class="faninput"  type="text" name = "fan7" value = "" placeholder="speed">
                     <p>{{data['fan7'][1]}}</p>
                 </div>
                 <div class="fan">
                     <p>Fan 8</p>
-                    <input class="faninput"  type="text" name = "fan8" value = "" placeholder="Enter desierd speed">
+                    <input class="faninput"  type="text" name = "fan8" value = "" placeholder="speed">
                     <p>{{data['fan8'][1]}}</p>
                 </div>
                 <div class="fan">
                     <p>Fan 9</p>
-                    <input class="faninput"  type="text" name = "fan9" value = "" placeholder="Enter desierd speed">
+                    <input class="faninput"  type="text" name = "fan9" value = "" placeholder="speed">
                     <p>{{data['fan9'][1]}}</p>
                 </div>
                 <div class="fan">
                     <p>Fan 10</p>
-                    <input class="faninput"  type="text" name = "fan10" value = "" placeholder="Enter desierd speed">
+                    <input class="faninput"  type="text" name = "fan10" value = "" placeholder="speed">
                     <p>{{data['fan10'][1]}}</p>
                 </div>
                 <div class="fan">
                     <p>Fan 11</p>
-                    <input class="faninput"  type="text" name = "fan11" value = "" placeholder="Enter desierd speed">
+                    <input class="faninput"  type="text" name = "fan11" value = "" placeholder="speed">
                     <p>{{data['fan11'][1]}}</p>
                 </div>
                 <div class="fan">
                     <p>Fan 12</p>
-                    <input class="faninput"  type="text" name = "fan12" value = "" placeholder="Enter desierd speed">
+                    <input class="faninput"  type="text" name = "fan12" value = "" placeholder="speed">
                     <p>{{data['fan12'][1]}}</p>
                 </div>
                 <div class="fan">
                     <p>Fan 13</p>
-                    <input class="faninput"  type="text" name = "fan13" value = "" placeholder="Enter desierd speed">
+                    <input class="faninput"  type="text" name = "fan13" value = "" placeholder="speed">
                     <p>{{data['fan13'][1]}}</p>
                 </div>
                 <div class="fan">
                     <p>Fan 14</p>
-                    <input class="faninput"  type="text" name = "fan14" value = "" placeholder="Enter desierd speed">
+                    <input class="faninput"  type="text" name = "fan14" value = "" placeholder="speed">
                     <p>{{data['fan14'][1]}}</p>
                 </div>
                 <div class="fan">
                     <p>Fan 15</p>
-                    <input class="faninput"  type="text" name = "fan15" value = "" placeholder="Enter desierd speed">
+                    <input class="faninput"  type="text" name = "fan15" value = "" placeholder="speed">
                     <p>{{data['fan15'][1]}}</p>
                 </div>
                 <div class="fan">
                     <p>Fan 16</p>
-                    <input class="faninput"  type="text" name = "fan16" value = "" placeholder="Enter desierd speed">
+                    <input class="faninput"  type="text" name = "fan16" value = "" placeholder="speed">
                     <p>{{data['fan16'][1]}}</p>
                 </div>
                                     
@@ -96,7 +99,8 @@
 
             <div class="allfans">
                 <form method="post" action="/">
-                    <p>All Fans <input type="text" name = "ALLFANS" value = "" placeholder="Enter desierd speed"></p>
+                    <h1>All Fans </h1>
+                    <p><input class = "faninput" input type="text" name = "ALLFANS" value = "" placeholder="speed"></p>
                     <p><input type = "submit" value="UPDATE ALL FANS" name="updatefan"/></p>
                 </form>
                     <p><input type = "submit" value="UPDATE FANS" name="updatefan" form="gridform" /></p>
@@ -107,7 +111,7 @@
 
             <div class="actuator">
                 <form method="post" action="/">
-                    <p>Actuator Control</p>
+                    <h1>Actuator Control</h1>
                     <div class="direction">
                         <p>Direction : {{data['actuator'][0]}}</p>
                         <input type="radio" name="DIRECTION" value="F2B" id="f2b">
@@ -135,21 +139,22 @@
 
             <div class="filesettings">
                 <form method="post" action="/">
+                    <h1>Settings Files</h1>
                     <p>Save Setting to File</p>
-                    <p>Save <input type="text" name = "filename" value = "" placeholder="Enter desierd speed"></p>
+                    <p>Save <input class = "faninput" input type="text" name = "filename" value = "" placeholder="file"></p>
                     <p><input type = "submit" value="SAVE CONFIG" name="savefile"/></p>
                 </form>
 
                 <form method="post" action="/">
                     <p>Load Setting form File</p>
-                    <p>Load <input type="text" name = "filename" value = "" placeholder="Enter desierd speed"></p>
+                    <p>Load <input class = "faninput" input type="text" name = "filename" value = "" placeholder="file"></p>
                     <p><input type = "submit" value="LOAD CONFIG" name="loadfile"/></p>
                 </form>
             </div>
 
             <div class="run">
                 <form method="post" action="/">
-                    <p>UPDATE</p>
+                    <h1>UPDATE</h1>
                     <p><input type = "submit" value="UPDATE " name="toros"/></p>
                 </form>
             </div>
