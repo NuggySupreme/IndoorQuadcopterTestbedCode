@@ -11,6 +11,8 @@ app = Flask(__name__)
 client = roslibpy.Ros(host='localhost', port=9090)
 
 fanDict = {}
+actuatorArr = []
+dataDict ={}
 
 def toROS():
 	print(fanDict)
@@ -34,16 +36,28 @@ def RunFans(form):
 		form.pop('ALLFANS')
 		for key in fanDict:
 			fanDict[key][1] = speed
+			dataDict[key][1] = speed
+
 	else:
 		for key in form:
 			if form[key] != '':
 				fanDict[key][1] = form[key]
+				dataDict[key][1] = form[key]
+
 
 
 def RunActuators(form):
 	print(form)
-	
-	
+	dataDict['actuator'] = [form['DIRECTION'],form['ANGLE']]
+	print(dataDict['actuator'])
+	with open('actuator.txt', 'w') as file:
+		file.write("actuator,%s,%s" % (dataDict['actuator'][0],dataDict['actuator'][1]))
+
+
+def loadActuatorFile():
+	with open('actuator.txt') as file:
+		actuatorArr = file.readline().split(",")
+		dataDict[actuatorArr[0]] = [actuatorArr[1],actuatorArr[2]]
 
 def loadFile(fileName):
 
@@ -55,6 +69,7 @@ def loadFile(fileName):
 				print(line)
 
 				fanDict[line[0]] = [line[1],line[2]]
+				dataDict[line[0]] = [line[1],line[2]]
 	else:
 		#TODO send error to GUI, 
 		print("FILE NO EXIST")
@@ -76,11 +91,19 @@ def saveFile(fileName):
 def index():
 	if request.method == 'POST':
 		form = dict(request.form) # takes inmutalbe dict to a mutalbe one so we can pop unwanted items out the form
-		if form.get('updatefan') == 'RUN FANS':
+		print(form)
+		if form.get('updatefan') == 'UPDATE FANS' or form.get('updatefan') == 'UPDATE ALL FANS':
 			form.pop('updatefan')
 			RunFans(form)
-		if request.form.get('updateactuator') == 'RUN ANGLE':
-			form.pop('updateactuator')
+		if form.get('setfan') == 'SET FANS':
+			form.pop('setfan')
+			RunFans(form)
+		if request.form.get('updateactuator') == 'UPDATE ANGLE':
+			if 'DIRECTION' in form:
+				form.pop('updateactuator')
+				RunActuators(form)
+		if request.form.get('setactuator') == 'SET ANGLE':
+			form.pop('setactuator')
 			RunActuators(form)
 		if request.form.get('savefile') == 'SAVE CONFIG':
 			form.pop('savefile')
@@ -91,13 +114,14 @@ def index():
 		if request.form.get('toros'):
 			toROS()
 	elif request.method == 'GET':
-		return render_template(HTMLFILE,data=fanDict)
-	return render_template(HTMLFILE,data=fanDict)
+		return render_template(HTMLFILE,data=dataDict)
+	return render_template(HTMLFILE,data=dataDict)
  
 
 def main():
 	print(os.path)
 	loadFile("zerofan.txt")
+	loadActuatorFile()
 	client.run()
 	app.run(host='0.0.0.0', port=8080)
 

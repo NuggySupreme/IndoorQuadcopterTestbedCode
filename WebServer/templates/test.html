@@ -9,10 +9,10 @@
     <body class="theme">
         <h1>UPDRAFT TEST GUI</h1>
         <div class="gridlayout">
-            <form class="fangrid" method="post" action="/">
+            <form class="fangrid" method="post" action="/" id="gridform">
                 <div class="fan">
                     <p>Fan 1</p>
-                    <input class="faninput"  type="text" name = "fan1" value = "" placeholder="Enter desierd speed">
+                    <input class="faninput"  type="text" name = "fan1" value = "" placeholder="Speed" id="fan1">
                     <p>{{data['fan1'][1]}}</p>
                 </div>
                 <div class="fan">
@@ -91,40 +91,46 @@
                     <p>{{data['fan16'][1]}}</p>
                 </div>
                                     
-                <p><input type = "submit" value="RUN FANS" name="updatefan"/></p>
             </form>
 
 
             <div class="allfans">
                 <form method="post" action="/">
                     <p>All Fans <input type="text" name = "ALLFANS" value = "" placeholder="Enter desierd speed"></p>
-                    <p><input type = "submit" value="RUN FANS" name="updatefan"/></p>
+                    <p><input type = "submit" value="UPDATE ALL FANS" name="updatefan"/></p>
+                </form>
+                    <p><input type = "submit" value="UPDATE FANS" name="updatefan" form="gridform" /></p>
+                <form>
+                    <p><input type = "submit" value="SET FANS" name="setfan" /></p>
                 </form>
             </div>
 
-            <div  class="actuator">
+            <div class="actuator">
                 <form method="post" action="/">
                     <p>Actuator Control</p>
-                    <p>Direction</p>
-                    <label class="toggle">
-                        <input type="checkbox">
-                        <span class="switch"></span>
-                        <span class="labels" data-on="F2B" data-off="S2S"></span>
-                    </label>
-                    
-                    <p>Angle <span id="dispangle" ></span></p>
-                    <input class="slider" type="range" min="-30" max="30" name = "ANGLE" value = "0" id="angle">
-                    <script>
-                        var slider = document.getElementById("angle");
-                        var output = document.getElementById("dispangle");
-                        output.innerHTML = slider.value;
+                    <div class="direction">
+                        <p>Direction : {{data['actuator'][0]}}</p>
+                        <input type="radio" name="DIRECTION" value="F2B" id="f2b">
+                        <label for="f2b">F2B</label>
+                        <input type="radio" name="DIRECTION" value="S2S" id="s2s">
+                        <label for="s2s">S2S</label>
+                    </div>
 
-                        slider.oninput = function() {
-                        output.innerHTML = this.value;
-}
-                    </script>
-                    <p><input type = "submit" value="RUN ANGLE" name="updateactuator"/></p>
+                    <div class="angle">
+                        <p>Current Angle : {{data['actuator'][1]}}</p>
+                        <p>New Angle : <span id="dispangle" ></span></p>
+                        <input class="slider" type="range" min="-30" max="30" name = "ANGLE" value = "0" id="angle">
+                        <script>
+                            var slider = document.getElementById("angle");
+                            var output = document.getElementById("dispangle");
+                            output.innerHTML = slider.value;
+
+                            slider.oninput = function() {output.innerHTML = this.value;}
+                        </script>
+                        <p><input type = "submit" value="UPDATE ANGLE" name="updateactuator"/></p>
+                    </div>
                 </form>
+                <form><p><input type = "submit" value="SET ANGLE" name="setactuator"/></p></form>
             </div>
 
             <div class="filesettings">
