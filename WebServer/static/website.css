@@ -1,187 +1,85 @@
-:root{
-    --black: #000000;
-    --orange: #Fe5c00;
-    --dark-gray: #797978;
-    --light-grey: #90979b;
-    --white: #edece6;
-}
+* {
+    box-sizing: border-box;
+  }
+  .item-a {
+    grid-column-start: 2;
+    grid-column-end: five;
+    grid-row-start: row1-start;
+    grid-row-end: 3;
+  }
+  body {
+    margin: 0;
+  }
+  .data-table{
+    width: 800px;
+    padding: 2px;
+  }
 
-h1{
-    background-color: #Fe5c00;
-    text-align: center;
-}
+  .table-cell{
+    width: 500px;
+    height: 100px;
+  }
+  #ivk4g{
+    justify-content:space-between;
+  }
+  #tableAdiv{
+    flex-grow:0.96;
+    justify-content:flex-end;
+    display:inline-flex;
+  }
+  #tableAid{
+    margin:0 0 0 0;
+    width: 500px;
+  }
+  #emergencyStop{
+    width:250px;
+    height:100px;
+    background-color:#ff0000;
+  }
+  #test{
+    width:250px;
+    height:100px;
+    background-color:#FF7300;
+  }
+  .switch input{
+    opacity:0;
+    width:0;
+    height:0;
+  }
 
-.theme {
-    --bg: var(--black);
-    --fontColor: var(--orange);
-    --boxbg:var(--orange);
-    --fancrc:var(--dark-gray);
-    --itembg:var(--black);
-    --itemact:var(--dark-gray);
-}
-
-.gridlayout{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    gap: 20px;
-    aspect-ratio: 1;
-   
-}
-
-body{
-    background-color: var(--bg);
-}
-
-.fangrid{
-    grid-area: 1 / 1 / 3 / 3;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    aspect-ratio: 1;
-    background-color: var(--boxbg);
-    text-align: center;
-}
-
-.fan{
-    grid-area: span 1 / span 1 / span 1 / span 1;
-    background-color: var(--fancrc);
-    border-color: black;
-    border-radius: 50%;
-    text-align: center;
-    aspect-ratio: 1;
-}
-
-.faninput{
-        border-radius: 25px;
-        border: 2px solid #Fe5c00;
-        padding: 20px;
-        width: 100px;
-        height: 10px;
-}
-
-.allfans{
-    background-color: var(--boxbg);
-}
-
-.actuator{
-    background-color: var(--boxbg);
-}
-
-.filesettings{
-    background-color: var(--boxbg);
-}
-
-.run{
-    background-color: var(--boxbg);
-}
-
-
-
-.slider {
-    -webkit-appearance: none;
-    width: 50%;
-    height: 15px;
-    border-radius: 5px;
-    background: var(--itembg);
-    outline: none;
-}
-
-.slider:hover {
-    opacity:1;
-}
-.slider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background: var(--itemact);
-}
-.slider::-moz-range-thumb {
-    width: 25px;
-    height: 25px;
-    border: 0;
-    border-radius: 50%;
-    background: var(--itemact);
-}
-
-
-
-
-
-.toggle {
-    --width: 100px;
-    --height: calc(var(--width) / 3);
-
-    position: relative;
-    display: inline-block;
-    width: var(--width);
-    height: var(--height);
-    border-radius: var(--height);
-}
-
-.toggle input {
-    display: none;
-}
-
-.toggle .switch {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: var(--height);
-    background-color: var(--itemact);
-}
-
-.toggle .switch::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: calc(var(--height));
-    height: calc(var(--height));
-    border-radius: calc(var(--height) / 2);
-    background-color: var(--itemact);
-}
-
-.toggle input:checked+.switch {
-    background-color: var(--itembg);
-}
-
-.toggle input:checked+.switch::before {
-    transform: translateX(calc(var(--width) - var(--height)));
-}
-
-.toggle .labels {
-    position: absolute;
-    top: 8px;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    font-size: 12px;
-}
-
-.toggle .labels::after {
-    content: attr(data-off);
-    position: absolute;
-    right: 5px;
-    color: var(--itembg);
-    opacity: 0;
-}
-
-.toggle .labels::before {
-    content: attr(data-on);
-    position: absolute;
-    left: 5px;
-    color: var(--itembg);
-    opacity: 1;
-}
-
-.toggle input:checked~.labels::after {
-    opacity: 1;
-}
-
-.toggle input:checked~.labels::before {
-    opacity: 0;
-}
+  button.sliderA{
+    width: 200px;
+    height: 50px;
+  }
+  input:checked + .slider{
+    background-color:#FF7300;
+  }
+  input:focus + .slider{
+    box-shadow:0 0 1px #FF7300;
+  }
+  input:checked + .slider:before{
+    -webkit-transform:translateX(26px);
+    -ms-transform:translateX(26px);
+    transform:translateX(26px);
+  }
+  #silderA{
+    width:90%;
+    display:inline-block;
+  }
+  #sliderB{
+    width:90%;
+  }
+  input.right{
+    float:right;
+    width: 200px;
+    height: 50px;
+  }
+  @keyframes fadeEffect{
+    from{
+      opacity:0;
+    }
+    to{
+      opacity:1;
+    }
+  }
+  
