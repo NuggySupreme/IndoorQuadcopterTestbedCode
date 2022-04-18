@@ -11,7 +11,7 @@ app = Flask(__name__)
 client = roslibpy.Ros(host='localhost', port=9090)
 
 fanDict = {}
-actuatorArr = []
+actArr = []
 dataDict ={}
 
 def toROS():
@@ -46,17 +46,26 @@ def RunFans(form):
 
 
 
-def RunActuators(form):
+def setActuators(form):
 	print(form)
 	dataDict['actuator'] = [form['DIRECTION'],form['ANGLE']]
 	print(dataDict['actuator'])
+
+def RunActuators():
+	talker = roslibpy.Topic(client, 'actuators', 'std_msgs/String')
+	print("%s:%s" % (dataDict['actuator'][0],dataDict['actuator'][1]))
+	talker.publish(roslibpy.Message({'data':"%s:%s" % (dataDict['actuator'][0],dataDict['actuator'][1])}))
+	talker.unadvertise
+
 	with open('actuator.txt', 'w') as file:
 		file.write("actuator,%s,%s" % (dataDict['actuator'][0],dataDict['actuator'][1]))
-
 
 def loadActuatorFile():
 	with open('actuator.txt') as file:
 		actuatorArr = file.readline().split(",")
+
+		actArr = actuatorArr
+		print(actArr)
 		dataDict[actuatorArr[0]] = [actuatorArr[1],actuatorArr[2]]
 
 def loadFile(fileName):
@@ -91,7 +100,7 @@ def saveFile(fileName):
 def index():
 	if request.method == 'POST':
 		form = dict(request.form) # takes inmutalbe dict to a mutalbe one so we can pop unwanted items out the form
-		print(form)
+		print(actArr)
 		if form.get('updatefan') == 'UPDATE FANS' or form.get('updatefan') == 'UPDATE ALL FANS':
 			form.pop('updatefan')
 			RunFans(form)
@@ -101,10 +110,10 @@ def index():
 		if request.form.get('updateactuator') == 'UPDATE ANGLE':
 			if 'DIRECTION' in form:
 				form.pop('updateactuator')
-				RunActuators(form)
+				setActuators(form)
 		if request.form.get('setactuator') == 'SET ANGLE':
 			form.pop('setactuator')
-			RunActuators(form)
+			RunActuators()
 		if request.form.get('savefile') == 'SAVE CONFIG':
 			form.pop('savefile')
 			saveFile(request.form['filename'])
@@ -114,14 +123,16 @@ def index():
 		if request.form.get('toros'):
 			toROS()
 	elif request.method == 'GET':
-		return render_template(HTMLFILE,data=dataDict)
-	return render_template(HTMLFILE,data=dataDict)
+		return render_template(HTMLFILE,data=dataDict,actarr=actArr)
+	return render_template(HTMLFILE,data=dataDict,actarr=actArr)
  
 
 def main():
 	print(os.path)
 	loadFile("zerofan.txt")
 	loadActuatorFile()
+	print(actArr)
+
 	client.run()
 	app.run(host='0.0.0.0', port=8080)
 

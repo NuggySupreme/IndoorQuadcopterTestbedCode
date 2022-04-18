@@ -1,1 +1,1 @@
-actuator,S2S,11
+actuator,F2B,10
