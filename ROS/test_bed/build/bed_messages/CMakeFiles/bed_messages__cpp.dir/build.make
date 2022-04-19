@@ -57,6 +57,10 @@ CMakeFiles/bed_messages__cpp: rosidl_generator_cpp/bed_messages/msg/ps_control.h
 CMakeFiles/bed_messages__cpp: rosidl_generator_cpp/bed_messages/msg/detail/ps_control__builder.hpp
 CMakeFiles/bed_messages__cpp: rosidl_generator_cpp/bed_messages/msg/detail/ps_control__struct.hpp
 CMakeFiles/bed_messages__cpp: rosidl_generator_cpp/bed_messages/msg/detail/ps_control__traits.hpp
+CMakeFiles/bed_messages__cpp: rosidl_generator_cpp/bed_messages/msg/table_angle.hpp
+CMakeFiles/bed_messages__cpp: rosidl_generator_cpp/bed_messages/msg/detail/table_angle__builder.hpp
+CMakeFiles/bed_messages__cpp: rosidl_generator_cpp/bed_messages/msg/detail/table_angle__struct.hpp
+CMakeFiles/bed_messages__cpp: rosidl_generator_cpp/bed_messages/msg/detail/table_angle__traits.hpp
 
 
 rosidl_generator_cpp/bed_messages/msg/ps_control.hpp: /opt/ros/foxy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -75,6 +79,7 @@ rosidl_generator_cpp/bed_messages/msg/ps_control.hpp: /opt/ros/foxy/share/rosidl
 rosidl_generator_cpp/bed_messages/msg/ps_control.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/bed_messages/msg/ps_control.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/bed_messages/msg/ps_control.hpp: rosidl_adapter/bed_messages/msg/PSControl.idl
+rosidl_generator_cpp/bed_messages/msg/ps_control.hpp: rosidl_adapter/bed_messages/msg/TableAngle.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages/rosidl_generator_cpp__arguments.json
 
@@ -87,11 +92,27 @@ rosidl_generator_cpp/bed_messages/msg/detail/ps_control__struct.hpp: rosidl_gene
 rosidl_generator_cpp/bed_messages/msg/detail/ps_control__traits.hpp: rosidl_generator_cpp/bed_messages/msg/ps_control.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/bed_messages/msg/detail/ps_control__traits.hpp
 
+rosidl_generator_cpp/bed_messages/msg/table_angle.hpp: rosidl_generator_cpp/bed_messages/msg/ps_control.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/bed_messages/msg/table_angle.hpp
+
+rosidl_generator_cpp/bed_messages/msg/detail/table_angle__builder.hpp: rosidl_generator_cpp/bed_messages/msg/ps_control.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/bed_messages/msg/detail/table_angle__builder.hpp
+
+rosidl_generator_cpp/bed_messages/msg/detail/table_angle__struct.hpp: rosidl_generator_cpp/bed_messages/msg/ps_control.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/bed_messages/msg/detail/table_angle__struct.hpp
+
+rosidl_generator_cpp/bed_messages/msg/detail/table_angle__traits.hpp: rosidl_generator_cpp/bed_messages/msg/ps_control.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/bed_messages/msg/detail/table_angle__traits.hpp
+
 bed_messages__cpp: CMakeFiles/bed_messages__cpp
 bed_messages__cpp: rosidl_generator_cpp/bed_messages/msg/ps_control.hpp
 bed_messages__cpp: rosidl_generator_cpp/bed_messages/msg/detail/ps_control__builder.hpp
 bed_messages__cpp: rosidl_generator_cpp/bed_messages/msg/detail/ps_control__struct.hpp
 bed_messages__cpp: rosidl_generator_cpp/bed_messages/msg/detail/ps_control__traits.hpp
+bed_messages__cpp: rosidl_generator_cpp/bed_messages/msg/table_angle.hpp
+bed_messages__cpp: rosidl_generator_cpp/bed_messages/msg/detail/table_angle__builder.hpp
+bed_messages__cpp: rosidl_generator_cpp/bed_messages/msg/detail/table_angle__struct.hpp
+bed_messages__cpp: rosidl_generator_cpp/bed_messages/msg/detail/table_angle__traits.hpp
 bed_messages__cpp: CMakeFiles/bed_messages__cpp.dir/build.make
 
 .PHONY : bed_messages__cpp

@@ -1,0 +1,55 @@
+[0.097s] Invoking command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages -- -j4 -l4
+[0.249s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.379s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.380s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.428s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.788s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.805s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.827s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.164s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.425s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[4.306s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[4.306s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[4.307s]   bed_messages --arguments-file
+[4.307s]   /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages/rosidl_adapter__arguments__bed_messages.json
+[4.308s]   --output-dir
+[4.308s]   /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages/rosidl_adapter/bed_messages
+[4.308s]   --output-file
+[4.309s]   /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages/rosidl_adapter/bed_messages.idls)
+[4.309s]   returned error code 1:
+[4.309s] 
+[4.310s]   Error processing 'float32 rollAngle' of 'bed_messages/TableAngle':
+[4.310s]   ''rollAngle' is an invalid field name.  It should have the pattern
+[4.310s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[4.311s] 
+[4.311s]   Traceback (most recent call last):
+[4.312s] 
+[4.312s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[4.312s]       return _run_code(code, main_globals, None,
+[4.313s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[4.313s]       exec(code, run_globals)
+[4.313s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[4.314s]       sys.exit(main())
+[4.314s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[4.314s]       abs_idl_file = convert_to_idl(
+[4.315s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[4.315s]       return convert_msg_to_idl(
+[4.315s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[4.316s]       msg = parse_message_string(package_name, input_file.stem, content)
+[4.316s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 515, in parse_message_string
+[4.316s]       fields.append(Field(
+[4.317s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 353, in __init__
+[4.317s]       raise NameError(
+[4.318s] 
+[4.318s]   NameError: 'rollAngle' is an invalid field name.  It should have the
+[4.319s]   pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[4.319s] 
+[4.320s] Call Stack (most recent call first):
+[4.320s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[4.321s]   CMakeLists.txt:37 (rosidl_generate_interfaces)
+[4.322s] 
+[4.322s] 
+[4.323s] -- Configuring incomplete, errors occurred!
+[4.323s] See also "/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages/CMakeFiles/CMakeOutput.log".
+[4.340s] make: *** [Makefile:748: cmake_check_build_system] Error 1
+[4.346s] Invoked command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages -- -j4 -l4

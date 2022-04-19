@@ -9,6 +9,7 @@ setup.py
 ../../build/linear_actuator/linear_actuator.egg-info/top_level.txt
 ../../build/linear_actuator/linear_actuator.egg-info/zip-safe
 linear_actuator/__init__.py
+linear_actuator/encoder.py
 linear_actuator/linear_actuator_controller.py
 resource/linear_actuator
 test/test_copyright.py

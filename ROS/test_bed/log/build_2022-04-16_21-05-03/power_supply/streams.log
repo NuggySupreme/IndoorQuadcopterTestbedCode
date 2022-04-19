@@ -1,0 +1,23 @@
+[4.028s] Invoking command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/power_supply': AMENT_PREFIX_PATH=/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages CMAKE_PREFIX_PATH=/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages LD_LIBRARY_PATH=/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib PYTHONPATH=/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/power_supply build --build-base /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply/build install --prefix /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply --record /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply/install.log --single-version-externally-managed
+[4.947s] running egg_info
+[4.950s] writing ../../build/power_supply/power_supply.egg-info/PKG-INFO
+[4.952s] writing dependency_links to ../../build/power_supply/power_supply.egg-info/dependency_links.txt
+[4.953s] writing entry points to ../../build/power_supply/power_supply.egg-info/entry_points.txt
+[4.954s] writing requirements to ../../build/power_supply/power_supply.egg-info/requires.txt
+[4.955s] writing top-level names to ../../build/power_supply/power_supply.egg-info/top_level.txt
+[5.113s] reading manifest file '../../build/power_supply/power_supply.egg-info/SOURCES.txt'
+[5.119s] writing manifest file '../../build/power_supply/power_supply.egg-info/SOURCES.txt'
+[5.119s] running build
+[5.120s] running build_py
+[5.123s] running install
+[5.127s] running install_lib
+[5.136s] running install_data
+[5.140s] running install_egg_info
+[5.147s] removing '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages/power_supply-0.0.0-py3.8.egg-info' (and everything under it)
+[5.149s] Copying ../../build/power_supply/power_supply.egg-info to /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages/power_supply-0.0.0-py3.8.egg-info
+[5.156s] running install_scripts
+[5.242s] Installing controller script to /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/power_supply
+[5.245s] Installing off script to /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/power_supply
+[5.247s] Installing tester script to /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/power_supply
+[5.250s] writing list of installed files to '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply/install.log'
+[5.393s] Invoked command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/power_supply' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages CMAKE_PREFIX_PATH=/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages LD_LIBRARY_PATH=/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib PYTHONPATH=/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/power_supply build --build-base /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply/build install --prefix /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply --record /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply/install.log --single-version-externally-managed

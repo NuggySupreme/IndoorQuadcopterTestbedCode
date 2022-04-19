@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/b
 include CMakeFiles/bed_messages.dir/progress.make
 
 CMakeFiles/bed_messages: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/bed_messages/msg/PSControl.msg
+CMakeFiles/bed_messages: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/bed_messages/msg/TableAngle.msg
 
 
 bed_messages: CMakeFiles/bed_messages

@@ -98,4 +98,7 @@ CMakeFiles/bed_messages__rosidl_typesupport_introspection_c__pyext.dir/rosidl_ge
  rosidl_generator_c/bed_messages/msg/detail/ps_control__functions.h
  rosidl_generator_c/bed_messages/msg/detail/ps_control__struct.h
  rosidl_generator_c/bed_messages/msg/detail/ps_control__type_support.h
+ rosidl_generator_c/bed_messages/msg/detail/table_angle__functions.h
+ rosidl_generator_c/bed_messages/msg/detail/table_angle__struct.h
+ rosidl_generator_c/bed_messages/msg/detail/table_angle__type_support.h
  rosidl_generator_c/bed_messages/msg/rosidl_generator_c__visibility_control.h

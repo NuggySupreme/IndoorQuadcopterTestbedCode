@@ -1,2 +1,4 @@
 msg/PSControl.idl
 msg/PSControl.msg
+msg/TableAngle.idl
+msg/TableAngle.msg
