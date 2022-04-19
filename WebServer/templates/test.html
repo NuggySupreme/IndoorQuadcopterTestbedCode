@@ -1,6 +1,3 @@
-<style>
-@import url(test.css);
-</style>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -97,71 +94,74 @@
 
 
             <div class="allfans">
-                <form method="post" action="/">
-					<h1>All Fans </h1>
-                    <p><input type="text" name = "ALLFANS" value = "" placeholder="Enter desierd speed"></p>
-                    <p><input class="button" type = "submit" value="UPDATE ALL FANS" name="updatefan"/></p>
+                <h1>All Fans </h1>
+                <form method="post" action="/" id="allfanform">
+                    <p><input class="allfaninput" type="text" name = "ALLFANS" value = "" placeholder="Enter desierd speed"></p>
+                    <p><input class="button" type = "submit" value="UPDATE ALL FANS" name="updatefan" form=allfanform/></p>
                 </form>
-                    <p><input class="button" type = "submit" value="UPDATE FANS" name="updatefan" form="gridform" /></p>
-                <form method="post" action="/">
-                    <p><input class="button" type = "submit" value="SET FANS" name="setfan" /></p>
-                </form>
+                <p><input class="button" type = "submit" value="UPDATE FANS" name="updatefan" form="gridform" /></p>
             </div>
 
             <div class="actuator">
-                <form method="post" action="/">
+                <form method="post" action="/" id="actuatorform">
                     <h1>Actuator Control</h1>
                     <div class="direction">
-                        <p>Direction : {{data['actuator'][0]}}</p>
-                        <input type="radio" name="DIRECTION" value="F2B" id="f2b">
+                        <h2>Direction : {{data['actuator'][0]}}</h2>
+                        <input class="radiobtn" type="radio" name="DIRECTION" value="F2B" id="f2b">
                         <label for="f2b">F2B</label>
-                        <input type="radio" name="DIRECTION" value="S2S" id="s2s">
+                        <input class="radiobtn" type="radio" name="DIRECTION" value="S2S" id="s2s">
                         <label for="s2s">S2S</label>
                     </div>
 
                     <div class="angle">
-                        <p>Current Angle : {{data['actuator'][1]}}</p>
-                        <p>New Angle : {{actarr[2]}}</p>
+                        <h2>Current Angle : {{data['actuator'][1]}}</h2>
+                        <h2>New Angle : <span id="dispangle"></span></h2>
                         <input class="slider" type="range" min="-30" max="30" name = "ANGLE" value = "" id="angle">
-                        <label for="angle"><span id="dispangle" ></span></label>
+                        <label for="angle"></label>
+                        <input class="button" type = "submit" value = "UPDATE ANGLE" name = "updateactuator" id="actuatorform">
                         <script>
                             var slider = document.getElementById("angle");
                             var output = document.getElementById("dispangle");
                             output.innerHTML = slider.value;
                             slider.oninput = function() {output.innerHTML = this.value;}
                         </script>
-                        <p><input class="button" type = "submit" value = "UPDATE ANGLE" name = "updateactuator" style="vertical-align:middle"><span>Update Angle</span></button></p>
                     </div>
                 </form>
-
-                <form method="post" action="/">
-					<p><input class="button" type = "submit" value="SET ANGLE" name="setactuator"/></p>
-				</form>
-
             </div>
 
             <div class="filesettings">
-                <form method="post" action="/">
-                    <h1>Settings Files</h1>
-                    <p>Save Setting to File</p>
+                <h1>Settings Files</h1>
+                <form method="post" action="/" id="filesaveform">
+                    <h2>Save Setting to File</h2>
                     <p>Save <input class = "fileinput" input type="text" name = "filename" value = "" placeholder="file"></p>
-                    <!-- <p><input type = "submit" value="SAVE CONFIG" name="savefile"/></p> -->
-                    <button class="button" button type = "sumbit" value = "SAVE CONFIG" name = "savefile" style="vertical-align:middle"><span>SAVE CONFIG</span></button>
+                    <input class="button" type = "submit" value = "SAVE CONFIG" name="savefile" sid="filesaveform">
                 </form>
 
-                <form method="post" action="/">
-                    <p>Load Setting form File</p>
+                <form method="post" action="/" id="fileloadform">
+                    <h2>Load Setting form File</h2>
                     <p>Load <input class = "fileinput" input type="text" name = "filename" value = "" placeholder="file"></p>
-                    <!-- <p><input type = "submit" value="LOAD CONFIG" name="loadfile"/></p> -->
-                    <button class="button" button type = "sumbit" value = "LOAD CONFIG" name = "savefile" style="vertical-align:middle"><span>LOAD CONFIG</span></button>
+                    <input class="button" type = "submit" value = "LOAD CONFIG" name = "savefile" id="fileloadform">
                 </form>
             </div>
 
             <div class="run">
+                <h1>UPDATE</h1>
                 <form method="post" action="/">
-                    <h1>UPDATE</h1>
-                    <button class="button" button type = "sumbit" value = "UPDATE" name = "toros" style="vertical-align:middle"><span>Update</span></button>
-                    <!-- <p><input type = "submit" value="UPDATE " name="toros"/></p>-->
+                    <div>
+                        <h2>FANS</h2>
+                        <input class="button" button type = "submit" value = "SET FANS" name = "toros">
+                        <input class="button" button type = "submit" value = "STOP FANS" name = "toros">
+                    </div>
+                    <div>
+                        <h2>ACTUATORS</h2>
+                        <input class="button" button type = "submit" value = "SET ANGLE" name = "toros">
+                        <input class="button" button type = "submit" value = "STOP ANGLE" name = "toros">
+                     </div>
+                     <div>
+                        <h2>BOTH</h2>
+                        <input class="button" button type = "submit" value = "SET ALL" name = "toros">
+                        <input class="button" button type = "submit" value = "STOP ALL" name = "toros">
+                     </div>
                 </form>
             </div>
         </div>
