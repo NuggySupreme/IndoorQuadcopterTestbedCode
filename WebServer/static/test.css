@@ -25,6 +25,7 @@ h2{
     --itembg:var(--black);
     --itemtxt:var(--light-grey);
     --itemact:var(--dark-gray);
+    --btntxt:var(--white);
 }
 
 .gridlayout{ 
@@ -65,10 +66,10 @@ body{
 
 .allfaninput{
     border-radius: 25px;
-    border: 1% solid var(--itemact);
-    padding: 5%;
-    width: 40%;
-    height: 20%;
+    border: 2px solid var(--itemact);
+    padding: auto;
+    width: 100px;
+    height: 50px;
 }
 
 .faninput{
@@ -165,9 +166,9 @@ body{
     background: var(--itemact);
 }
 
-
-
-
+.radiobtn{
+    accent-color: var(--bg);
+}
 
 .toggle {
     --width: 100px;
@@ -249,41 +250,14 @@ body{
 .button {
     display: inline-block;
     border-radius: 5%;
-    background-color: #000000;
-    border: none;
-    color: #FFFFFF;
+    background-color: var(--bg);
+    color: var(--btntxt);
     text-align: center;
-    font-size: 100%;
+    font-size: 85%;
     padding: 3%;
-    width: 40%;
-    transition: all 0.5s;
+    width: 45%;
     cursor: pointer;
     margin: 1%;
-  }
-  
-  .button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-  
-  .button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-  .button:hover span {
-    padding-right: 25px;
-  }
-  
-  .button:hover span:after {
-    opacity: 1;
-    right: 0;
   }
 
   input.right{
