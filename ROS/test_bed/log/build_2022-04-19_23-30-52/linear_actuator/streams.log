@@ -1,0 +1,21 @@
+[5.146s] Invoking command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/linear_actuator': PYTHONPATH=/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/linear_actuator build --build-base /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/linear_actuator/build install --prefix /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator --record /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/linear_actuator/install.log --single-version-externally-managed
+[6.623s] running egg_info
+[6.626s] writing ../../build/linear_actuator/linear_actuator.egg-info/PKG-INFO
+[6.628s] writing dependency_links to ../../build/linear_actuator/linear_actuator.egg-info/dependency_links.txt
+[6.629s] writing entry points to ../../build/linear_actuator/linear_actuator.egg-info/entry_points.txt
+[6.630s] writing requirements to ../../build/linear_actuator/linear_actuator.egg-info/requires.txt
+[6.631s] writing top-level names to ../../build/linear_actuator/linear_actuator.egg-info/top_level.txt
+[6.809s] reading manifest file '../../build/linear_actuator/linear_actuator.egg-info/SOURCES.txt'
+[6.814s] writing manifest file '../../build/linear_actuator/linear_actuator.egg-info/SOURCES.txt'
+[6.815s] running build
+[6.816s] running build_py
+[6.818s] running install
+[6.822s] running install_lib
+[6.831s] running install_data
+[6.835s] running install_egg_info
+[6.843s] removing '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info' (and everything under it)
+[6.845s] Copying ../../build/linear_actuator/linear_actuator.egg-info to /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info
+[6.853s] running install_scripts
+[6.968s] Installing controller script to /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/lib/linear_actuator
+[6.972s] writing list of installed files to '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/linear_actuator/install.log'
+[7.109s] Invoked command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/linear_actuator' returned '0': PYTHONPATH=/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/linear_actuator build --build-base /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/linear_actuator/build install --prefix /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator --record /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/linear_actuator/install.log --single-version-externally-managed

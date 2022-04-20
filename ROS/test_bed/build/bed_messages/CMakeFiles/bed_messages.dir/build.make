@@ -55,6 +55,7 @@ include CMakeFiles/bed_messages.dir/progress.make
 
 CMakeFiles/bed_messages: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/bed_messages/msg/PSControl.msg
 CMakeFiles/bed_messages: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/bed_messages/msg/TableAngle.msg
+CMakeFiles/bed_messages: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/bed_messages/msg/FanControl.msg
 
 
 bed_messages: CMakeFiles/bed_messages

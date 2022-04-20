@@ -58,9 +58,11 @@ bed_messages__py/CMakeFiles/bed_messages__py: rosidl_generator_py/bed_messages/_
 bed_messages__py/CMakeFiles/bed_messages__py: rosidl_generator_py/bed_messages/_bed_messages_s.ep.rosidl_typesupport_c.c
 bed_messages__py/CMakeFiles/bed_messages__py: rosidl_generator_py/bed_messages/msg/_ps_control.py
 bed_messages__py/CMakeFiles/bed_messages__py: rosidl_generator_py/bed_messages/msg/_table_angle.py
+bed_messages__py/CMakeFiles/bed_messages__py: rosidl_generator_py/bed_messages/msg/_fan_control.py
 bed_messages__py/CMakeFiles/bed_messages__py: rosidl_generator_py/bed_messages/msg/__init__.py
 bed_messages__py/CMakeFiles/bed_messages__py: rosidl_generator_py/bed_messages/msg/_ps_control_s.c
 bed_messages__py/CMakeFiles/bed_messages__py: rosidl_generator_py/bed_messages/msg/_table_angle_s.c
+bed_messages__py/CMakeFiles/bed_messages__py: rosidl_generator_py/bed_messages/msg/_fan_control_s.c
 
 
 rosidl_generator_py/bed_messages/_bed_messages_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/lib/rosidl_generator_py/rosidl_generator_py
@@ -78,6 +80,7 @@ rosidl_generator_py/bed_messages/_bed_messages_s.ep.rosidl_typesupport_fastrtps_
 rosidl_generator_py/bed_messages/_bed_messages_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/bed_messages/_bed_messages_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/bed_messages/msg/PSControl.idl
 rosidl_generator_py/bed_messages/_bed_messages_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/bed_messages/msg/TableAngle.idl
+rosidl_generator_py/bed_messages/_bed_messages_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/bed_messages/msg/FanControl.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages/bed_messages__py && /usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -93,6 +96,9 @@ rosidl_generator_py/bed_messages/msg/_ps_control.py: rosidl_generator_py/bed_mes
 rosidl_generator_py/bed_messages/msg/_table_angle.py: rosidl_generator_py/bed_messages/_bed_messages_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/bed_messages/msg/_table_angle.py
 
+rosidl_generator_py/bed_messages/msg/_fan_control.py: rosidl_generator_py/bed_messages/_bed_messages_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/bed_messages/msg/_fan_control.py
+
 rosidl_generator_py/bed_messages/msg/__init__.py: rosidl_generator_py/bed_messages/_bed_messages_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/bed_messages/msg/__init__.py
 
@@ -102,15 +108,20 @@ rosidl_generator_py/bed_messages/msg/_ps_control_s.c: rosidl_generator_py/bed_me
 rosidl_generator_py/bed_messages/msg/_table_angle_s.c: rosidl_generator_py/bed_messages/_bed_messages_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/bed_messages/msg/_table_angle_s.c
 
+rosidl_generator_py/bed_messages/msg/_fan_control_s.c: rosidl_generator_py/bed_messages/_bed_messages_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/bed_messages/msg/_fan_control_s.c
+
 bed_messages__py: bed_messages__py/CMakeFiles/bed_messages__py
 bed_messages__py: rosidl_generator_py/bed_messages/_bed_messages_s.ep.rosidl_typesupport_fastrtps_c.c
 bed_messages__py: rosidl_generator_py/bed_messages/_bed_messages_s.ep.rosidl_typesupport_introspection_c.c
 bed_messages__py: rosidl_generator_py/bed_messages/_bed_messages_s.ep.rosidl_typesupport_c.c
 bed_messages__py: rosidl_generator_py/bed_messages/msg/_ps_control.py
 bed_messages__py: rosidl_generator_py/bed_messages/msg/_table_angle.py
+bed_messages__py: rosidl_generator_py/bed_messages/msg/_fan_control.py
 bed_messages__py: rosidl_generator_py/bed_messages/msg/__init__.py
 bed_messages__py: rosidl_generator_py/bed_messages/msg/_ps_control_s.c
 bed_messages__py: rosidl_generator_py/bed_messages/msg/_table_angle_s.c
+bed_messages__py: rosidl_generator_py/bed_messages/msg/_fan_control_s.c
 bed_messages__py: bed_messages__py/CMakeFiles/bed_messages__py.dir/build.make
 
 .PHONY : bed_messages__py

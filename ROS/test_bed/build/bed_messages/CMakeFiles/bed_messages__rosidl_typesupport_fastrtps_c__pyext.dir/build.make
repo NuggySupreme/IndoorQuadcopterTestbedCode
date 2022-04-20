@@ -95,7 +95,7 @@ rosidl_generator_py/bed_messages/bed_messages_s__rosidl_typesupport_fastrtps_c.c
 rosidl_generator_py/bed_messages/bed_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/lib/librcutils.so
 rosidl_generator_py/bed_messages/bed_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/lib/librosidl_typesupport_fastrtps_cpp.so
 rosidl_generator_py/bed_messages/bed_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/lib/libfastrtps.so.2.1.1
-rosidl_generator_py/bed_messages/bed_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/lib/libfoonathan_memory-0.6.2.a
+rosidl_generator_py/bed_messages/bed_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/lib/libfoonathan_memory-0.7.1.a
 rosidl_generator_py/bed_messages/bed_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so: /usr/lib/aarch64-linux-gnu/libtinyxml2.so
 rosidl_generator_py/bed_messages/bed_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so: /usr/lib/aarch64-linux-gnu/libtinyxml2.so
 rosidl_generator_py/bed_messages/bed_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so: /usr/lib/aarch64-linux-gnu/libssl.so

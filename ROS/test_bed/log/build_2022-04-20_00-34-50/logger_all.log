@@ -1,0 +1,311 @@
+[0.632s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.633s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff90f06610>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff90f06610>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff90f06b50>)
+[0.654s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.654s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.654s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.654s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.654s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.655s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.655s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/bed_messages) by extensions ['ignore', 'ignore_ament_install']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/bed_messages) by extension 'ignore'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/bed_messages) by extension 'ignore_ament_install'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/bed_messages) by extensions ['colcon_pkg']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/bed_messages) by extension 'colcon_pkg'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/bed_messages) by extensions ['colcon_meta']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/bed_messages) by extension 'colcon_meta'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/bed_messages) by extensions ['ros']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/bed_messages) by extension 'ros'
+[0.724s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bed_messages' with type 'ros.ament_cmake' and name 'bed_messages'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/fan_pcb) by extensions ['ignore', 'ignore_ament_install']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/fan_pcb) by extension 'ignore'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/fan_pcb) by extension 'ignore_ament_install'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/fan_pcb) by extensions ['colcon_pkg']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/fan_pcb) by extension 'colcon_pkg'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/fan_pcb) by extensions ['colcon_meta']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/fan_pcb) by extension 'colcon_meta'
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(src/fan_pcb) by extensions ['ros']
+[0.728s] Level 1:colcon.colcon_core.package_identification:_identify(src/fan_pcb) by extension 'ros'
+[0.730s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fan_pcb' with type 'ros.ament_python' and name 'fan_pcb'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/linear_actuator) by extensions ['ignore', 'ignore_ament_install']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/linear_actuator) by extension 'ignore'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/linear_actuator) by extension 'ignore_ament_install'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/linear_actuator) by extensions ['colcon_pkg']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/linear_actuator) by extension 'colcon_pkg'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/linear_actuator) by extensions ['colcon_meta']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/linear_actuator) by extension 'colcon_meta'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/linear_actuator) by extensions ['ros']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(src/linear_actuator) by extension 'ros'
+[0.735s] DEBUG:colcon.colcon_core.package_identification:Package 'src/linear_actuator' with type 'ros.ament_python' and name 'linear_actuator'
+[0.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/power_supply) by extensions ['ignore', 'ignore_ament_install']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/power_supply) by extension 'ignore'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/power_supply) by extension 'ignore_ament_install'
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/power_supply) by extensions ['colcon_pkg']
+[0.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/power_supply) by extension 'colcon_pkg'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/power_supply) by extensions ['colcon_meta']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/power_supply) by extension 'colcon_meta'
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/power_supply) by extensions ['ros']
+[0.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/power_supply) by extension 'ros'
+[0.739s] DEBUG:colcon.colcon_core.package_identification:Package 'src/power_supply' with type 'ros.ament_python' and name 'power_supply'
+[0.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.817s] Level 5:colcon.colcon_core.verb:set package 'bed_messages' build argument 'cmake_args' from command line to 'None'
+[0.817s] Level 5:colcon.colcon_core.verb:set package 'bed_messages' build argument 'cmake_target' from command line to 'None'
+[0.817s] Level 5:colcon.colcon_core.verb:set package 'bed_messages' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.817s] Level 5:colcon.colcon_core.verb:set package 'bed_messages' build argument 'cmake_clean_cache' from command line to 'False'
+[0.817s] Level 5:colcon.colcon_core.verb:set package 'bed_messages' build argument 'cmake_clean_first' from command line to 'False'
+[0.817s] Level 5:colcon.colcon_core.verb:set package 'bed_messages' build argument 'cmake_force_configure' from command line to 'False'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'bed_messages' build argument 'ament_cmake_args' from command line to 'None'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'bed_messages' build argument 'catkin_cmake_args' from command line to 'None'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'bed_messages' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.818s] DEBUG:colcon.colcon_core.verb:Building package 'bed_messages' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages', 'merge_install': False, 'path': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/bed_messages', 'symlink_install': False, 'test_result_base': None}
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'fan_pcb' build argument 'cmake_args' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'fan_pcb' build argument 'cmake_target' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'fan_pcb' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'fan_pcb' build argument 'cmake_clean_cache' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'fan_pcb' build argument 'cmake_clean_first' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'fan_pcb' build argument 'cmake_force_configure' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'fan_pcb' build argument 'ament_cmake_args' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'fan_pcb' build argument 'catkin_cmake_args' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'fan_pcb' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.822s] DEBUG:colcon.colcon_core.verb:Building package 'fan_pcb' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/fan_pcb', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb', 'merge_install': False, 'path': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/fan_pcb', 'symlink_install': False, 'test_result_base': None}
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'linear_actuator' build argument 'cmake_args' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'linear_actuator' build argument 'cmake_target' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'linear_actuator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'linear_actuator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'linear_actuator' build argument 'cmake_clean_first' from command line to 'False'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'linear_actuator' build argument 'cmake_force_configure' from command line to 'False'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'linear_actuator' build argument 'ament_cmake_args' from command line to 'None'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'linear_actuator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'linear_actuator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.826s] DEBUG:colcon.colcon_core.verb:Building package 'linear_actuator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/linear_actuator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator', 'merge_install': False, 'path': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/linear_actuator', 'symlink_install': False, 'test_result_base': None}
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'power_supply' build argument 'cmake_args' from command line to 'None'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'power_supply' build argument 'cmake_target' from command line to 'None'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'power_supply' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'power_supply' build argument 'cmake_clean_cache' from command line to 'False'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'power_supply' build argument 'cmake_clean_first' from command line to 'False'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'power_supply' build argument 'cmake_force_configure' from command line to 'False'
+[0.830s] Level 5:colcon.colcon_core.verb:set package 'power_supply' build argument 'ament_cmake_args' from command line to 'None'
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'power_supply' build argument 'catkin_cmake_args' from command line to 'None'
+[0.831s] Level 5:colcon.colcon_core.verb:set package 'power_supply' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.831s] DEBUG:colcon.colcon_core.verb:Building package 'power_supply' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply', 'merge_install': False, 'path': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/power_supply', 'symlink_install': False, 'test_result_base': None}
+[0.850s] WARNING:colcon.colcon_core.verb:Some selected packages are already built in one or more underlay workspaces:
+	'bed_messages' is in: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages
+	'fan_pcb' is in: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb
+	'linear_actuator' is in: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator
+	'power_supply' is in: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding bed_messages fan_pcb linear_actuator power_supply
+
+This may be promoted to an error in a future release of colcon-core.
+[0.852s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.860s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.861s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/bed_messages' with build type 'ament_cmake'
+[0.862s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/bed_messages'
+[0.876s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.878s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.878s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.903s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/fan_pcb' with build type 'ament_python'
+[0.904s] Level 1:colcon.colcon_core.shell:create_environment_hook('fan_pcb', 'ament_prefix_path')
+[0.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/share/fan_pcb/hook/ament_prefix_path.ps1'
+[0.912s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/share/fan_pcb/hook/ament_prefix_path.dsv'
+[0.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/share/fan_pcb/hook/ament_prefix_path.sh'
+[0.920s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.920s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.964s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages -- -j4 -l4
+[2.243s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/fan_pcb'
+[2.246s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.246s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages -- -j4 -l4
+[2.694s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages
+[2.992s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bed_messages)
+[3.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages
+[3.011s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages' for CMake module files
+[3.015s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages' for CMake config files
+[3.018s] Level 1:colcon.colcon_core.shell:create_environment_hook('bed_messages', 'cmake_prefix_path')
+[3.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/hook/cmake_prefix_path.ps1'
+[3.023s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/hook/cmake_prefix_path.dsv'
+[3.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/hook/cmake_prefix_path.sh'
+[3.028s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib'
+[3.029s] Level 1:colcon.colcon_core.shell:create_environment_hook('bed_messages', 'ld_library_path_lib')
+[3.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/hook/ld_library_path_lib.ps1'
+[3.033s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/hook/ld_library_path_lib.dsv'
+[3.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/hook/ld_library_path_lib.sh'
+[3.037s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/bin'
+[3.038s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/pkgconfig/bed_messages.pc'
+[3.038s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages'
+[3.038s] Level 1:colcon.colcon_core.shell:create_environment_hook('bed_messages', 'pythonpath')
+[3.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/hook/pythonpath.ps1'
+[3.042s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/hook/pythonpath.dsv'
+[3.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/hook/pythonpath.sh'
+[3.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/package.ps1'
+[3.052s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/package.dsv'
+[3.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/package.sh'
+[3.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/package.bash'
+[3.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/package.zsh'
+[3.066s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/colcon-core/packages/bed_messages)
+[3.426s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bed_messages)
+[3.430s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages' for CMake module files
+[3.435s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages' for CMake config files
+[3.438s] Level 1:colcon.colcon_core.shell:create_environment_hook('bed_messages', 'cmake_prefix_path')
+[3.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/hook/cmake_prefix_path.ps1'
+[3.443s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/hook/cmake_prefix_path.dsv'
+[3.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/hook/cmake_prefix_path.sh'
+[3.448s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib'
+[3.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('bed_messages', 'ld_library_path_lib')
+[3.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/hook/ld_library_path_lib.ps1'
+[3.453s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/hook/ld_library_path_lib.dsv'
+[3.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/hook/ld_library_path_lib.sh'
+[3.457s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/bin'
+[3.458s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/pkgconfig/bed_messages.pc'
+[3.458s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages'
+[3.458s] Level 1:colcon.colcon_core.shell:create_environment_hook('bed_messages', 'pythonpath')
+[3.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/hook/pythonpath.ps1'
+[3.463s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/hook/pythonpath.dsv'
+[3.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/hook/pythonpath.sh'
+[3.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/package.ps1'
+[3.472s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/package.dsv'
+[3.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/package.sh'
+[3.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/package.bash'
+[3.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/package.zsh'
+[3.482s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/colcon-core/packages/bed_messages)
+[3.485s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/linear_actuator' with build type 'ament_python'
+[3.486s] Level 1:colcon.colcon_core.shell:create_environment_hook('linear_actuator', 'ament_prefix_path')
+[3.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/share/linear_actuator/hook/ament_prefix_path.ps1'
+[3.491s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/share/linear_actuator/hook/ament_prefix_path.dsv'
+[3.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/share/linear_actuator/hook/ament_prefix_path.sh'
+[3.498s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.498s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.523s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/power_supply' with build type 'ament_python'
+[3.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('power_supply', 'ament_prefix_path')
+[3.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/share/power_supply/hook/ament_prefix_path.ps1'
+[3.531s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/share/power_supply/hook/ament_prefix_path.dsv'
+[3.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/share/power_supply/hook/ament_prefix_path.sh'
+[3.538s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.539s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.802s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/linear_actuator'
+[4.806s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.806s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.887s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/power_supply'
+[5.891s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.891s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/fan_pcb': PYTHONPATH=/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/fan_pcb build --build-base /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/fan_pcb/build install --prefix /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb --record /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/fan_pcb/install.log --single-version-externally-managed
+[7.615s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb' for CMake module files
+[7.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/fan_pcb' returned '0': PYTHONPATH=/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/fan_pcb build --build-base /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/fan_pcb/build install --prefix /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb --record /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/fan_pcb/install.log --single-version-externally-managed
+[7.620s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb' for CMake config files
+[7.624s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib'
+[7.625s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/bin'
+[7.625s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/pkgconfig/fan_pcb.pc'
+[7.627s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/python3.8/site-packages'
+[7.627s] Level 1:colcon.colcon_core.shell:create_environment_hook('fan_pcb', 'pythonpath')
+[7.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/share/fan_pcb/hook/pythonpath.ps1'
+[7.634s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/share/fan_pcb/hook/pythonpath.dsv'
+[7.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/share/fan_pcb/hook/pythonpath.sh'
+[7.639s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fan_pcb)
+[7.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/share/fan_pcb/package.ps1'
+[7.645s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/share/fan_pcb/package.dsv'
+[7.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/share/fan_pcb/package.sh'
+[7.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/share/fan_pcb/package.bash'
+[7.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/share/fan_pcb/package.zsh'
+[7.655s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/share/colcon-core/packages/fan_pcb)
+[8.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/linear_actuator': PYTHONPATH=/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/linear_actuator build --build-base /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/linear_actuator/build install --prefix /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator --record /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/linear_actuator/install.log --single-version-externally-managed
+[8.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/power_supply': PYTHONPATH=/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/power_supply build --build-base /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply/build install --prefix /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply --record /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply/install.log --single-version-externally-managed
+[9.719s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator' for CMake module files
+[9.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/linear_actuator' returned '0': PYTHONPATH=/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/linear_actuator build --build-base /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/linear_actuator/build install --prefix /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator --record /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/linear_actuator/install.log --single-version-externally-managed
+[9.725s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator' for CMake config files
+[9.730s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/lib'
+[9.730s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/bin'
+[9.731s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/lib/pkgconfig/linear_actuator.pc'
+[9.732s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/lib/python3.8/site-packages'
+[9.732s] Level 1:colcon.colcon_core.shell:create_environment_hook('linear_actuator', 'pythonpath')
+[9.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/share/linear_actuator/hook/pythonpath.ps1'
+[9.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/share/linear_actuator/hook/pythonpath.dsv'
+[9.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/share/linear_actuator/hook/pythonpath.sh'
+[9.744s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linear_actuator)
+[9.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/share/linear_actuator/package.ps1'
+[9.752s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/share/linear_actuator/package.dsv'
+[9.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/share/linear_actuator/package.sh'
+[9.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/share/linear_actuator/package.bash'
+[9.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/share/linear_actuator/package.zsh'
+[9.766s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/share/colcon-core/packages/linear_actuator)
+[9.773s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply' for CMake module files
+[9.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/power_supply' returned '0': PYTHONPATH=/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/power_supply build --build-base /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply/build install --prefix /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply --record /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply/install.log --single-version-externally-managed
+[9.778s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply' for CMake config files
+[9.782s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib'
+[9.783s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/bin'
+[9.783s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/pkgconfig/power_supply.pc'
+[9.783s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages'
+[9.784s] Level 1:colcon.colcon_core.shell:create_environment_hook('power_supply', 'pythonpath')
+[9.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/share/power_supply/hook/pythonpath.ps1'
+[9.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/share/power_supply/hook/pythonpath.dsv'
+[9.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/share/power_supply/hook/pythonpath.sh'
+[9.791s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(power_supply)
+[9.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/share/power_supply/package.ps1'
+[9.797s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/share/power_supply/package.dsv'
+[9.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/share/power_supply/package.sh'
+[9.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/share/power_supply/package.bash'
+[9.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/share/power_supply/package.zsh'
+[9.804s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/share/colcon-core/packages/power_supply)
+[9.806s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.807s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.807s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.808s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.832s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[9.832s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.833s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.833s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.833s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[9.833s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.836s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/local_setup.ps1'
+[9.839s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/_local_setup_util_ps1.py'
+[9.845s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/setup.ps1'
+[9.851s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/local_setup.sh'
+[9.853s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/_local_setup_util_sh.py'
+[9.856s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/setup.sh'
+[9.862s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/local_setup.bash'
+[9.864s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/setup.bash'
+[9.870s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/local_setup.zsh'
+[9.876s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/setup.zsh'

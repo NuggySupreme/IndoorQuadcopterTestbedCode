@@ -2,6 +2,7 @@
   "package_name": "bed_messages",
   "non_idl_tuples": [
     "/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/bed_messages:msg/PSControl.msg",
-    "/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/bed_messages:msg/TableAngle.msg"
+    "/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/bed_messages:msg/TableAngle.msg",
+    "/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/bed_messages:msg/FanControl.msg"
   ]
 }

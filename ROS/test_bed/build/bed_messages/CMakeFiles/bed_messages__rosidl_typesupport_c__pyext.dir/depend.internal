@@ -95,6 +95,9 @@ CMakeFiles/bed_messages__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/bed
  /usr/include/python3.8/unicodeobject.h
  /usr/include/python3.8/warnings.h
  /usr/include/python3.8/weakrefobject.h
+ rosidl_generator_c/bed_messages/msg/detail/fan_control__functions.h
+ rosidl_generator_c/bed_messages/msg/detail/fan_control__struct.h
+ rosidl_generator_c/bed_messages/msg/detail/fan_control__type_support.h
  rosidl_generator_c/bed_messages/msg/detail/ps_control__functions.h
  rosidl_generator_c/bed_messages/msg/detail/ps_control__struct.h
  rosidl_generator_c/bed_messages/msg/detail/ps_control__type_support.h
