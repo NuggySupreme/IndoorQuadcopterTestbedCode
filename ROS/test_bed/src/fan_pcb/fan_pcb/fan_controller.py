@@ -56,7 +56,7 @@ class FanController(Node):
       print("Best fit: " + str(self.K_SCALE))
 
    def fan_callback(self, msg): #address is [0, 3] by integer, speed is a float32 between 0 and 1 inclusive
-      self.setSpeed(msg.address, msg.speed)
+      self.setSpeed(msg.address % 4, msg.speed)
 
    def start(self):
       try:

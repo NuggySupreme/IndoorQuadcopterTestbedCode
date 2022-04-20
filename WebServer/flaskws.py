@@ -1,4 +1,5 @@
 import time
+from tokenize import Double
 from flask import Flask, render_template, request
 import roslibpy
 import os.path
@@ -16,11 +17,12 @@ dataDict ={}
 
 def toROS():
 	print(fanDict)
-	talker = roslibpy.Topic(client, 'fans', 'std_msgs/String')
+	talker = roslibpy.Topic(client, 'fans', 'bed_messages/msg/FanControl')
 	for key in fanDict:
 		value = fanDict[key]
-		print("%s:%s" % (value[0],value[1]))
-		talker.publish(roslibpy.Message({'data':"%s:%s" % (value[0],value[1])}))
+		speed = float(value[1]) / 100
+		print("%s:%f" % (value[0],speed))
+		talker.publish(roslibpy.Message({ 'channel': 0, 'address' : int(value[2]), 'speed' : speed}))
 	talker.unadvertise
 
 
@@ -77,8 +79,8 @@ def loadFile(fileName):
 				line = line.split(",")
 				print(line)
 
-				fanDict[line[0]] = [line[1],line[2]]
-				dataDict[line[0]] = [line[1],line[2]]
+				fanDict[line[0]] = [line[1],line[2],line[3]]
+				dataDict[line[0]] = [line[1],line[2],line[3]]
 	else:
 		#TODO send error to GUI, 
 		print("FILE NO EXIST")
@@ -120,7 +122,7 @@ def index():
 		if request.form.get('loadfile') == 'LOAD CONFIG':
 			form.pop('loadfile')
 			loadFile(request.form['filename'])
-		if request.form.get('toros'):
+		if request.form.get('toros') == 'SET FANS':
 			toROS()
 	elif request.method == 'GET':
 		return render_template(HTMLFILE,data=dataDict,actarr=actArr)
@@ -133,6 +135,10 @@ def main():
 	loadActuatorFile()
 	print(actArr)
 
+
+
+	test = "88"
+	print(int(test)/100)
 	client.run()
 	app.run(host='0.0.0.0', port=8080)
 
