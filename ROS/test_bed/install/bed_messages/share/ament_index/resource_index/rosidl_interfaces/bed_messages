@@ -1,3 +1,5 @@
+msg/FanControl.idl
+msg/FanControl.msg
 msg/PSControl.idl
 msg/PSControl.msg
 msg/TableAngle.idl

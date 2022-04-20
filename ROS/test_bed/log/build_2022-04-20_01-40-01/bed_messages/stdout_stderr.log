@@ -1,0 +1,12 @@
+[  2%] Built target bed_messages__cpp
+[ 12%] Built target bed_messages__rosidl_generator_c
+[ 23%] Built target bed_messages__rosidl_typesupport_cpp
+[ 34%] Built target bed_messages__rosidl_typesupport_c
+[ 44%] Built target bed_messages__rosidl_typesupport_fastrtps_cpp
+[ 55%] Built target bed_messages__rosidl_typesupport_introspection_cpp
+[ 65%] Built target bed_messages__rosidl_typesupport_introspection_c
+[ 76%] Built target bed_messages__rosidl_typesupport_fastrtps_c
+[ 76%] Built target bed_messages
+[ 78%] Built target bed_messages__py
+[ 87%] Built target bed_messages__python
+[ 91%] Built target bed_messages__rosidl_typesupport_c__pyext

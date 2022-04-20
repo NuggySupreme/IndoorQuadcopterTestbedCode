@@ -359,11 +359,19 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bed_messages/msg" TYPE FILE FILES "/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages/rosidl_adapter/bed_messages/msg/FanControl.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bed_messages/msg" TYPE FILE FILES "/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/bed_messages/msg/PSControl.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bed_messages/msg" TYPE FILE FILES "/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/bed_messages/msg/TableAngle.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bed_messages/msg" TYPE FILE FILES "/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/bed_messages/msg/FanControl.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

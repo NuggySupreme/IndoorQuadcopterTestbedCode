@@ -1,0 +1,324 @@
+[0.000000] (-) TimerEvent: {}
+[0.000970] (bed_messages) JobQueued: {'identifier': 'bed_messages', 'dependencies': OrderedDict()}
+[0.001294] (fan_pcb) JobQueued: {'identifier': 'fan_pcb', 'dependencies': OrderedDict()}
+[0.002483] (linear_actuator) JobQueued: {'identifier': 'linear_actuator', 'dependencies': OrderedDict([('bed_messages', '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages')])}
+[0.003062] (power_supply) JobQueued: {'identifier': 'power_supply', 'dependencies': OrderedDict([('bed_messages', '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages')])}
+[0.004128] (bed_messages) JobStarted: {'identifier': 'bed_messages'}
+[0.044260] (fan_pcb) JobStarted: {'identifier': 'fan_pcb'}
+[0.090050] (bed_messages) JobProgress: {'identifier': 'bed_messages', 'progress': 'cmake'}
+[0.093330] (bed_messages) JobProgress: {'identifier': 'bed_messages', 'progress': 'build'}
+[0.096411] (bed_messages) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/fan_pcb/fan_pcb'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('AMENT_PREFIX_PATH', '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages'), ('PYTHONPATH', '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb:/opt/ros/foxy')]), 'shell': False}
+[0.101045] (-) TimerEvent: {}
+[0.202044] (-) TimerEvent: {}
+[0.303488] (-) TimerEvent: {}
+[0.350216] (bed_messages) StdoutLine: {'line': b'[  2%] Built target bed_messages__cpp\n'}
+[0.361263] (bed_messages) StdoutLine: {'line': b'[ 12%] Built target bed_messages__rosidl_generator_c\n'}
+[0.403720] (-) TimerEvent: {}
+[0.495966] (bed_messages) StdoutLine: {'line': b'[ 23%] Built target bed_messages__rosidl_typesupport_cpp\n'}
+[0.504114] (-) TimerEvent: {}
+[0.511656] (bed_messages) StdoutLine: {'line': b'[ 34%] Built target bed_messages__rosidl_typesupport_c\n'}
+[0.527399] (bed_messages) StdoutLine: {'line': b'[ 44%] Built target bed_messages__rosidl_typesupport_introspection_cpp\n'}
+[0.554547] (bed_messages) StdoutLine: {'line': b'[ 55%] Built target bed_messages__rosidl_typesupport_fastrtps_cpp\n'}
+[0.604449] (-) TimerEvent: {}
+[0.617709] (bed_messages) StdoutLine: {'line': b'[ 65%] Built target bed_messages__rosidl_typesupport_introspection_c\n'}
+[0.699342] (bed_messages) StdoutLine: {'line': b'[ 76%] Built target bed_messages__rosidl_typesupport_fastrtps_c\n'}
+[0.704614] (-) TimerEvent: {}
+[0.792220] (bed_messages) StdoutLine: {'line': b'[ 76%] Built target bed_messages\n'}
+[0.804840] (-) TimerEvent: {}
+[0.890343] (bed_messages) StdoutLine: {'line': b'[ 78%] Built target bed_messages__py\n'}
+[0.905004] (-) TimerEvent: {}
+[1.006336] (-) TimerEvent: {}
+[1.038259] (bed_messages) StdoutLine: {'line': b'[ 87%] Built target bed_messages__python\n'}
+[1.106565] (-) TimerEvent: {}
+[1.195402] (bed_messages) StdoutLine: {'line': b'[ 91%] Built target bed_messages__rosidl_typesupport_c__pyext\n'}
+[1.197807] (bed_messages) StdoutLine: {'line': b'[ 95%] Built target bed_messages__rosidl_typesupport_introspection_c__pyext\n'}
+[1.200184] (bed_messages) StdoutLine: {'line': b'[100%] Built target bed_messages__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.206765] (-) TimerEvent: {}
+[1.307514] (-) TimerEvent: {}
+[1.408573] (-) TimerEvent: {}
+[1.431039] (bed_messages) CommandEnded: {'returncode': 0}
+[1.508831] (-) TimerEvent: {}
+[1.609743] (-) TimerEvent: {}
+[1.710441] (-) TimerEvent: {}
+[1.811120] (-) TimerEvent: {}
+[1.899063] (bed_messages) JobProgress: {'identifier': 'bed_messages', 'progress': 'install'}
+[1.911435] (-) TimerEvent: {}
+[1.942520] (bed_messages) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages'], 'cwd': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/fan_pcb/fan_pcb'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('AMENT_PREFIX_PATH', '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages'), ('PYTHONPATH', '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb:/opt/ros/foxy')]), 'shell': False}
+[1.989155] (bed_messages) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.989968] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/ament_index/resource_index/rosidl_interfaces/bed_messages\n'}
+[1.990674] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages\n'}
+[1.991262] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg\n'}
+[1.991802] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.992477] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail\n'}
+[1.993119] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/ps_control__type_support.h\n'}
+[1.993706] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/fan_control__functions.c\n'}
+[1.994304] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/fan_control__struct.h\n'}
+[1.994889] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/table_angle__type_support.h\n'}
+[1.995469] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/ps_control__functions.c\n'}
+[1.996070] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/table_angle__functions.c\n'}
+[1.996727] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/ps_control__functions.h\n'}
+[1.997390] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/fan_control__type_support.h\n'}
+[1.997985] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/table_angle__functions.h\n'}
+[1.998438] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/fan_control__functions.h\n'}
+[1.998860] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/ps_control__struct.h\n'}
+[1.999464] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/table_angle__struct.h\n'}
+[1.999909] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/fan_control.h\n'}
+[2.000393] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/table_angle.h\n'}
+[2.001008] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/ps_control.h\n'}
+[2.001614] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/environment/library_path.sh\n'}
+[2.002138] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/environment/library_path.dsv\n'}
+[2.002707] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/libbed_messages__rosidl_generator_c.so\n'}
+[2.003254] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages\n'}
+[2.003768] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg\n'}
+[2.004206] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail\n'}
+[2.004873] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/table_angle__rosidl_typesupport_fastrtps_c.h\n'}
+[2.005512] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/ps_control__rosidl_typesupport_fastrtps_c.h\n'}
+[2.005948] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/fan_control__rosidl_typesupport_fastrtps_c.h\n'}
+[2.006374] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.006840] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/libbed_messages__rosidl_typesupport_fastrtps_c.so\n'}
+[2.007449] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages\n'}
+[2.007980] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg\n'}
+[2.008662] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail\n'}
+[2.009212] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/fan_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.009855] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/dds_fastrtps\n'}
+[2.010338] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/table_angle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.010755] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/ps_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.011221] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.011842] (-) TimerEvent: {}
+[2.012475] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/libbed_messages__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.013368] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages\n'}
+[2.013986] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg\n'}
+[2.014598] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.015115] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail\n'}
+[2.015715] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/fan_control__rosidl_typesupport_introspection_c.h\n'}
+[2.016243] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/table_angle__type_support.c\n'}
+[2.016959] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/fan_control__type_support.c\n'}
+[2.017488] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/ps_control__type_support.c\n'}
+[2.017924] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/table_angle__rosidl_typesupport_introspection_c.h\n'}
+[2.018498] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/ps_control__rosidl_typesupport_introspection_c.h\n'}
+[2.018956] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/libbed_messages__rosidl_typesupport_introspection_c.so\n'}
+[2.020761] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/libbed_messages__rosidl_typesupport_c.so\n'}
+[2.022194] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages\n'}
+[2.022841] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg\n'}
+[2.023414] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail\n'}
+[2.024011] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/table_angle__builder.hpp\n'}
+[2.024662] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/fan_control__builder.hpp\n'}
+[2.025314] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/fan_control__traits.hpp\n'}
+[2.025935] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/ps_control__traits.hpp\n'}
+[2.026515] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/ps_control__builder.hpp\n'}
+[2.027124] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/table_angle__struct.hpp\n'}
+[2.027700] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/fan_control__struct.hpp\n'}
+[2.028284] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/table_angle__traits.hpp\n'}
+[2.028937] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/ps_control__struct.hpp\n'}
+[2.029501] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/ps_control.hpp\n'}
+[2.030144] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/fan_control.hpp\n'}
+[2.030824] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/table_angle.hpp\n'}
+[2.031332] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages\n'}
+[2.031817] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg\n'}
+[2.032453] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail\n'}
+[2.032947] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/table_angle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.033391] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/fan_control__type_support.cpp\n'}
+[2.033843] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/fan_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.034254] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/ps_control__type_support.cpp\n'}
+[2.034705] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/table_angle__type_support.cpp\n'}
+[2.035290] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/include/bed_messages/msg/detail/ps_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.035726] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/libbed_messages__rosidl_typesupport_introspection_cpp.so\n'}
+[2.036168] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/libbed_messages__rosidl_typesupport_cpp.so\n'}
+[2.036880] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/environment/pythonpath.sh\n'}
+[2.037500] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/environment/pythonpath.dsv\n'}
+[2.038153] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages/bed_messages/__init__.py\n'}
+[2.112041] (-) TimerEvent: {}
+[2.205988] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages/bed_messages/msg\n'}
+[2.206671] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages/bed_messages/msg/_ps_control_s.c\n'}
+[2.207270] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages/bed_messages/msg/__init__.py\n'}
+[2.207840] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages/bed_messages/msg/_table_angle_s.c\n'}
+[2.208538] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages/bed_messages/msg/_fan_control_s.c\n'}
+[2.209023] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages/bed_messages/msg/_ps_control.py\n'}
+[2.209455] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages/bed_messages/msg/_fan_control.py\n'}
+[2.209924] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages/bed_messages/msg/_table_angle.py\n'}
+[2.210498] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages/bed_messages/bed_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.212165] (-) TimerEvent: {}
+[2.214185] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages/bed_messages/bed_messages_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.217420] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages/bed_messages/bed_messages_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.220108] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/libbed_messages__python.so\n'}
+[2.221691] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/msg/PSControl.idl\n'}
+[2.222332] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/msg/TableAngle.idl\n'}
+[2.222929] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/msg/FanControl.idl\n'}
+[2.223506] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/msg/PSControl.msg\n'}
+[2.224080] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/msg/TableAngle.msg\n'}
+[2.224748] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/msg/FanControl.msg\n'}
+[2.225341] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/ament_index/resource_index/package_run_dependencies/bed_messages\n'}
+[2.225913] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/ament_index/resource_index/parent_prefix_path/bed_messages\n'}
+[2.226515] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/environment/ament_prefix_path.sh\n'}
+[2.227166] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/environment/ament_prefix_path.dsv\n'}
+[2.227778] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/environment/path.sh\n'}
+[2.228396] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/environment/path.dsv\n'}
+[2.229018] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/local_setup.bash\n'}
+[2.229589] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/local_setup.sh\n'}
+[2.230142] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/local_setup.zsh\n'}
+[2.230712] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/local_setup.dsv\n'}
+[2.231289] (bed_messages) StdoutLine: {'line': b'-- Installing: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/package.dsv\n'}
+[2.232338] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/ament_index/resource_index/packages/bed_messages\n'}
+[2.233630] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_generator_cExport.cmake\n'}
+[2.234319] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.235493] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.236166] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.237349] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_cExport.cmake\n'}
+[2.238013] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.239179] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_generator_cppExport.cmake\n'}
+[2.240403] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.241133] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.242268] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_cppExport.cmake\n'}
+[2.242935] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/bed_messages__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.243586] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/rosidl_cmake-extras.cmake\n'}
+[2.244178] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.244832] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.245420] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.245985] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.246602] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.247231] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.247852] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/bed_messagesConfig.cmake\n'}
+[2.248522] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/cmake/bed_messagesConfig-version.cmake\n'}
+[2.249091] (bed_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/share/bed_messages/package.xml\n'}
+[2.255627] (bed_messages) CommandEnded: {'returncode': 0}
+[2.312761] (-) TimerEvent: {}
+[2.413922] (-) TimerEvent: {}
+[2.514869] (-) TimerEvent: {}
+[2.615552] (-) TimerEvent: {}
+[2.716213] (-) TimerEvent: {}
+[2.817046] (-) TimerEvent: {}
+[2.835701] (bed_messages) JobEnded: {'identifier': 'bed_messages', 'rc': 0}
+[2.842416] (linear_actuator) JobStarted: {'identifier': 'linear_actuator'}
+[2.877248] (power_supply) JobStarted: {'identifier': 'power_supply'}
+[2.917524] (-) TimerEvent: {}
+[3.019440] (-) TimerEvent: {}
+[3.120457] (-) TimerEvent: {}
+[3.221266] (-) TimerEvent: {}
+[3.322004] (-) TimerEvent: {}
+[3.422859] (-) TimerEvent: {}
+[3.523935] (-) TimerEvent: {}
+[3.624632] (-) TimerEvent: {}
+[3.725263] (-) TimerEvent: {}
+[3.825880] (-) TimerEvent: {}
+[3.926626] (-) TimerEvent: {}
+[4.027487] (-) TimerEvent: {}
+[4.128678] (-) TimerEvent: {}
+[4.229607] (-) TimerEvent: {}
+[4.330243] (-) TimerEvent: {}
+[4.430876] (-) TimerEvent: {}
+[4.531521] (-) TimerEvent: {}
+[4.632165] (-) TimerEvent: {}
+[4.732891] (-) TimerEvent: {}
+[4.833531] (-) TimerEvent: {}
+[4.934318] (-) TimerEvent: {}
+[5.035126] (-) TimerEvent: {}
+[5.094012] (fan_pcb) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/fan_pcb', 'build', '--build-base', '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/fan_pcb/build', 'install', '--prefix', '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb', '--record', '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/fan_pcb/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/fan_pcb', 'env': {'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/fan_pcb/fan_pcb', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install', 'SUDO_UID': '1000', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages:/opt/ros/foxy', 'SHELL': '/bin/bash', 'SUDO_USER': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/fan_pcb', 'PYTHONPATH': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages'}, 'shell': False}
+[5.136818] (-) TimerEvent: {}
+[5.239121] (-) TimerEvent: {}
+[5.341037] (-) TimerEvent: {}
+[5.443764] (-) TimerEvent: {}
+[5.545727] (-) TimerEvent: {}
+[5.647585] (-) TimerEvent: {}
+[5.749170] (-) TimerEvent: {}
+[5.850978] (-) TimerEvent: {}
+[5.952572] (-) TimerEvent: {}
+[6.054153] (-) TimerEvent: {}
+[6.155860] (-) TimerEvent: {}
+[6.257576] (-) TimerEvent: {}
+[6.299709] (fan_pcb) StdoutLine: {'line': b'running egg_info\n'}
+[6.302831] (fan_pcb) StdoutLine: {'line': b'writing ../../build/fan_pcb/fan_pcb.egg-info/PKG-INFO\n'}
+[6.304220] (fan_pcb) StdoutLine: {'line': b'writing dependency_links to ../../build/fan_pcb/fan_pcb.egg-info/dependency_links.txt\n'}
+[6.310323] (fan_pcb) StdoutLine: {'line': b'writing entry points to ../../build/fan_pcb/fan_pcb.egg-info/entry_points.txt\n'}
+[6.311026] (fan_pcb) StdoutLine: {'line': b'writing requirements to ../../build/fan_pcb/fan_pcb.egg-info/requires.txt\n'}
+[6.311658] (fan_pcb) StdoutLine: {'line': b'writing top-level names to ../../build/fan_pcb/fan_pcb.egg-info/top_level.txt\n'}
+[6.357760] (-) TimerEvent: {}
+[6.459466] (-) TimerEvent: {}
+[6.479494] (fan_pcb) StdoutLine: {'line': b"reading manifest file '../../build/fan_pcb/fan_pcb.egg-info/SOURCES.txt'\n"}
+[6.484195] (fan_pcb) StdoutLine: {'line': b"writing manifest file '../../build/fan_pcb/fan_pcb.egg-info/SOURCES.txt'\n"}
+[6.485597] (fan_pcb) StdoutLine: {'line': b'running build\n'}
+[6.486673] (fan_pcb) StdoutLine: {'line': b'running build_py\n'}
+[6.487388] (fan_pcb) StdoutLine: {'line': b'copying fan_pcb/fan_controller.py -> /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/fan_pcb/build/lib/fan_pcb\n'}
+[6.490548] (fan_pcb) StdoutLine: {'line': b'running install\n'}
+[6.491995] (fan_pcb) StdoutLine: {'line': b'running install_lib\n'}
+[6.498230] (fan_pcb) StdoutLine: {'line': b'copying /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/fan_pcb/build/lib/fan_pcb/fan_controller.py -> /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/python3.8/site-packages/fan_pcb\n'}
+[6.501348] (fan_pcb) StdoutLine: {'line': b'byte-compiling /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/python3.8/site-packages/fan_pcb/fan_controller.py to fan_controller.cpython-38.pyc\n'}
+[6.511934] (fan_pcb) StdoutLine: {'line': b'running install_data\n'}
+[6.514535] (fan_pcb) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.526213] (fan_pcb) StdoutLine: {'line': b"removing '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/python3.8/site-packages/fan_pcb-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[6.528333] (fan_pcb) StdoutLine: {'line': b'Copying ../../build/fan_pcb/fan_pcb.egg-info to /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/python3.8/site-packages/fan_pcb-0.0.0-py3.8.egg-info\n'}
+[6.535664] (fan_pcb) StdoutLine: {'line': b'running install_scripts\n'}
+[6.559695] (-) TimerEvent: {}
+[6.616522] (fan_pcb) StdoutLine: {'line': b'Installing controller script to /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/fan_pcb\n'}
+[6.618362] (fan_pcb) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/fan_pcb/install.log'\n"}
+[6.659999] (-) TimerEvent: {}
+[6.740421] (fan_pcb) CommandEnded: {'returncode': 0}
+[6.760149] (-) TimerEvent: {}
+[6.786144] (fan_pcb) JobEnded: {'identifier': 'fan_pcb', 'rc': 0}
+[6.860446] (-) TimerEvent: {}
+[6.961519] (-) TimerEvent: {}
+[7.062297] (-) TimerEvent: {}
+[7.163150] (-) TimerEvent: {}
+[7.264295] (-) TimerEvent: {}
+[7.366758] (-) TimerEvent: {}
+[7.379514] (linear_actuator) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/linear_actuator', 'build', '--build-base', '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/linear_actuator/build', 'install', '--prefix', '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator', '--record', '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/linear_actuator/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/linear_actuator', 'env': {'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/fan_pcb/fan_pcb', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install', 'SUDO_UID': '1000', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages:/opt/ros/foxy', 'SHELL': '/bin/bash', 'SUDO_USER': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/linear_actuator', 'PYTHONPATH': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages'}, 'shell': False}
+[7.426526] (power_supply) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/power_supply', 'build', '--build-base', '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply/build', 'install', '--prefix', '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply', '--record', '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/power_supply', 'env': {'SUDO_GID': '1000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/root', 'OLDPWD': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/fan_pcb/fan_pcb', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install', 'SUDO_UID': '1000', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/su', 'AMENT_PREFIX_PATH': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages:/opt/ros/foxy', 'SHELL': '/bin/bash', 'SUDO_USER': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply', 'PYTHONPATH': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages'}, 'shell': False}
+[7.466924] (-) TimerEvent: {}
+[7.567960] (-) TimerEvent: {}
+[7.668758] (-) TimerEvent: {}
+[7.769533] (-) TimerEvent: {}
+[7.870266] (-) TimerEvent: {}
+[7.970949] (-) TimerEvent: {}
+[8.071650] (-) TimerEvent: {}
+[8.172330] (-) TimerEvent: {}
+[8.273091] (-) TimerEvent: {}
+[8.373830] (-) TimerEvent: {}
+[8.455017] (linear_actuator) StdoutLine: {'line': b'running egg_info\n'}
+[8.457646] (linear_actuator) StdoutLine: {'line': b'writing ../../build/linear_actuator/linear_actuator.egg-info/PKG-INFO\n'}
+[8.459095] (linear_actuator) StdoutLine: {'line': b'writing dependency_links to ../../build/linear_actuator/linear_actuator.egg-info/dependency_links.txt\n'}
+[8.459962] (linear_actuator) StdoutLine: {'line': b'writing entry points to ../../build/linear_actuator/linear_actuator.egg-info/entry_points.txt\n'}
+[8.460735] (linear_actuator) StdoutLine: {'line': b'writing requirements to ../../build/linear_actuator/linear_actuator.egg-info/requires.txt\n'}
+[8.461480] (linear_actuator) StdoutLine: {'line': b'writing top-level names to ../../build/linear_actuator/linear_actuator.egg-info/top_level.txt\n'}
+[8.473996] (-) TimerEvent: {}
+[8.481206] (power_supply) StdoutLine: {'line': b'running egg_info\n'}
+[8.483844] (power_supply) StdoutLine: {'line': b'writing ../../build/power_supply/power_supply.egg-info/PKG-INFO\n'}
+[8.485109] (power_supply) StdoutLine: {'line': b'writing dependency_links to ../../build/power_supply/power_supply.egg-info/dependency_links.txt\n'}
+[8.486055] (power_supply) StdoutLine: {'line': b'writing entry points to ../../build/power_supply/power_supply.egg-info/entry_points.txt\n'}
+[8.486953] (power_supply) StdoutLine: {'line': b'writing requirements to ../../build/power_supply/power_supply.egg-info/requires.txt\n'}
+[8.487710] (power_supply) StdoutLine: {'line': b'writing top-level names to ../../build/power_supply/power_supply.egg-info/top_level.txt\n'}
+[8.574173] (-) TimerEvent: {}
+[8.618251] (linear_actuator) StdoutLine: {'line': b"reading manifest file '../../build/linear_actuator/linear_actuator.egg-info/SOURCES.txt'\n"}
+[8.622631] (linear_actuator) StdoutLine: {'line': b"writing manifest file '../../build/linear_actuator/linear_actuator.egg-info/SOURCES.txt'\n"}
+[8.623334] (linear_actuator) StdoutLine: {'line': b'running build\n'}
+[8.623918] (linear_actuator) StdoutLine: {'line': b'running build_py\n'}
+[8.625428] (linear_actuator) StdoutLine: {'line': b'running install\n'}
+[8.628783] (linear_actuator) StdoutLine: {'line': b'running install_lib\n'}
+[8.636319] (linear_actuator) StdoutLine: {'line': b'running install_data\n'}
+[8.638648] (linear_actuator) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.642884] (power_supply) StdoutLine: {'line': b"reading manifest file '../../build/power_supply/power_supply.egg-info/SOURCES.txt'\n"}
+[8.645997] (linear_actuator) StdoutLine: {'line': b"removing '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[8.647447] (power_supply) StdoutLine: {'line': b"writing manifest file '../../build/power_supply/power_supply.egg-info/SOURCES.txt'\n"}
+[8.648307] (linear_actuator) StdoutLine: {'line': b'Copying ../../build/linear_actuator/linear_actuator.egg-info to /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/lib/python3.8/site-packages/linear_actuator-0.0.0-py3.8.egg-info\n'}
+[8.649077] (power_supply) StdoutLine: {'line': b'running build\n'}
+[8.649588] (power_supply) StdoutLine: {'line': b'running build_py\n'}
+[8.650237] (power_supply) StdoutLine: {'line': b'running install\n'}
+[8.653543] (power_supply) StdoutLine: {'line': b'running install_lib\n'}
+[8.654514] (linear_actuator) StdoutLine: {'line': b'running install_scripts\n'}
+[8.661922] (power_supply) StdoutLine: {'line': b'running install_data\n'}
+[8.664427] (power_supply) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.672026] (power_supply) StdoutLine: {'line': b"removing '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages/power_supply-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[8.674005] (power_supply) StdoutLine: {'line': b'Copying ../../build/power_supply/power_supply.egg-info to /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages/power_supply-0.0.0-py3.8.egg-info\n'}
+[8.674736] (-) TimerEvent: {}
+[8.680803] (power_supply) StdoutLine: {'line': b'running install_scripts\n'}
+[8.731919] (linear_actuator) StdoutLine: {'line': b'Installing controller script to /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/lib/linear_actuator\n'}
+[8.733973] (linear_actuator) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/linear_actuator/install.log'\n"}
+[8.771521] (power_supply) StdoutLine: {'line': b'Installing controller script to /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/power_supply\n'}
+[8.773435] (power_supply) StdoutLine: {'line': b'Installing off script to /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/power_supply\n'}
+[8.775260] (power_supply) StdoutLine: {'line': b'Installing tester script to /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/power_supply\n'}
+[8.776250] (-) TimerEvent: {}
+[8.778439] (power_supply) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply/install.log'\n"}
+[8.867200] (linear_actuator) CommandEnded: {'returncode': 0}
+[8.876456] (-) TimerEvent: {}
+[8.908903] (linear_actuator) JobEnded: {'identifier': 'linear_actuator', 'rc': 0}
+[8.916865] (power_supply) CommandEnded: {'returncode': 0}
+[8.946168] (power_supply) JobEnded: {'identifier': 'power_supply', 'rc': 0}
+[8.949110] (-) EventReactorShutdown: {}

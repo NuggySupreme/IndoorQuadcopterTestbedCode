@@ -10,7 +10,6 @@ setup.py
 ../../build/power_supply/power_supply.egg-info/zip-safe
 power_supply/__init__.py
 power_supply/power_supply_controller.py
-power_supply/power_supply_off.py
 power_supply/power_supply_tester.py
 resource/power_supply
 test/test_copyright.py

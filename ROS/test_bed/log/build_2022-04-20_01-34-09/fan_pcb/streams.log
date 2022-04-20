@@ -1,0 +1,24 @@
+[4.986s] Invoking command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/fan_pcb': PYTHONPATH=/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/fan_pcb build --build-base /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/fan_pcb/build install --prefix /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb --record /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/fan_pcb/install.log --single-version-externally-managed
+[6.184s] running egg_info
+[6.187s] writing ../../build/fan_pcb/fan_pcb.egg-info/PKG-INFO
+[6.190s] writing dependency_links to ../../build/fan_pcb/fan_pcb.egg-info/dependency_links.txt
+[6.191s] writing entry points to ../../build/fan_pcb/fan_pcb.egg-info/entry_points.txt
+[6.192s] writing requirements to ../../build/fan_pcb/fan_pcb.egg-info/requires.txt
+[6.193s] writing top-level names to ../../build/fan_pcb/fan_pcb.egg-info/top_level.txt
+[6.364s] reading manifest file '../../build/fan_pcb/fan_pcb.egg-info/SOURCES.txt'
+[6.369s] writing manifest file '../../build/fan_pcb/fan_pcb.egg-info/SOURCES.txt'
+[6.370s] running build
+[6.371s] running build_py
+[6.372s] copying fan_pcb/fan_controller.py -> /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/fan_pcb/build/lib/fan_pcb
+[6.373s] running install
+[6.376s] running install_lib
+[6.382s] copying /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/fan_pcb/build/lib/fan_pcb/fan_controller.py -> /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/python3.8/site-packages/fan_pcb
+[6.385s] byte-compiling /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/python3.8/site-packages/fan_pcb/fan_controller.py to fan_controller.cpython-38.pyc
+[6.396s] running install_data
+[6.400s] running install_egg_info
+[6.408s] removing '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/python3.8/site-packages/fan_pcb-0.0.0-py3.8.egg-info' (and everything under it)
+[6.411s] Copying ../../build/fan_pcb/fan_pcb.egg-info to /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/python3.8/site-packages/fan_pcb-0.0.0-py3.8.egg-info
+[6.418s] running install_scripts
+[6.501s] Installing controller script to /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/fan_pcb
+[6.503s] writing list of installed files to '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/fan_pcb/install.log'
+[6.624s] Invoked command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/fan_pcb' returned '0': PYTHONPATH=/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/fan_pcb build --build-base /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/fan_pcb/build install --prefix /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb --record /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/fan_pcb/install.log --single-version-externally-managed

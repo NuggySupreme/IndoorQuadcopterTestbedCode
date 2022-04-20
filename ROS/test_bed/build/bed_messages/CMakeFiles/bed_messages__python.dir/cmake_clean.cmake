@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/bed_messages__python.dir/rosidl_generator_py/bed_messages/msg/_fan_control_s.c.o"
   "CMakeFiles/bed_messages__python.dir/rosidl_generator_py/bed_messages/msg/_ps_control_s.c.o"
   "CMakeFiles/bed_messages__python.dir/rosidl_generator_py/bed_messages/msg/_table_angle_s.c.o"
   "rosidl_generator_py/bed_messages/libbed_messages__python.pdb"

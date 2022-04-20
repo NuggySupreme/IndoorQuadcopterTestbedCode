@@ -6,6 +6,26 @@
 
 #IncludeRegexTransform: 
 
+/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages/rosidl_typesupport_c/bed_messages/msg/fan_control__type_support.cpp
+cstddef
+/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages/rosidl_typesupport_c/bed_messages/msg/cstddef
+rosidl_runtime_c/message_type_support_struct.h
+/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages/rosidl_typesupport_c/bed_messages/msg/rosidl_runtime_c/message_type_support_struct.h
+bed_messages/msg/rosidl_typesupport_c__visibility_control.h
+/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages/rosidl_typesupport_c/bed_messages/msg/bed_messages/msg/rosidl_typesupport_c__visibility_control.h
+bed_messages/msg/detail/fan_control__struct.h
+/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages/rosidl_typesupport_c/bed_messages/msg/bed_messages/msg/detail/fan_control__struct.h
+rosidl_typesupport_c/identifier.h
+/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages/rosidl_typesupport_c/bed_messages/msg/rosidl_typesupport_c/identifier.h
+rosidl_typesupport_c/message_type_support_dispatch.h
+/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages/rosidl_typesupport_c/bed_messages/msg/rosidl_typesupport_c/message_type_support_dispatch.h
+rosidl_typesupport_c/type_support_map.h
+/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages/rosidl_typesupport_c/bed_messages/msg/rosidl_typesupport_c/type_support_map.h
+rosidl_typesupport_c/visibility_control.h
+/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages/rosidl_typesupport_c/bed_messages/msg/rosidl_typesupport_c/visibility_control.h
+rosidl_typesupport_interface/macros.h
+/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages/rosidl_typesupport_c/bed_messages/msg/rosidl_typesupport_interface/macros.h
+
 /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages/rosidl_typesupport_c/bed_messages/msg/ps_control__type_support.cpp
 cstddef
 /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages/rosidl_typesupport_c/bed_messages/msg/cstddef
@@ -71,6 +91,14 @@ cstddef
 /opt/ros/foxy/include/rosidl_typesupport_c/visibility_control.h
 
 /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
+
+rosidl_generator_c/bed_messages/msg/detail/fan_control__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
 
 rosidl_generator_c/bed_messages/msg/detail/ps_control__struct.h
 stdbool.h

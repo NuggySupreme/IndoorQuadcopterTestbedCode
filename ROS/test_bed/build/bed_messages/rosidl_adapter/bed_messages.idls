@@ -1,2 +1,3 @@
 /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages/rosidl_adapter/bed_messages:msg/PSControl.idl
 /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages/rosidl_adapter/bed_messages:msg/TableAngle.idl
+/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages/rosidl_adapter/bed_messages:msg/FanControl.idl

@@ -1,0 +1,13 @@
+[0.086s] Invoking command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages -- -j4 -l4
+[0.323s] [  2%] Built target bed_messages__cpp
+[0.336s] [ 12%] Built target bed_messages__rosidl_generator_c
+[0.468s] [ 23%] Built target bed_messages__rosidl_typesupport_cpp
+[0.512s] [ 34%] Built target bed_messages__rosidl_typesupport_c
+[0.528s] [ 44%] Built target bed_messages__rosidl_typesupport_fastrtps_cpp
+[0.537s] [ 55%] Built target bed_messages__rosidl_typesupport_introspection_cpp
+[0.632s] [ 65%] Built target bed_messages__rosidl_typesupport_introspection_c
+[0.679s] [ 76%] Built target bed_messages__rosidl_typesupport_fastrtps_c
+[0.770s] [ 76%] Built target bed_messages
+[0.862s] [ 78%] Built target bed_messages__py
+[1.006s] [ 87%] Built target bed_messages__python
+[1.204s] [ 91%] Built target bed_messages__rosidl_typesupport_c__pyext

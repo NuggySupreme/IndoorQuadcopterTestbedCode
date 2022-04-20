@@ -1,0 +1,23 @@
+[4.564s] Invoking command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/power_supply': PYTHONPATH=/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/power_supply build --build-base /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply/build install --prefix /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply --record /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply/install.log --single-version-externally-managed
+[5.625s] running egg_info
+[5.628s] writing ../../build/power_supply/power_supply.egg-info/PKG-INFO
+[5.630s] writing dependency_links to ../../build/power_supply/power_supply.egg-info/dependency_links.txt
+[5.631s] writing entry points to ../../build/power_supply/power_supply.egg-info/entry_points.txt
+[5.632s] writing requirements to ../../build/power_supply/power_supply.egg-info/requires.txt
+[5.633s] writing top-level names to ../../build/power_supply/power_supply.egg-info/top_level.txt
+[5.797s] reading manifest file '../../build/power_supply/power_supply.egg-info/SOURCES.txt'
+[5.802s] writing manifest file '../../build/power_supply/power_supply.egg-info/SOURCES.txt'
+[5.802s] running build
+[5.803s] running build_py
+[5.804s] running install
+[5.808s] running install_lib
+[5.816s] running install_data
+[5.818s] running install_egg_info
+[5.825s] removing '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages/power_supply-0.0.0-py3.8.egg-info' (and everything under it)
+[5.827s] Copying ../../build/power_supply/power_supply.egg-info to /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages/power_supply-0.0.0-py3.8.egg-info
+[5.834s] running install_scripts
+[5.916s] Installing controller script to /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/power_supply
+[5.917s] Installing off script to /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/power_supply
+[5.919s] Installing tester script to /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/power_supply
+[5.922s] writing list of installed files to '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply/install.log'
+[6.094s] Invoked command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/src/power_supply' returned '0': PYTHONPATH=/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/bed_messages/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/linear_actuator/lib/python3.8/site-packages:/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/power_supply build --build-base /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply/build install --prefix /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/power_supply --record /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/power_supply/install.log --single-version-externally-managed
