@@ -18,6 +18,7 @@ class PSTester(Node):
       msg.turn_off = 0
       self.i += 1
       self.publisher.publish(msg)
+      print(type(msg))
 
 def main(args=None):
    rclpy.init(args=args)
