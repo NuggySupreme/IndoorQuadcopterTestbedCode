@@ -2,14 +2,14 @@
     --black: #000000;
     --orange: #Fe5c00;
     --dark-gray: #797978;
-    --light-grey: #90979b;
-    --white: #edece6;
+    --light-grey: #D0D0CE;
+    --white: #ffffff;
 }
 
 h1{
     background-color: #Fe5c00;
     text-align: center;
-    font-size: 150%;
+    font-size: 175%;
 }
 
 h2{
@@ -34,7 +34,7 @@ h2{
     grid-template-rows: repeat(auto-fill,minmax(300px,1fr));
     margin: auto;
     gap: 1rem;
-    max-width: 1500px;
+    max-width: 1563px;
 }
 
 body{
@@ -80,6 +80,7 @@ body{
     height: 40px;
 }
 
+
 .fileinput{
     border-radius: 25px;
     border: 2px solid var(--itemact);
@@ -93,7 +94,7 @@ body{
     min-width: 300px;
     min-height: 300px;
     max-width: 1fr;
-    max-height: 1fr;
+    max-height: 2fr;
     grid-template-columns: repeat(2,minmax(150px,1fr));
     background-color: var(--boxbg);
     padding: 5%;
@@ -109,6 +110,7 @@ body{
     max-height: 1fr;
     background-color: var(--boxbg);
     padding: 5%;
+    text-align: center;
     
 }
 
@@ -120,11 +122,11 @@ body{
     min-height: 300px;
     max-width: 1fr;
     max-height: 2fr;
+    text-align: center;
 }
 
 .run{
     grid-area: span 1 / span 1 / span 2 / span 2;
-
     grid-template-columns: repeat(2,minmax(150px,1fr));
     grid-template-rows: repeat(3, minmax(100,1fr));
     background-color: var(--boxbg);
