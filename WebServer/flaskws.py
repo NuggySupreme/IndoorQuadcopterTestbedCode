@@ -54,9 +54,17 @@ def setActuators(form):
 	print(dataDict['actuator'])
 
 def RunActuators():
-	talker = roslibpy.Topic(client, 'actuators', 'std_msgs/String')
+	talker = roslibpy.Topic(client, 'table_angle', 'bed_messages/msg/TableAngle')
 	print("%s:%s" % (dataDict['actuator'][0],dataDict['actuator'][1]))
-	talker.publish(roslibpy.Message({'data':"%s:%s" % (dataDict['actuator'][0],dataDict['actuator'][1])}))
+
+	if dataDict['actuator'][0] == 'F2B':
+		roll = 0
+		pitch = dataDict['actuator'][1]
+	else:
+		roll = dataDict['actuator'][1]
+		pitch = 0
+	
+	talker.publish(roslibpy.Message({'roll': roll, 'pitch': pitch}))
 	talker.unadvertise
 
 	with open('actuator.txt', 'w') as file:
@@ -113,9 +121,6 @@ def index():
 			if 'DIRECTION' in form:
 				form.pop('updateactuator')
 				setActuators(form)
-		if request.form.get('setactuator') == 'SET ANGLE':
-			form.pop('setactuator')
-			RunActuators()
 		if request.form.get('savefile') == 'SAVE CONFIG':
 			form.pop('savefile')
 			saveFile(request.form['filename'])
@@ -124,6 +129,21 @@ def index():
 			loadFile(request.form['filename'])
 		if request.form.get('toros') == 'SET FANS':
 			toROS()
+		if request.form.get('toros') == 'STOP FANS':
+			loadFile("zerofans.txt")
+			toROS()
+		if request.form.get('toros') == 'SET ANGLE':
+			RunActuators()
+		if request.form.get('toros') == 'SET ALL':
+			toROS()
+			RunActuators()
+		if request.form.get('toros') == 'STOP ALL':
+			loadFile("zerofans.txt")
+			toROS()
+			# TODO add a stop funcion to actuators
+
+
+
 	elif request.method == 'GET':
 		return render_template(HTMLFILE,data=dataDict,actarr=actArr)
 	return render_template(HTMLFILE,data=dataDict,actarr=actArr)

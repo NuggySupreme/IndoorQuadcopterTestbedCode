@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="static/test.css">
     </head>
     <body class="theme">
-        <h1>UPDRAFT TEST GUI</h1>
+        <h1>UPDRAFT TEST UI</h1>
         <div class="gridlayout">
             <form class="fangrid" method="post" action="/" id="gridform">
                 <div class="fan">
@@ -96,7 +96,7 @@
             <div class="allfans">
                 <h1>All Fans </h1>
                 <form method="post" action="/" id="allfanform">
-                    <p><input class="allfaninput" type="text" name = "ALLFANS" value = "" placeholder="Enter desierd speed"></p>
+                    <p><input class="allfaninput" type="text" name = "ALLFANS" value = "" placeholder="speed"></p>
                     <p><input class="button" type = "submit" value="UPDATE ALL FANS" name="updatefan" form="allfanform"/></p>
                 </form>
                 <p><input class="button" type = "submit" value="UPDATE FANS" name="updatefan" form="gridform" /></p>
@@ -108,9 +108,9 @@
                     <div class="direction">
                         <h2>Direction : {{data['actuator'][0]}}</h2>
                         <input class="radiobtn" type="radio" name="DIRECTION" value="F2B" id="f2b">
-                        <label for="f2b">F2B</label>
+                        <label for="f2b">Pitch</label>
                         <input class="radiobtn" type="radio" name="DIRECTION" value="S2S" id="s2s">
-                        <label for="s2s">S2S</label>
+                        <label for="s2s">Roll</label>
                     </div>
 
                     <div class="angle">
