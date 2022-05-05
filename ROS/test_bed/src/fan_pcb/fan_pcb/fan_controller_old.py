@@ -24,12 +24,13 @@ TACH3_REGISTER = 0x12
 COUNT_REGISTER = 0x16 #Sets count time for tachometer
 
 class FanController(Node):
-   def __init__(self):
+   def __init__(self, chNum):
       super().__init__('fan_controller')
       self.errorPublisher = self.create_publisher(String, '/error_messages', 20)
       self.subscriber = self.create_subscription(FanControl, '/fan_control_messages', self.fan_callback, 20)
+      self.multiplexCh = 2 ** chNum #channel the fan controller is on
       self.address = [0x1b, 0x1f, 0x48, 0x4B] #I2C addresses of fan pcbs
-      self.isOn = [[False, False, False, False],[False, False, False, False], [False, False, False, False], [False, False, False, False]] #tells if fans are on or not
+      self.isOn = [False, False, False, False] #tells if fans are on or not
       self.K_SCALE = 4000/60 * (64+1) / 992 #max_rps * (K_TACH (should be around 64) + 1) / 992 since using internal oscillator
 
       print("Calculated: " + str(self.K_SCALE)) #find closest value of K_SCALE
@@ -55,52 +56,60 @@ class FanController(Node):
       print("Best fit: " + str(self.K_SCALE))
 
    def fan_callback(self, msg): #address is [0, 3] by integer, speed is a float32 between 0 and 1 inclusive
-      self.setSpeed(msg.channel, msg.address % 4, msg.speed)
+      self.setSpeed(msg.address % 4, msg.speed)
 
-   def start(self):
+   def start(self, ch):
       try:
          bus = SMBus(1)
       except:
          e = sys.exc_info()[1]
          self.sendError("FanController/start: Error getting I2C bus " + str(e))
 
+      try:
+         bus.write_byte(multiplexAddr, ch)
+         time.sleep(0.3)
+      except:
+         e = sys.exc_info()[1]
+         self.sendError("FanController/start: Error changing multiplexer channel to channel " + str(ch) + " " + str(e))
+
+      os.system("i2cdetect -y 1")
+
       print("Turning off")
       self.turnOffAll()
       time.sleep(5)
 
       print("Configuring")
-      for j in range(1, 5):
-         bus.write_byte(multiplexAddr, 2 ** j)
-         for i in range(4):
-            try:
-               bus.write_byte_data(self.address[i], GPIO_DEF_REGISTER, 0b00101010)
-               time.sleep(0.2)
-               bus.write_byte_data(self.address[i], COUNT_REGISTER, 0b00000010)
-               time.sleep(0.2)
-            except:
-               e = sys.exc_info()[1]
-               self.sendError("FanController/start: Error configuring registers on pcb at address " + str(self.address[i]) + " and channel " + str(j) +  " " + str(e))
+      for i in range(4):
+         try:
+            bus.write_byte_data(self.address[i], GPIO_DEF_REGISTER, 0b00101010)
+            time.sleep(0.2)
+            bus.write_byte_data(self.address[i], COUNT_REGISTER, 0b00000010)
+            time.sleep(0.2)
+         except:
+            e = sys.exc_info()[1]
+            self.sendError("FanController/start: Error configuring registers on pcb at address " + str(self.address[i]) + " " + str(e))
 
       print("Turning fully on")
-      for j in range(1, 5):
-         for i in range(4):
-            self.fullOn(j, i)
+      for i in range(4):
+         self.fullOn(i)
       time.sleep(10)
 
       print("Turning off")
       self.turnOffAll()
       time.sleep(10)
 
-      for j in range(1, 5):
-         for i in range(4):
-            self.setSpeed(j, i, 0.80)
-         self.turnOnAll()
+      for i in range(4):
+         self.setSpeed(i, 0.80)
+      self.turnOnAll()
       time.sleep(10)
 
-      for j in range(1, 5):
-         for i in range(4):
-            self.setSpeed(j, i, 0.25)
+      for i in range(4):
+         self.setSpeed(i, 0.25)
       time.sleep(10)
+
+      for i in range(4):
+         self.setSpeed(i, 2.00)
+      time.sleep(2)
 
       self.turnOffAll()
 
@@ -109,10 +118,10 @@ class FanController(Node):
          bus = SMBus(1)
       except:
          e = sys.exc_info()[1]
-         self.sendError("FanController/fullOn: Error getting I2C Bus " + str(e))
+         self.sendError("FanController/fullOn: Error turning on pcb at address " + str(self.address[addr]) + " " + str(e))
 
       try:
-         bus.write_byte(multiplexAddr, 2 ** ch)
+         bus.write_byte(multiplexAddr, ch)
          time.sleep(0.2)
       except:
          e = sys.exc_info()[1]
@@ -120,18 +129,17 @@ class FanController(Node):
 
       try:
          bus.write_byte_data(self.address[addr], CONFIG_REGISTER, 0b00001010)
-         self.isOn[ch-1][addr] = True
+         self.isOn[addr] = True
          time.sleep(0.2)
       except:
          e = sys.exc_info()[1]
-         self.sendError("FanController/fullOn: Error writing to pcb at address " + str(self.address[addr]) + " on channel " + str(ch) + " " + str(e))
+         self.sendError("FanController/fullOn: Error writing to pcb at address " + str(self.address[addr]) + " " + str(e))
 
    def turnOnAll(self):
-      for j in range(1, 5):
-         for i in range(4):
-            self.turnOn(j, i)
+      for i in range(4):
+         self.turnOn(i)
 
-   def turnOn(self, ch, addr): #turn fans at I2C address on with feedback control
+   def turnOn(self, addr): #turn fans at I2C address on with feedback control
       try:
          bus = SMBus(1)
       except:
@@ -139,29 +147,28 @@ class FanController(Node):
          self.sendError("FanController/turnOn: Error getting I2C bus " + str(e))
 
       try:
-         bus.write_byte(multiplexAddr, 2 ** ch)
+         bus.write_byte(multiplexAddr, self.multiplexCh)
          time.sleep(0.2)
       except:
          e = sys.exc_info()[1]
          self.sendError("FanController/turnOn: Error changing multiplexer channel " + str(e))
 
       try:
-         if self.isOn[ch-1][addr] == False: #do start up sequence defined in MAX6651 datasheet
+         if self.isOn[addr] == False: #do start up sequence defined in MAX6651 datasheet
             bus.write_byte_data(self.address[addr], CONFIG_REGISTER, 0b00001010)
             time.sleep(0.2)
          bus.write_byte_data(self.address[addr], CONFIG_REGISTER, 0b00101010)
-         self.isOn[ch-1][addr] = True
+         self.isOn[addr] = True
          time.sleep(0.2)
       except:
          e = sys.exc_info()[1]
-         self.sendError("FanController/turnOn: Error communicating with pcb at address " + str(self.address[addr]) + " on channel " + str(ch) + " " + str(e))
+         self.sendError("FanController/turnOn: Error communicating with pcb at address " + str(self.address[addr]) + " " + str(e))
 
    def turnOffAll(self):
-      for j in range(1, 5):
-         for i in range(4):
-            self.turnOff(j, i)
+      for i in range(4):
+         self.turnOff(i)
 
-   def turnOff(self, ch, addr): #turn off fans at I2C address
+   def turnOff(self, addr): #turn off fans at I2C address
       try:
          bus = SMBus(1)
       except:
@@ -169,38 +176,38 @@ class FanController(Node):
          self.sendError("FanController/turnOff: Error getting I2C bus " + str(e))
 
       try:
-         bus.write_byte(multiplexAddr, 2 ** ch)
+         bus.write_byte(multiplexAddr, self.multiplexCh)
          time.sleep(0.2)
          bus.write_byte_data(self.address[addr], CONFIG_REGISTER, 0b00011010)
-         self.isOn[ch-1][addr] = False
+         self.isOn[addr] = False
          time.sleep(0.2)
       except:
          e = sys.exc_info()[1]
-         self.sendError("FanController/turnOff: Error communicating with pcb at address " + str(self.address[addr]) + " on channel " + str(ch) + " " + str(e))
+         self.sendError("FanController/turnOff: Error communicating with pcb at address " + str(self.address[addr]) + " " + str(e))
 
-   def setSpeed(self, ch, addr, speed): #set speed of fan as % of max speed
+   def setSpeed(self, addr, speed): #set speed of fan as % of max speed
       if speed < 0.01:
-         self.turnOff(ch, addr)
+         self.turnOff(addr)
       elif speed > 1.00:
          self.sendError("FanController/setSpeed: " + str(speed * 4000) + " rpm is not in the range [0-4000] rpm.")
 
       else:
-         if self.isOn[ch-1][addr] == False:
-            self.turnOn(ch, addr)
+         if self.isOn[addr] == False:
+            self.turnOn(addr)
 
-         FAN_RPS = 4000 * speed / 60 #max speed_rpm * % / 60 to conver to speed_rps
+         FAN_RPS = 2000 * speed / 60 #max speed_rpm * % / 60 to conver to speed_rps
          K_TACH = int(math.floor((992 * self.K_SCALE / speed) - 1))
          print(K_TACH)
 
          try:
             bus = SMBus(1)
-            bus.write_byte(multiplexAddr, 2 ** ch)
+            bus.write_byte(multiplexAddr, self.multiplexCh)
             time.sleep(0.2)
             bus.write_byte_data(self.address[addr], SPEED_REGISTER, K_TACH)
             time.sleep(0.2)
          except:
             e = sys.exc_info()[1]
-            self.sendError("FanController/setSpeed: Error setting speed on pcb with address " + str(self.address[addr]) + " on channel " + str(ch) + " " + str(e))
+            self.sendError("FanController/setSpeed: Error setting speed on pcb with address " + str(self.address[addr]) + " " + str(e))
 
    def sendError(self, str):
       msg = String()
@@ -209,9 +216,8 @@ class FanController(Node):
 
 def main(args=None):
    rclpy.init(args=args)
-   f_controller = FanController()
+   f_controller = FanController(2)
    f_controller.start()
-
    try:
       rclpy.spin(f_controller)
    except KeyboardInterrupt:

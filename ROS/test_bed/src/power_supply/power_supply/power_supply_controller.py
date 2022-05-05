@@ -44,6 +44,7 @@ class PowerSupplyController(Node):
          self.setCurrent(msg.ps_num, msg.current)
 
    def start(self): #start up sequence for the power supplies
+      time.sleep(3)
       self.turnOff() #turn on
       for i in range(4):
          self.setVoltage(i, 12.00) #set the output voltage and max current

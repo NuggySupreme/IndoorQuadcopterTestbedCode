@@ -1,5 +1,0 @@
-[console_scripts]
-controller = power_supply.power_supply_controller:main
-off = power_supply.power_supply_off:main
-tester = power_supply.power_supply_tester:main
-

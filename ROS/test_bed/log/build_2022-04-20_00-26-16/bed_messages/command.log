@@ -1,1 +1,0 @@
-Invoking command in '/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages': /usr/bin/cmake --build /home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/build/bed_messages -- -j4 -l4

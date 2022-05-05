@@ -9,14 +9,13 @@ import RPi.GPIO as GPIO
 import time
 import math
 
-from encoder import Encoder
+from .encoder import Encoder
 
-multiplexAddr = 0x77
-
-EXTEND = [17, 22, 24]
-RETRACT = [27, 23, 25]
-SIG1 = [20, 19, 5]
-SIG2 = [21, 26, 6]
+#GPIO pins 5 and 6 are open if this makes connecting things easier
+EXTEND = [17, 22, 8] #R_PWM (orange) for each cable
+RETRACT = [27, 23, 25] #LPWM (dark blue)
+SIG1 = [20, 19] #light blue/brown
+SIG2 = [21, 26] #yellow/green
 
 class LinearActuatorController(Node):
    def __init__(self):
@@ -54,10 +53,7 @@ class LinearActuatorController(Node):
       if msg.pitch <= 30.00:
          self.targetPitch = msg.pitch
 
-      if self.movements >= 10:
-         self.zeroOut()
-      if self.zeroed == True:
-         self.move()
+      self.move()
 
    def zeroOut(self):
       print("starting zeroing process")
@@ -114,11 +110,42 @@ class LinearActuatorController(Node):
             stop[1] = True
             print("stopped 1 and 2")
 
-         time.sleep(0.02)
+         time.sleep(0.05)
 
       self.stopAll()
       print("zeroed")
       self.zeroed = True
+
+   def move(self):
+      moveX = True
+      moveY = True
+
+      while moveX or moveY:
+         if abs(self.curPitch - self.targetPitch) > 0.5: #if pitch is outside of tolerance
+            if self.curPitch < self.targetPitch: #move table in +y direction
+               self.extend(0)
+               self.retract(1)
+               self.retract(2)
+            elif self.curPitch > self.targetPitch: #move table in -y direction
+               self.retract(0)
+               self.extend(1)
+               self.extend(2)
+         else: #done moving in the y direction
+            self.stopAll()
+            moveY = False
+
+         if abs(self.curRoll - self.targetRoll) > 0.5: #if roll is outside of tolerance
+            if self.curRoll < self.targetRoll: #move table in +x direction
+               self.retract(1)
+               self.extend(2)
+            elif self.curRoll > self.targetRoll: #move table in -x direction
+               self.extend(1)
+               self.retract(2)
+         else: #done moving in the x direction
+            self.stopAll()
+            moveX = False
+      self.stopAll() #make sure table is not moving
+      print("Done moving")
 
    def extend(self, la_num):
       try:

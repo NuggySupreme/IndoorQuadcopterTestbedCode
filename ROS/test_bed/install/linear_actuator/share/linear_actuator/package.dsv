@@ -1,6 +1,0 @@
-source;share/linear_actuator/hook/pythonpath.ps1
-source;share/linear_actuator/hook/pythonpath.dsv
-source;share/linear_actuator/hook/pythonpath.sh
-source;share/linear_actuator/hook/ament_prefix_path.ps1
-source;share/linear_actuator/hook/ament_prefix_path.dsv
-source;share/linear_actuator/hook/ament_prefix_path.sh

@@ -1,3 +1,0 @@
-[console_scripts]
-controller = fan_pcb.fan_controller:main
-

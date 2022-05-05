@@ -17,12 +17,12 @@ dataDict ={}
 
 def toROS():
 	print(fanDict)
-	talker = roslibpy.Topic(client, 'fans', 'bed_messages/msg/FanControl')
+	talker = roslibpy.Topic(client, '/fan_control_messages', 'bed_messages/msg/FanControl')
 	for key in fanDict:
 		value = fanDict[key]
 		speed = float(value[1]) / 100
-		print("%s:%f" % (value[0],speed))
-		talker.publish(roslibpy.Message({ 'channel': 0, 'address' : int(value[2]), 'speed' : speed}))
+		print("%s:%f:%d" % (value[0],speed, int(value[0].split(':')[0])+1))
+		talker.publish(roslibpy.Message({ 'channel': (int(value[0].split(':')[0])+1) , 'address' : int(value[2]), 'speed' : speed}))
 	talker.unadvertise
 
 
@@ -133,12 +133,6 @@ def main():
 	print(os.path)
 	loadFile("zerofan.txt")
 	loadActuatorFile()
-	print(actArr)
-
-
-
-	test = "88"
-	print(int(test)/100)
 	client.run()
 	app.run(host='0.0.0.0', port=8080)
 

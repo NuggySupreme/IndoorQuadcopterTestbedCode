@@ -1,3 +1,0 @@
-[console_scripts]
-controller = linear_actuator.linear_actuator_controller:main
-

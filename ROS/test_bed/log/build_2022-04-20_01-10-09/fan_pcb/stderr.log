@@ -1,5 +1,0 @@
-  File "/home/ubuntu/IndoorQuadcopterTestbedCode/ROS/test_bed/install/fan_pcb/lib/python3.8/site-packages/fan_pcb/fan_controller.py", line 203
-    def main(args=None:
-                      ^
-SyntaxError: invalid syntax
-
